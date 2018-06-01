@@ -1,0 +1,68 @@
+Connection Event: Carrier Detect found.722468    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Sat Jan  6 00:59:56 2018 MT:  722478
+DR  Location:  3504.033 N -7541.707 E measured    318.682 secs ago
+GPS TooFar:    3505.625 N -7540.490 E measured     140770 secs ago
+GPS Invalid :  3504.277 N -7541.788 E measured    400.584 secs ago
+GPS Location:  3504.033 N -7541.707 E measured    320.159 secs ago
+   sensor:c_wpt_lat(lat)=3504.297                 11057.1 secs ago
+   sensor:c_wpt_lon(lon)=-7544.832                11057.2 secs ago
+   sensor:m_battery(volts)=12.4665246762588        276.98 secs ago
+   sensor:m_gps_lat(lat)=3504.0331                320.482 secs ago
+   sensor:m_gps_lon(lon)=-7541.7068               320.523 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       71.687 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5         277.063 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1     67.706 secs ago
+   sensor:m_mission_start_time(timestamp)=1514477928     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515200394.06366      2.652 secs ago
+   sensor:m_tot_num_inflections(nodim)=27454      607.022 secs ago
+   sensor:m_vacuum(inHg)=8.2542325091575          340.754 secs ago
+   sensor:m_water_vx(m/s)=0.137564963231146       386.151 secs ago
+   sensor:m_water_vy(m/s)=0.0720510333345598      386.189 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3505.653             121981 secs ago
+   sensor:x_last_wpt_lon(lon)=-7541.742            121981 secs ago
+ABORT HISTORY: total since reset: 3
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2017-12-28T16:16:53
+ABORT HISTORY: last abort segment: ramses-2017-356-0-91 (0094.0091)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+722469    No login script found for processing.
+Doing system wide housekeeping.......
+report_heap_size(): M_FREE_HEAP=259.0K,  M_SPARE_HEAP=240.0K
+Running algorithm to free disk space if required
+Not necessary to delete any files at this time
+Writing longterm state disk file: c:/state/longterm.sta
+   c_iridium_phone_num(digits) 881600005168.000000
+   f_ocean_pressure_min(volts) 0.210595
+   m_avg_climb_rate(m/s) -0.148165
+   m_avg_speed(m/s) 0.270028
+   m_avg_upward_inflection_time(sec) 18.822050
+   m_battery(volts) 12.466525
+   m_coulomb_amphr_total(amp-hrs) 0.000000
+   m_iridium_call_num(nodim) 855.000000
+   m_iridium_dialed_num(nodim) 1856.000000
+   m_lat(lat) 3504.033100
+   m_lon(lon) -7541.706800
+   m_tot_ballast_pumped_energy(kjoules) 1432.214338
+   m_tot_horz_dist(km) 1082.644278
+   m_tot_num_inflections(nodim) 27454.000000
+   s_water_depth_avg(m) 200.000000
+   s_water_depth_delta(m) 0.000000
+   s_water_depth_wavelength(m) 100.000000
+   x_hover_ballast_deep(cc) 0.000000
+   x_hover_ballast_shallow(cc) 0.000000
+   x_hover_depth_deep(m) 0.000000
+   x_hover_depth_shallow(m) 0.000000
+   x_last_wpt_lat(lat) 3505.653000
+   x_last_wpt_lon(lon) -7541.742000
+The instantaneous lag time between the system and gps clock is 1.0 seconds.
+The average lag time between the system and gps clock is 0.1 seconds.
+Housekeeping is done
+722543 50 00950137.mlg LOG FILE OPENED
+Megabytes used      on CF file system = 708.875000
+Megabytes available on CF file system = 1292.062500
+722547    init_gps_input()
+722547    behavior surface_7: SUBSTATE 7 ->9 : Waiting for final gps fix
+722547    behavior surface_7: TI

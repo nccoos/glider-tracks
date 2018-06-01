@@ -1,0 +1,133 @@
+Connection Event: Carrier Detect found.704377    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Wed May 23 20:40:33 2018 MT:  704376
+DR  Location:  3532.648 N -7457.360 E measured      0.902 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     663880 secs ago
+GPS Invalid :  3531.770 N -7457.715 E measured     312.78 secs ago
+GPS Location:  3531.767 N -7457.717 E measured    10990.7 secs ago
+   sensor:c_wpt_lat(lat)=3528.88435               93422.3 secs ago
+   sensor:c_wpt_lon(lon)=-7502.1416               93422.4 secs ago
+   sensor:m_battery(volts)=13.4779427037204         4.499 secs ago
+   sensor:m_gps_lat(lat)=3531.7672                10991.1 secs ago
+   sensor:m_gps_lon(lon)=-7457.7174               10991.2 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       29.738 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5         221.352 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.895 secs ago
+   sensor:m_mission_start_time(timestamp)=1526403656     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527108032.66098      1.693 secs ago
+   sensor:m_tot_num_inflections(nodim)=30213       336.76 secs ago
+   sensor:m_vacuum(inHg)=7.12634365079365           5.041 secs ago
+   sensor:m_water_vx(m/s)=0.167742032360215       11047.9 secs ago
+   sensor:m_water_vy(m/s)=0.219932531387897         11048 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3530.7764           93423.4 secs ago
+   sensor:x_last_wpt_lon(lon)=-7501.5114          93423.4 secs ago
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+704378    No login script found for processing.
+704378    DRIVER_ODDITY:iridium:1516:xxx_ctrl() ran too long
+
+
+GliderDos A 18 >
+
+GliderDos A 18 >704626 16 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:253.5109 C_su:233.0000
+:OOD:   delta:20.5109 LIMIT:20.0000 over:0.5109
+dir
+
+
+ Volume in drive C is MB 032     
+ Volume Serial Number is EC9F-27B7
+ Directory of C:\
+
+STATE          <DIR>         11-16-12  4:16p
+LOGS           <DIR>         11-16-12  4:16p
+SENTLOGS       <DIR>         09-09-16  6:57p
+AUTOEXEC.BAT             39  11-15-12  1:02p
+APP            <DIR>         11-15-12  1:02p
+BIN            <DIR>         11-15-12  1:02p
+CONFIG         <DIR>         11-15-12  1:02p
+MAFILES        <DIR>         11-15-12  1:02p
+MISSIONS       <DIR>         11-15-12  1:02p
+
+         1 file(s)              39 bytes
+         8 dir(s)    1,936,031,744 bytes free
+
+GliderDos A 18 >
+704666 25 NOTE:GPS fix is getting stale: 11279 secs old
+
+704666    GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos A 18 >zr
+704704 33 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+704704    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B01000800275775�704722    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+704722    restore_sensors()....
+704722    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+Done!
+
+
+GliderDos A 18 >704728 35 SCI:PROGLET house_elf begin() called
+704728    SCI:   house_elf: Version 1.2
+704728    SCI:PROGLET ctd41cp begin() called
+704728    SCI:   ctd41cp: Version 0.2
+704728    SCI:     ctd41cp:  Will be sending the following data to glider:
+704729    SCI:           sci_water_cond(s/m)
+704729    SCI:           sci_water_temp(degc)
+704729    SCI:           sci_water_pressure(bar)
+704729    SCI:           sci_ctd41cp_timestamp(timestamp)
+704729    SCI:PROGLET oxy4 begin() called
+704729    SCI:   oxy4: Version 0.0
+704729    SCI:     oxy4:  Will be sending following data to glider:
+704729    SCI:           sci_oxy4_oxygen(um)
+704729    SCI:           sci_oxy4_saturation(%)
+704729    SCI:           sci_oxy4_temp(degc)
+704730    SCI:           sci_oxy4_calphase(deg)
+704730    SCI:           sci_oxy4_tcphase(deg)
+704730    SCI:           sci_oxy4_c1rph(deg)
+704730    SCI:           sci_oxy4_c2rph(deg)
+704730    SCI:           sci_oxy4_c1amp(mv)
+704730    SCI:           sci_oxy4_c2amp(mv)
+704730    SCI:           sci_oxy4_rawtemp(mv)
+704730    SCI:           sci_oxy4_timestamp(timestamp)
+704730    SCI:  Opening Bit(34) for output
+704730    SCI:PROGLET flbbcd begin() called
+704731    SCI:   flbbcd: Version 0.0
+704731    SCI:     flbbcd:  Will be sending following data to glider:
+704731    SCI:           sci_flbbcd_chlor_units(ug/l)
+704731    SCI:           sci_flbbcd_bb_units(nodim)
+704731 36 SCI:           sci_flbbcd_cdom_units(ppb)
+704731    SCI:           sci_flbbcd_chlor_sig(nodim)
+704733    SCI:           sci_flbbcd_bb_sig(nodim)
+704733    SCI:           sci_flbbcd_cdom_sig(nodim)
+704733    SCI:           sci_flbbcd_chlor_ref(nodim)
+704733    SCI:           sci_flbbcd_bb_ref(nodim)
+704733    SCI:           sci_flbbcd_cdom_ref(nodim)
+704733    SCI:           sci_flbbcd_therm(nodim)
+704733    SCI:           sci_flbbcd_timestamp(timestamp)
+704733    SCI:  Opening Bit(29) for output
+704737 38 SCI:PROGLET house_elf start() called
+704737    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+704737    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+callback 2
+
+I am going to hangup the Iridium!
+I will call you back in 2 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos A 18 >704752 43 disabling Iridium cons

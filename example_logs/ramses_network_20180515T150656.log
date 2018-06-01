@@ -1,0 +1,241 @@
+Connection Event: Carrier Detect found.458.44    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 15:07:32 2018 MT:     458
+DR  Location:  3550.825 N -7523.429 E measured      0.873 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3550.828 N -7523.435 E measured    154.494 secs ago
+GPS Location:  3550.826 N -7523.428 E measured     46.467 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=15.3074563114613         4.556 secs ago
+   sensor:m_gps_lat(lat)=3550.8256                 46.914 secs ago
+   sensor:m_gps_lon(lon)=-7523.4285                46.973 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       13.174 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.4990231990232      4.681 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.731 secs ago
+   sensor:m_mission_start_time(timestamp)=1526396393     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526396851.39008      1.684 secs ago
+   sensor:m_tot_num_inflections(nodim)=28357       169.32 secs ago
+   sensor:m_vacuum(inHg)=7.63132234432235           5.104 secs ago
+   sensor:m_water_vx(m/s)=0.457107787444098        59.423 secs ago
+   sensor:m_water_vy(m/s)=0.211566434872196        59.474 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+459.73    No login script found for processing.
+consci
+516.73 94 Choosing console...No freewave carrier, using IRIDIUM
+CONSCI REQUESTED (using IRIDIUM as console)
+
+
+GliderDos N -1 >ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+517.92 95 Neutering the Freewave Console
+
+sci_shell
+Version 3.14 BADD_MMP and VR2C
+        from release Version 7.10  open ocean
+
+SciDos>zr
+START
+**B01
+Done!
+
+
+SciDos>type tbdlist.dat
+
+# tbdlist.dat
+# A small subset of a dbd file intended to be transmitted in real time.
+#
+# 2009-10-06 fnj@omegatech.hatchescreek.com  Initial.
+# cedwards@skio: downsampled yo cycle 
+#
+SCI_M_PRESENT_TIME			0	15	-1	1
+#SCI_M_PRESENT_SECS_INTO_MISSION
+SCI_WATER_COND				9	15	-1	1
+SCI_WATER_TEMP				9	15	-1	1
+SCI_WATER_PRESSURE			9	15	-1	1
+SCI_OXY4_OXYGEN 			9 	15	-1	1
+SCI_OXY4_SATURATION 			9 	15	-1	1
+SCI_FLBBCD_CHLOR_UNITS     		9	15	-1	1 
+SCI_FLBBCD_BB_UNITS     		9 	15	-1	1
+SCI_FLBBCD_CDOM_UNITS      		9 	15 	-1 	1
+
+# <sensor_name> [<interval>] [<state>] [<halfyos>] [<yo_duty_cycle>]
+#
+#   <sensor_name> specifies that the sensor be stored in the *.sbd file
+#
+#                 Default    sensor value is only stored when....
+#
+#   <interval>       0      There have been this many secs since
+#                            the last value was stored.  0 means
+#                            store every value.
+#
+#    <state>         15      A code representing what the glider
+#                            is doing: dive/hove/climb/surface
+#                            Data only stored when glider is doing
+#                            what is specified. 15 is always store.
+#                            See Argument Details for more info.
+#
+#    <halfyos>       -1      For this many dive/climbs in this
+#                            segment, e.g. since last surfacing.
+#                            -1 means stored for all dive/climbs
+#                            See Argument Details for more info.
+#
+#   <yo_duty_cycle>  -1      Only stores data every n"th" yo in this 
+#                            segment, i.e. would cause data from 
+#                            every 10th dive&climb to be stored.
+#                            <= 1 means every dive&climb.
+#
+# State Values:
+#
+#      0  none
+#      1  diving
+#      2  hovering
+#      3  diving|hovering
+#      4  climbing
+#      5  diving|climbing
+#      6  hovering|climbing
+#      7  diving|hovering|climbing
+#      8  on_surface
+#      9  diving|on_surface
+#      10 hovering|on_surface
+#      11 diving|hovering|on_surface
+#      12 climbing|on_surface
+#      13 diving|climbing|on_surface
+#      14 hovering|climbing|on_surface
+#      15 diving|hovering|climbing|on_surface
+
+
+
+SciDos>quit
+Returning from SciDos
+577.98  9 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+
+
+GliderDos N -1 >cd log
+
+error code -1
+GliderDos N -1 >cd logs
+
+error code -1
+GliderDos N -1 >cd ..
+
+
+
+GliderDos N -1 >cd logs
+
+\LOGS
+
+GliderDos N -1 >zs 01140000.sbd
+Enumerating files; patience
+Checking for dupes; one dot for every 10 files
+.
+About to send 1 files
+Prechecking is not necessary for this invocation
+613.54 20 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+613.61    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�.02    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+Successfully sent 1 file(s)
+
+
+GliderDos N -1 >**^XB0800000000022d
+
+Bad command or file name
+GliderDos N -1 >641.06 23 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:253.0037 C_su:233.0000
+:OOD:   delta:20.0037 LIMIT:20.0000 over:0.0037
+DEL**^XB0800000000022d
+
+Bad command or file name
+GliderDos N -1 >DEL
+
+Bad command or file name
+GliderDos N -1 >
+806.20 62 GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >
+
+GliderDos N -1 >send 00140000.tbd
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  1074 27 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: NO TRANSMISSION: the overall list of files is empty
+  1075    Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: NO TRANSMISSION: the overall list of files is empty
+
+
+GliderDos N -1 >send 01140000.tbd
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  1098 35 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 1 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES.
+SCI: Sent 1 file(s):
+c:\logs\01140000.TBD
+SCI: SUCCESS
+  1124 41 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: NO TRANSMISSION: the overall list of files is empty
+
+
+GliderDos N -1 >
+  1132 41 GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >
+
+GliderDos N -1 >
+  1461 20 NOTE:GPS fix is getting stale: 1048 secs old
+
+  1461    GliderDos: No keystroke heard for 300 seconds
+          300 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >callback 2
+
+I am going to hangup the Iridium!
+I will call you back in 2 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 >

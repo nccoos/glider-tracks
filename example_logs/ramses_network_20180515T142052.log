@@ -1,0 +1,815 @@
+Connection Event: Carrier Detect found.371.48    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 14:22:52 2018 MT:     371
+DR  Location:  3550.527 N -7523.706 E measured    167.578 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3504.141 N -7542.246 E measured    219.178 secs ago
+GPS Location:  3550.527 N -7523.706 E measured    171.608 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=15.3870106104762         4.379 secs ago
+   sensor:m_gps_lat(lat)=3550.5269                171.941 secs ago
+   sensor:m_gps_lon(lon)=-7523.7059               171.985 secs ago
+   sensor:m_iridium_signal_strength(nodim)=1       16.773 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49993894993895     45.097 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.673 secs ago
+   sensor:m_mission_start_time(timestamp)=1526393801     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526394172.03412        1.4 secs ago
+   sensor:m_tot_num_inflections(nodim)=28353      291.625 secs ago
+   sensor:m_vacuum(inHg)=7.24891504884004           4.787 secs ago
+   sensor:m_water_vx(m/s)=0                        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0                        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+372.46    No login script found for processing.
+zr
+441.50 87 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+441.58    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B01000800275775�471.04    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+471.11    restore_sensors()....
+471.12    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+Done!
+
+
+GliderDos N -1 >
+471.40    GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >476.38 89 SCI:PROGLET house_elf begin() called
+476.47    SCI:   house_elf: Version 1.2
+476.54    SCI:PROGLET ctd41cp begin() called
+476.68    SCI:   ctd41cp: Version 0.2
+476.78    SCI:     ctd41cp:  Will be sending the following data to glider:
+476.91    SCI:           sci_water_cond(s/m)
+477.00    SCI:           sci_water_temp(degc)
+477.09    SCI:           sci_water_pressure(bar)
+477.20    SCI:           sci_ctd41cp_timestamp(timestamp)
+477.30    SCI:PROGLET oxy4 begin() called
+477.38    SCI:   oxy4: Version 0.0
+477.52    SCI:     oxy4:  Will be sending following data to glider:
+477.64    SCI:           sci_oxy4_oxygen(um)
+477.74    SCI:           sci_oxy4_saturation(%)
+477.83    SCI:           sci_oxy4_temp(degc)
+477.92    SCI:           sci_oxy4_calphase(deg)
+478.07    SCI:           sci_oxy4_tcphase(deg)
+478.16    SCI:           sci_oxy4_c1rph(deg)
+478.24    SCI:           sci_oxy4_c2rph(deg)
+478.34    SCI:           sci_oxy4_c1amp(mv)
+478.42    SCI:           sci_oxy4_c2amp(mv)
+478.51    SCI:           sci_oxy4_rawtemp(mv)
+478.66    SCI:           sci_oxy4_timestamp(timestamp)
+478.76    SCI:  Opening Bit(34) for output
+478.84    SCI:PROGLET flbbcd begin() called
+478.93    SCI:   flbbcd: Version 0.0
+479.02    SCI:     flbbcd:  Will be sending following data to glider:
+479.21    SCI:           sci_flbbcd_chlor_units(ug/l)
+479.31    SCI:           sci_flbbcd_bb_units(nodim)
+479.47    SCI:           sci_flbbcd_cdom_units(ppb)
+479.57    SCI:           sci_flbbcd_chlor_sig(nodim)
+479.81 90 SCI:           sci_flbbcd_bb_sig(nodim)
+479.91    SCI:           sci_flbbcd_cdom_sig(nodim)
+480.02    SCI:           sci_flbbcd_chlor_ref(nodim)
+480.94    SCI:           sci_flbbcd_bb_ref(nodim)
+481.04    SCI:           sci_flbbcd_cdom_ref(nodim)
+481.14    SCI:           sci_flbbcd_therm(nodim)
+481.25    SCI:           sci_flbbcd_timestamp(timestamp)
+481.35    SCI:  Opening Bit(29) for output
+483.76    SCI:PROGLET house_elf start() called
+484.00 91 SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+484.16    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+zr
+497.65 94 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+497.73    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B01000800275775�549.10    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+549.16    restore_sensors()....
+549.18    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+Done!
+
+
+GliderDos N -1 >554.41 96 SCI:PROGLET house_elf begin() called
+554.49    SCI:   house_elf: Version 1.2
+554.57    SCI:PROGLET ctd41cp begin() called
+554.71    SCI:   ctd41cp: Version 0.2
+554.80    SCI:     ctd41cp:  Will be sending the following data to glider:
+cd ..
+
+
+
+GliderDos N -1 >555.10 97 SCI:           sci_water_cond(s/m)
+555.19    SCI:           sci_water_temp(degc)
+555.28    SCI:           sci_water_pressure(bar)
+556.20    SCI:           sci_ctd41cp_timestamp(timestamp)
+556.30    SCI:PROGLET oxy4 begin() called
+556.38    SCI:   oxy4: Version 0.0
+556.52    SCI:     oxy4:  Will be sending following data to glider:
+556.64    SCI:           sci_oxy4_oxygen(um)
+556.74    SCI:           sci_oxy4_saturation(%)
+556.83    SCI:           sci_oxy4_temp(degc)
+556.92    SCI:           sci_oxy4_calphase(deg)
+557.02    SCI:           sci_oxy4_tcphase(deg)
+557.10    SCI:           sci_oxy4_c1rph(deg)
+557.19    SCI:           sci_oxy4_c2rph(deg)
+557.29    SCI:           sci_oxy4_c1amp(mv)
+557.37    SCI:           sci_oxy4_c2amp(mv)
+557.46    SCI:           sci_oxy4_rawtemp(mv)
+557.61    SCI:           sci_oxy4_timestamp(timestamp)
+557.71    SCI:  Opening Bit(34) for output
+557.79    SCI:PROGLET flbbcd begin() called
+557.88    SCI:   flbbcd: Version 0.0
+557.97    SCI:     flbbcd:  Will be sending following data to glider:
+558.16    SCI:           sci_flbbcd_chlor_units(ug/l)
+558.26    SCI:           sci_flbbcd_bb_units(nodim)
+558.42    SCI:           sci_flbbcd_cdom_units(ppb)
+558.52    SCI:           sci_flbbcd_chlor_sig(nodim)
+558.64    SCI:           sci_flbbcd_bb_sig(nodim)
+558.73    SCI:           sci_flbbcd_cdom_sig(nodim)
+558.84    SCI:           sci_flbbcd_chlor_ref(nodim)
+558.99    SCI:           sci_flbbcd_bb_ref(nodim)
+559.09    SCI:           sci_flbbcd_cdom_ref(nodim)
+559.19    SCI:           sci_flbbcd_therm(nodim)
+559.42 98 SCI:           sci_flbbcd_timestamp(timestamp)
+559.53    SCI:  Opening Bit(29) for output
+cd mafiles
+
+\MAFILES
+
+GliderDos N -1 >563.62 99 SCI:PROGLET house_elf start() called
+563.73    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+563.94    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+type goto_l30.ma
+
+behavior_name=goto_list
+# Flies north leg from point A to B in 2.1029km segments.
+#  Total 42.0574 distance, divided into 20 segments
+behavior_name=goto_list
+<start:b_arg>
+b_arg: num_legs_to_run(nodim) -1 # loop
+b_arg: start_when(enum) 0 # BAW_IMMEDIATELY
+b_arg: list_stop_when(enum) 7 # BAW_WHEN_WPT_DIST
+b_arg: list_when_wpt_dist(m) 750
+b_arg: initial_wpt(enum) -2 # closest
+b_arg: num_waypoints(nodim) 21
+<end:b_arg>
+
+<start:waypoints>
+-7523.27148 3550.91576
+-7521.87085 3550.92192
+-7520.47023 3550.92808
+-7519.06961 3550.93425
+-7517.66898 3550.94041
+-7516.26835 3550.94657
+-7514.86773 3550.95273
+-7513.46710 3550.95889
+-7512.06648 3550.96506
+-7510.66585 3550.97122
+-7509.26523 3550.97738
+-7507.86460 3550.98354
+-7506.46398 3550.98971
+-7505.06336 3550.99587
+-7503.66273 3551.00203
+-7502.26210 3551.00819
+-7500.86148 3551.01436
+-7459.46086 3551.02052
+-7458.06023 3551.02668
+-7456.65961 3551.03284
+-7455.25898 3551.03900
+<end:waypoints>
+
+
+GliderDos N -1 >type surfac_15min.ma
+
+
+Not found error
+GliderDos N -1 >type surfac99.ma
+
+behavior_name=surface
+
+# SURFAC99.MA - SURFACING INTERVAL = 15 min
+
+<start:b_arg>
+
+    b_arg: start_when(enum)    9   # 0-immediately, 1-stack idle 2-depth idle 6-when_secs
+                                  # 7-when_wpt_dist 8-when hit waypoint 9-every when_secs
+    b_arg: when_secs(s)     900   # How long between surfacing, only if start_when==6 or 9
+
+    b_arg: end_action(enum)   1     # 0-quit, 1 wait for ^C quit/resume, 2 resume
+    b_arg: report_all(bool)   1     # T->report all sensors once, F->just gps
+    b_arg: gps_wait_time(s) 300    # how long to wait for gps
+    b_arg: keystroke_wait_time(s) 300   # how long to wait for control-C
+
+
+<end:b_arg>
+
+
+GliderDos N -1 >cd ..
+
+
+
+GliderDos N -1 >dir
+
+
+ Volume in drive C is MB 032     
+ Volume Serial Number is EC9F-27B7
+ Directory of C:\
+
+STATE          <DIR>         11-16-12  4:16p
+LOGS           <DIR>         11-16-12  4:16p
+SENTLOGS       <DIR>         09-09-16  6:57p
+AUTOEXEC.BAT             39  11-15-12  1:02p
+APP            <DIR>         11-15-12  1:02p
+BIN            <DIR>         11-15-12  1:02p
+CONFIG         <DIR>         11-15-12  1:02p
+MAFILES        <DIR>         11-15-12  1:02p
+MISSIONS       <DIR>         11-15-12  1:02p
+
+         1 file(s)              39 bytes
+         8 dir(s)    2,072,707,072 bytes free
+
+GliderDos N -1 >cd config
+
+\CONFIG
+
+GliderDos N -1 >dir
+
+
+ Volume in drive C is MB 032     
+ Volume Serial Number is EC9F-27B7
+ Directory of C:\CONFIG\
+
+.              <DIR>         11-15-12  1:02p
+..             <DIR>         11-15-12  1:02p
+ZMEXT.DAT             1,975  11-15-12  1:02p
+SENSDATA.DAT         73,346  11-15-12  1:02p
+SBDLIST.DAT           2,345  05-15-18  2:25p
+MBDLIST.DAT           2,405  05-15-18  2:25p
+LONGTERM.DAT            502  09-19-17  5:33p
+LOGINEXP.XXX          2,409  11-15-12  1:02p
+IRIDINIT.XXX          1,212  11-15-12  1:02p
+IRIDINIT.1              505  11-15-12  1:02p
+IRIDINIT.0              503  11-15-12  1:02p
+HIGHDENS.DAT            588  11-15-12  1:02p
+DELLOG.DAT              461  11-15-12  1:02p
+CONFIGG2.SRF            632  11-15-12  1:02p
+CONFIG.SRF              621  09-07-16 11:39p
+CONFIG.SCI              466  11-15-12  1:02p
+AUTO0418.MI          11,669  11-28-17  5:57p
+AUTOXOLD.MI          10,544  07-08-16  9:25p
+TBDLIST.DAT           2,304  11-28-17  5:36p
+AUTOEXEC.MI          13,348  04-03-18  2:33p
+
+        18 file(s)         125,835 bytes
+         2 dir(s)    2,072,707,072 bytes free
+
+GliderDos N -1 >type sbdlist.dat
+
+# 22-dec-2011 ballsup@webbresearch.com new list for qual flights  
+# 14-feb-2013 catherine.edwards@skio.usg.edu: cut down list, lowered sampling rate, sync to 4.5s CPU cycle
+# 14-feb-2013 catherine.edwards@skio.usg.edu: cut out hpr
+# 01-Sep-2016 cedwards, slockhart standardizing for SECOORA 
+# added in m_vacuum
+
+M_PRESENT_TIME
+#M_PRESENT_SECS_INTO_MISSION
+M_WATER_VX 3600
+M_WATER_VY 3600
+M_DEPTH        
+M_LAT        72
+M_LON        72
+C_WPT_LON  72
+C_WPT_LAT  72
+M_GPS_LON  72
+M_GPS_LAT  72
+m_altitude   72     
+m_water_depth     72
+m_vacuum	72
+m_pitch      18
+m_roll       18 
+m_ballast_pumped 18
+m_battpos 18
+m_air_pump 18
+
+# <sensor_name> [<interval>] [<state>] [<halfyos>] [<yo_duty_cycle>]
+#
+#   <sensor_name> specifies that the sensor be stored in the *.sbd file
+#
+#                 Default    sensor value is only stored when....
+#
+#   <interval>       0      There have been this many secs since
+#                            the last value was stored.  0 means
+#                            store every value.
+#
+#    <state>         15      A code representing what the glider
+#                            is doing: dive/hove/climb/surface
+#                            Data only stored when glider is doing
+#                            what is specified. 15 is always store.
+#                            See Argument Details for more info.
+#
+#    <halfyos>       -1      For this many dive/climbs in this
+#                            segment, e.g. since last surfacing.
+#                            -1 means stored for all dive/climbs
+#                            See Argument Details for more info.
+#
+#   <yo_duty_cycle>  -1      Only stores data every n"th" yo in this 
+#                            segment, i.e. would cause data from 
+#                            every 10th dive&climb to be stored.
+#                            <= 1 means every dive&climb.
+#
+# State Values:
+#
+#      0  none
+#      1  diving
+#      2  hovering
+#      3  diving|hovering
+#      4  climbing
+#      5  diving|climbing
+#      6  hovering|climbing
+#      7  diving|hovering|climbing
+#      8  on_surface
+#      9  diving|on_surface
+#      10 hovering|on_surface
+#      11 diving|hovering|on_surface
+#      12 climbing|on_surface
+#      13 diving|climbing|on_surface
+#      14 hovering|climbing|on_surface
+#      15 diving|hovering|climbing|on_surface
+
+
+
+GliderDos N -1 >type mbdlist.dat
+
+###############
+## MBD V 2.2 ##
+###############
+# 2009_02_17 cleaned up, organized, added coulomb and heading
+# 2009-04-23: kerfoot,aragon,haskins - ru27 initial mbdlist.dat
+# 2009_06_04: dkaragon; turned mdblist back into a normal glider's config, rather than ru27
+# 2009_12_21: dkaragon; added gps, uncommented couloumb, added all science data
+# 2010_01_21: dkaragon; added DE sensors to unify mbdlists, added m_gps_full_status, added in section for altimeter data
+# 2010_02_22: dkaragon; added a couple new SDL control variables
+# 2018_02_14: cedwards: adjusted for PEACH work
+
+##################
+# TIME VARIABLES #
+##################
+m_present_time
+m_present_secs_into_mission
+sci_ctd41cp_timestamp
+
+
+#################
+# GLIDER FLIGHT #
+#################
+m_gps_lat
+m_gps_lon
+m_gps_full_status
+m_depth_rate
+m_speed
+cc_final_depth_state_mode
+m_depth_state
+m_vx_lmc
+m_vy_lmc
+
+
+#############
+# ACTUATORS #
+#############
+c_ballast_pumped
+m_ballast_pumped
+x_ballast_pumped_passive_retraction_depth
+m_is_ballast_pump_moving
+m_ballast_pumped_vel
+c_battpos
+m_battpos
+c_fin
+m_fin
+c_air_pump
+m_air_pump
+
+# DE Pump Variables
+c_de_oil_vol
+m_de_oil_vol
+m_is_de_pump_moving
+m_de_oil_vol_pot_voltage
+
+
+##################
+# FLIGHT SENSORS #
+##################
+m_pitch
+c_pitch
+m_roll
+c_pitch
+c_heading
+m_heading
+m_depth
+m_pressure
+
+# Altimeter
+c_alt_time
+m_water_depth
+m_altitude
+m_raw_altitude
+m_altimeter_status
+m_aground_water_depth
+u_alt_min_depth
+m_aground_water_depth
+
+######################
+# INTERNAL VARIABLES #
+######################
+m_battery_inst
+m_vacuum
+m_leakdetect_voltage
+
+#####################
+# COULOMB VARIABLES #
+#####################
+u_coulomb_debug
+m_coulomb_amphr
+m_coulomb_current
+
+
+##################
+# FIN/HEADING AP #
+##################
+m_heading
+c_heading
+m_gps_heading
+m_hdg_ierror
+m_hdg_error
+u_hd_fin_ap_gain
+u_hd_fin_ap_igain
+u_use_current_correction
+u_hd_fin_ap_run_time
+u_hd_fin_ap_inflection_holdoff
+u_hd_fin_ap_hardover_holdoff
+u_hd_fin_ap_limit_gain_x_error
+u_hd_fin_ap_limit_absolute
+x_hd_fin_ap_is_hardover
+f_fin_offset
+f_fin_deadzone_width
+f_fin_db_frac_dz  
+f_fin_cal_m
+f_fin_cal_b
+
+
+############
+# PITCH AP #
+############
+f_pitch_battpos_cal_m
+f_pitch_battpos_cal_b
+u_max_pitch_ap_period
+u_min_pitch_ap_period
+x_pitch_ap_period
+x_pitch_ap_ran
+u_pitch_ap_gain
+u_pitch_ap_deadband
+u_pitch_max_delta_battpos
+u_pitch_correction_time_mult
+u_pitch_deadband_time_mult
+m_pitch_error
+
+
+
+GliderDos N -1 >dellog sbd
+
+I'm going to delete some logfiles.
+Are you sure? [Hit y<enter> if you are] y
+
+SUCCESS 1 file(s) deleted
+ c:\logs\01120000.SBD
+
+
+GliderDos N -1 >consci
+736.64 51 Choosing console...No freewave carrier, using IRIDIUM
+CONSCI REQUESTED (using IRIDIUM as console)
+
+
+GliderDos N -1 >ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+737.74 52 Neutering the Freewave Console
+
+sci_shell
+Version 3.14 BADD_MMP and VR2C
+        from release Version 7.10  open ocean
+
+SciDos>zr
+START
+**B01000800275775�
+Done!
+
+
+SciDos>cd config
+
+\CONFIG
+
+SciDos>type tbdlist.dat
+
+# tbdlist.dat
+# A small subset of a dbd file intended to be transmitted in real time.
+#
+# 2009-10-06 fnj@omegatech.hatchescreek.com  Initial.
+# cedwards@skio: downsampled yo cycle 
+#
+SCI_M_PRESENT_TIME			9	15	-1	1
+#SCI_M_PRESENT_SECS_INTO_MISSION
+SCI_WATER_COND				9	15	-1	1
+SCI_WATER_TEMP				9	15	-1	1
+SCI_WATER_PRESSURE			9	15	-1	1
+SCI_OXY4_WPHASE_OXYGEN 			9 	15	-1	1
+SCI_OXY4_WPHASE_SATURATION 		9 	15	-1	1
+SCI_FLBBCD_CHLOR_UNITS     		9	15	-1	1 
+SCI_FLBBCD_BB_UNITS     		9 	15	-1	1
+SCI_FLBBCD_CDOM_UNITS      		9 	15 	-1 	1
+
+# <sensor_name> [<interval>] [<state>] [<halfyos>] [<yo_duty_cycle>]
+#
+#   <sensor_name> specifies that the sensor be stored in the *.sbd file
+#
+#                 Default    sensor value is only stored when....
+#
+#   <interval>       0      There have been this many secs since
+#                            the last value was stored.  0 means
+#                            store every value.
+#
+#    <state>         15      A code representing what the glider
+#                            is doing: dive/hove/climb/surface
+#                            Data only stored when glider is doing
+#                            what is specified. 15 is always store.
+#                            See Argument Details for more info.
+#
+#    <halfyos>       -1      For this many dive/climbs in this
+#                            segment, e.g. since last surfacing.
+#                            -1 means stored for all dive/climbs
+#                            See Argument Details for more info.
+#
+#   <yo_duty_cycle>  -1      Only stores data every n"th" yo in this 
+#                            segment, i.e. would cause data from 
+#                            every 10th dive&climb to be stored.
+#                            <= 1 means every dive&climb.
+#
+# State Values:
+#
+#      0  none
+#      1  diving
+#      2  hovering
+#      3  diving|hovering
+#      4  climbing
+#      5  diving|climbing
+#      6  hovering|climbing
+#      7  diving|hovering|climbing
+#      8  on_surface
+#      9  diving|on_surface
+#      10 hovering|on_surface
+#      11 diving|hovering|on_surface
+#      12 climbing|on_surface
+#      13 diving|climbing|on_surface
+#      14 hovering|climbing|on_surface
+#      15 diving|hovering|climbing|on_surface
+
+
+
+SciDos>quit
+Returning from SciDos
+845.84 78 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+
+
+861.45 81 GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >consci
+867.95 84 Choosing console...No freewave carrier, using IRIDIUM
+CONSCI REQUESTED (using IRIDIUM as console)
+
+
+GliderDos N -1 >ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+869.04 85 Neutering the Freewave Console
+
+sci_shell
+Version 3.14 BADD_MMP and VR2C
+        from release Version 7.10  open ocean
+
+SciDos>cd logs
+
+error code -1
+SciDos>cd ..
+
+
+
+SciDos>cd logs
+
+\LOGS
+
+SciDos>dir
+
+
+ Volume in drive C is 032 SB     
+ Volume Serial Number is D8E6-ECF2
+ Directory of C:\LOGS\
+
+.              <DIR>         04-19-13  4:19p
+..             <DIR>         04-19-13  4:19p
+01120000.EBD          5,973  05-15-18  2:20p
+01120000.NBD            425  05-15-18  2:20p
+01120000.TBD          1,559  05-15-18  2:20p
+01120000.NLG          1,787  05-15-18  2:20p
+
+         4 file(s)           9,744 bytes
+         2 dir(s)    1,948,319,744 bytes free
+
+SciDos>cd ..
+
+
+
+SciDos>quit
+Returning from SciDos
+919.75 97 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+
+
+GliderDos N -1 >
+
+  1108 43 NOTE:GPS fix is getting stale: 908 secs old
+
+GliderDos N -1 >loadmission sci_on.mi
+
+load_mission(): Opening Mission file: SCI_ON.MI
+Setting SENSOR c_science_on(enum) = 3.000000
+Setting SENSOR c_science_all_on(secs) = 0.000000
+Setting SENSOR c_science_send_all(bool) = 1.000000
+Setting SENSOR u_use_ctd_depth_for_flying(bool) = 0.000000
+
+
+GliderDos N -1 >
+  1263 81 GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >  1263 83 Sent science:s:c_flbbcd_on(sec) 0-
+  1263    Sent science:s:c_oxy4_on(sec) 0-
+  1263    Sent science:s:c_profile_on(sec) 0-
+  1263    Sent science:s:c_science_send_all(bool) 1-
+  1263    Sent science:s:m_cycle_number(nodim) 283-
+  1263    Sent science:s:c_science_on(bool) 3-
+  1264    science wrote:sci_m_present_secs_into_mission(sec) 1263.91830444336
+  1264    science wrote:sci_m_present_time(timestamp) 1526395064.9183
+  1266    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  1266    Sent science:sensor_num:sci_flbbcd_bb_ref(nodim) 933-
+  1266    science wrote:sci_flbbcd_bb_sig(nodim) 2222
+  1266    Sent science:sensor_num:sci_flbbcd_bb_sig(nodim) 934-
+  1266    science wrote:sci_flbbcd_bb_units(nodim) 0.00426798
+  1266    Sent science:sensor_num:sci_flbbcd_bb_units(nodim) 935-
+  1266    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  1266    Sent science:sensor_num:sci_flbbcd_cdom_ref(nodim) 936-
+  1267    science wrote:sci_flbbcd_cdom_sig(nodim) 38
+  1267    Sent science:sensor_num:sci_flbbcd_cdom_sig(nodim) 937-
+  1267    science wrote:sci_flbbcd_cdom_units(ppb) 0.486
+  1267    Sent science:sensor_num:sci_flbbcd_cdom_units(ppb) 938-
+  1267 83 science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  1267    Sent science:sensor_num:sci_flbbcd_chlor_ref(nodim) 939-
+  1267    science wrote:sci_flbbcd_chlor_sig(nodim) 46
+  1267    Sent science:sensor_num:sci_flbbcd_chlor_sig(nodim) 940-
+  1267    Sent science:s:m_cycle_number(nodim) 284-
+  1268    science wrote:sci_flbbcd_chlor_units(ug/l) -0.007
+  1268    Sent science:sensor_num:sci_flbbcd_chlor_units(ug/l) 941-
+  1269    science wrote:sci_flbbcd_therm(nodim) 534
+  1269    Sent science:sensor_num:sci_flbbcd_therm(nodim) 943-
+  1269    science wrote:sci_flbbcd_timestamp(timestamp) 1526395067.06864
+  1269    Sent science:sensor_num:sci_flbbcd_timestamp(timestamp) 944-
+  1269    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  1269    science wrote:sci_flbbcd_bb_sig(nodim) 2227
+  1269    science wrote:sci_flbbcd_bb_units(nodim) 0.004277805
+  1269    Sent science:sensor_num:sci_flbbcd_bb_units(nodim) 935-
+  1269    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  1269    Sent science:sensor_num:sci_flbbcd_cdom_ref(nodim) 936-
+  1270    science wrote:sci_flbbcd_cdom_sig(nodim) 39
+  1270    Sent science:sensor_num:sci_flbbcd_cdom_sig(nodim) 937-
+  1270    science wrote:sci_flbbcd_cdom_units(ppb) 0.567
+  1270    Sent science:sensor_num:sci_flbbcd_cdom_units(ppb) 938-
+  1270    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  1270    Sent science:sensor_num:sci_flbbcd_chlor_ref(nodim) 939-
+  1270    science wrote:sci_flbbcd_chlor_sig(nodim) 39
+  1270    Sent science:sensor_num:sci_flbbcd_chlor_sig(nodim) 940-
+  1270    science wrote:sci_flbbcd_chlor_units(ug/l) -0.056
+  1270    Sent science:sensor_num:sci_flbbcd_chlor_units(ug/l) 941-
+  1270    science wrote:sci_flbbcd_therm(nodim) 533
+  1271    Sent science:sensor_num:sci_flbbcd_therm(nodim) 943-
+  1271    science wrote:sci_flbbcd_timestamp(timestamp) 1526395068.19788
+  1271    Sent science:sensor_num:sci_flbbcd_timestamp(timestamp) 944-
+  1271    science wrote:sci_m_present_secs_into_mission(sec) 1267.90811157226
+  1271    science wrote:sci_m_present_time(timestamp) 1526395068.90811
+  1271    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  1271    science wrote:sci_flbbcd_bb_sig(nodim) 2226
+  1271 85 science wrote:sci_flbbcd_bb_units(nodim) 0.00427584
+  1271    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  1271    science wrote:sci_flbbcd_cdom_sig(nodim) 24
+  1271    science wrote:sci_flbbcd_cdom_units(ppb) -0.648
+  1271    Sent science:s:m_cycle_number(nodim) 285-
+  1272    Sent science:s:m_depth_state(enum) 1-
+  1272    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  1273    science wrote:sci_flbbcd_chlor_sig(nodim) 42
+  1273    science wrote:sci_flbbcd_chlor_units(ug/l) -0.035
+  1273    Sent science:sensor_num:sci_flbbcd_chlor_units(ug/l) 941-
+  1273    science wrote:sci_flbbcd_therm(nodim) 533
+  1273    Sent science:sensor_num:sci_flbbcd_therm(nodim) 943-
+  1273    science wrote:sci_flbbcd_timestamp(timestamp) 1526395069.31962
+  1273    Sent science:sensor_num:sci_flbbcd_timestamp(timestamp) 944-
+  1273    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  1273    science wrote:sci_flbbcd_bb_sig(nodim) 2223
+  1273    science wrote:sci_flbbcd_bb_units(nodim) 0.004269945
+  1273    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  1273    science wrote:sci_flbbcd_cdom_sig(nodim) 33
+  1273    science wrote:sci_flbbcd_cdom_units(ppb) 0.081
+  1273    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  1274    science wrote:sci_flbbcd_chlor_sig(nodim) 45
+  1274    science wrote:sci_flbbcd_chlor_units(ug/l) -0.014
+  1274    science wrote:sci_flbbcd_therm(nodim) 533
+  1274    Sent science:sensor_num:sci_flbbcd_therm(nodim) 943-
+  1274    science wrote:sci_flbbcd_timestamp(timestamp) 1526395070.44157
+  1274    Sent science:sensor_num:sci_flbbcd_timestamp(timestamp) 944-
+  1274    science wrote:sci_oxy4_c1amp(mV) 516.6
+  1274    Sent science:sensor_num:sci_oxy4_c1amp(mv) 1174-
+  1274    science wrote:sci_oxy4_c1rph(deg) 38.868
+  1274    Sent science:sensor_num:sci_oxy4_c1rph(deg) 1175-
+  1274    science wrote:sci_oxy4_c2amp(mV) 626.5
+  1275    Sent science:sensor_num:sci_oxy4_c2amp(mv) 1176-
+  1275    science wrote:sci_oxy4_c2rph(deg) 8.21
+  1275    Sent science:sensor_num:sci_oxy4_c2rph(deg) 1177-
+  1275    science wrote:sci_oxy4_calphase(deg) 27.151
+  1275    Sent science:sensor_num:sci_oxy4_calphase(deg) 1178-
+  1275    science wrote:sci_oxy4_oxygen(uM) 186.864
+  1275    Sent science:sensor_num:sci_oxy4_oxygen(um) 1180-
+  1275    science wrote:sci_oxy4_rawtemp(mV) -148.8
+  1275    Sent science:sensor_num:sci_oxy4_rawtemp(mv) 1181-
+  1275    science wrote:sci_oxy4_saturation(%) 94.926
+  1275    Sent science:sensor_num:sci_oxy4_saturation(%) 1182-
+  1276 85 science wrote:sci_oxy4_tcphase(deg) 30.658
+  1276    Sent science:sensor_num:sci_oxy4_tcphase(deg) 1183-
+  1276    science wrote:sci_oxy4_temp(degC) 29.288
+  1276    Sent science:sensor_num:sci_oxy4_temp(degc) 1184-
+  1276    Sent science:s:m_cycle_number(nodim) 286-
+  1276    Sent science:s:m_depth_state(enum) 0-
+  1277    science wrote:sci_oxy4_timestamp(timestamp) 1526395070.79863
+  1277    Sent science:sensor_num:sci_oxy4_timestamp(timestamp) 1185-
+  1277    science wrote:sci_flbbcd_bb_ref(nodim) 700
+put c_science_on 1
+
+  1279    sensor: c_science_on = 1 bool
+
+
+GliderDos N -1 >  1282 87 DRIVER_ODDITY:science_super:1800:oxy4_parse_line(): Received a bad output line (non numeric).
+  1282    DRIVER_ODDITY:science_super:1800:    !*	ERROR	SYNTAX ERROR
+  1282    DRIVER_ODDITY:science_super:1800:oxy4_run(): Error(1003) parsing:!*	ERROR	SYNTAX ERROR
+  1282    DRIVER_ODDITY:science_super:1800:ERROR from PROGLET oxy4 : 1003
+  1282    DRIVER_ODDITY:science_super:1800:PROGLET oxy4_run() recently generated an error: 1003
+  1282    DRIVER_ODDITY:science_super:1800:       oxy4_run(): 1 error(s) in a row. (5 is fatal)
+  1283    DRIVER_ODDITY:science_super:1800:       oxy4_run(): 1 error(s) since oxy4_begin(). (50 is fatal)
+
+
+GliderDos N -1 >
+
+  1450 27 NOTE:GPS fix is getting stale: 1251 secs old
+
+GliderDos N -1 >  1463 31 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:253.5109 C_su:233.0000
+:OOD:   delta:20.5109 LIMIT:20.0000 over:0.5109
+callback 3
+
+I am going to hangup the Iridium!
+I will call you back in 3 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 >

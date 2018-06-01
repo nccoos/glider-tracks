@@ -1,0 +1,37 @@
+Connection Event: Carrier Detect found. 26218    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Thu May 24 04:33:30 2018 MT:   26217
+DR  Location:  3533.136 N -7456.250 E measured    1846.06 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3533.151 N -7456.252 E measured    1949.56 secs ago
+GPS Location:  3533.136 N -7456.250 E measured    1848.46 secs ago
+   sensor:c_wpt_lat(lat)=3535.027                 1737.19 secs ago
+   sensor:c_wpt_lon(lon)=-7458.965                1737.24 secs ago
+   sensor:m_battery(volts)=13.4382264146367       1708.43 secs ago
+   sensor:m_gps_lat(lat)=3533.1364                1848.78 secs ago
+   sensor:m_gps_lon(lon)=-7456.2502               1848.82 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        8.561 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5         1733.32 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      8.626 secs ago
+   sensor:m_mission_start_time(timestamp)=1527110192     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527136409.45111      1.457 secs ago
+   sensor:m_tot_num_inflections(nodim)=30286      1728.18 secs ago
+   sensor:m_vacuum(inHg)=7.98743672161172         1699.69 secs ago
+   sensor:m_water_vx(m/s)=0.155122834018878       1857.19 secs ago
+   sensor:m_water_vy(m/s)=0.0719315540515372      1857.23 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3530.7764            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7501.5114           1e+308 secs ago
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+ 26219    No login script found for processing.
+ 26275 57 01190004.mlg LOG FILE OPENED
+Megabytes used      on CF file system = 159.093750
+Megabytes available on CF file system = 1841.843750
+ 26277    init_gps_input()
+ 26278    behavior surface_6: SUBSTATE 7 ->9 : Waiting for final gps fix
+ 26278    behavior surface_6: TI

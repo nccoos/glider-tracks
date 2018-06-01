@@ -1,0 +1,42 @@
+Connection Event: Carrier Detect found. 18432    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue Jan  9 01:25:57 2018 MT:   18431
+DR  Location:  3502.204 N -7543.363 E measured     44.829 secs ago
+GPS TooFar:    3503.732 N -7543.414 E measured     1e+308 secs ago
+GPS Invalid :  3502.206 N -7543.366 E measured    1216.28 secs ago
+GPS Location:  3502.204 N -7543.363 E measured     46.762 secs ago
+   sensor:c_wpt_lat(lat)=3502.79070004924         18026.6 secs ago
+   sensor:c_wpt_lon(lon)=-7542.59260000044        18026.7 secs ago
+   sensor:m_battery(volts)=12.0635922237365         7.644 secs ago
+   sensor:m_gps_lat(lat)=3502.2044                 47.071 secs ago
+   sensor:m_gps_lon(lon)=-7543.3631                47.111 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       11.949 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5           48.28 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      7.947 secs ago
+   sensor:m_mission_start_time(timestamp)=1515442725     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515461156.79907      1.394 secs ago
+   sensor:m_tot_num_inflections(nodim)=28346      18211.7 secs ago
+   sensor:m_vacuum(inHg)=8.69541221001221           8.054 secs ago
+   sensor:m_water_vx(m/s)=0.0853980204287164      18228.5 secs ago
+   sensor:m_water_vy(m/s)=0.035082753444286       18228.5 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3502.79070004924      18035 secs ago
+   sensor:x_last_wpt_lon(lon)=-7542.59260000044      18035 secs ago
+ABORT HISTORY: total since reset: 10
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T19:55:25
+ABORT HISTORY: last abort segment: ramses-2018-007-7-0 (0103.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+ 18433    No login script found for processing.
+ 18444 84 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:253.1588 C_su:233.0000
+:OOD:   delta:20.1588 LIMIT:20.0000 over:0.1588
+callback 20
+
+I am going to hangup the Iridium!
+I will call you back in 20 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 > 18451 86 disabling Iridium cons

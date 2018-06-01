@@ -1,0 +1,45 @@
+Connection Event: Carrier Detect found. 55622    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Wed Jan 10 08:56:54 2018 MT:   55621
+DR  Location:  3502.173 N -7529.224 E measured     49.473 secs ago
+GPS TooFar:    3501.499 N -7531.577 E measured    11117.5 secs ago
+GPS Invalid :  3502.083 N -7529.588 E measured    1818.36 secs ago
+GPS Location:  3502.173 N -7529.224 E measured     49.691 secs ago
+   sensor:c_wpt_lat(lat)=3501.15050004916         55304.7 secs ago
+   sensor:c_wpt_lon(lon)=-7536.52020000037        55304.7 secs ago
+   sensor:m_battery(volts)=12.0247849227799         4.331 secs ago
+   sensor:m_gps_lat(lat)=3502.1727                     50 secs ago
+   sensor:m_gps_lon(lon)=-7529.2238                50.044 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       12.659 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          40.893 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.631 secs ago
+   sensor:m_mission_start_time(timestamp)=1515518992     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515574613.90298      1.379 secs ago
+   sensor:m_tot_num_inflections(nodim)=28352      55510.2 secs ago
+   sensor:m_vacuum(inHg)=7.78211996336996           4.741 secs ago
+   sensor:m_water_vx(m/s)=0                        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0                        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.15050004916    55314.5 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.52020000037    55314.5 secs ago
+ABORT HISTORY: total since reset: 2
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The buoyancy_pump device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-09T17:07:13
+ABORT HISTORY: last abort segment: ramses-2018-008-3-0 (0108.0000)
+ABORT HISTORY: last abort mission: INI0.MI
+ 55623    No login script found for processing.
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:266.9751 C_su:233.0000
+:OSL:   LIMITS:243.0000 -243.0000 over:23.9751
+ 55623    DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+ 55626 45 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:266.9751 C_su:233.0000
+:OOD:   delta:33.9751 LIMIT:20.0000 over:13.9751
+callback 30
+
+I am going to hangup the Iridium!
+I will call you back in 30 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 > 55643 51 disablin

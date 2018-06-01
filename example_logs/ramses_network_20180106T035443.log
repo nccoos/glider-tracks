@@ -1,0 +1,295 @@
+Connection Event: Carrier Detect found.732951    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Sat Jan  6 03:54:39 2018 MT:  732962
+DR  Location:  3504.436 N -7542.110 E measured     46.961 secs ago
+GPS TooFar:    3505.625 N -7540.490 E measured     151253 secs ago
+GPS Invalid :  3504.026 N -7541.610 E measured    147.973 secs ago
+GPS Location:  3504.436 N -7542.110 E measured     47.466 secs ago
+   sensor:c_wpt_lat(lat)=3504.297                 21540.2 secs ago
+   sensor:c_wpt_lon(lon)=-7544.832                21540.3 secs ago
+   sensor:m_battery(volts)=12.5104518078783        54.129 secs ago
+   sensor:m_gps_lat(lat)=3504.4363                 47.898 secs ago
+   sensor:m_gps_lon(lon)=-7542.1098                 47.97 secs ago
+   sensor:m_iridium_signal_strength(nodim)=4       10.398 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49945054945055     54.053 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.599 secs ago
+   sensor:m_mission_start_time(timestamp)=1514477928     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515210878.18494      1.758 secs ago
+   sensor:m_tot_num_inflections(nodim)=27501      184.824 secs ago
+   sensor:m_vacuum(inHg)=8.23103287545788          59.584 secs ago
+   sensor:m_water_vx(m/s)=0.134447265457139        47.992 secs ago
+   sensor:m_water_vy(m/s)=0.105994104713725        48.043 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3505.653             132464 secs ago
+   sensor:x_last_wpt_lon(lon)=-7541.742            132464 secs ago
+ABORT HISTORY: total since reset: 3
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2017-12-28T16:16:53
+ABORT HISTORY: last abort segment: ramses-2017-356-0-91 (0094.0091)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+732952    No login script found for processing.
+732952    DRIVER_ODDITY:iridium:1548:xxx_ctrl() ran too long
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2017-361-0-137 (0095.0137)
+Vehicle Name: ramses
+Curr Time: Sat Jan  6 03:54:58 2018 MT:  732982
+DR  Location:  3504.436 N -7542.110 E measured     66.025 secs ago
+GPS TooFar:    3505.625 N -7540.490 E measured     151272 secs ago
+GPS Invalid :  3504.026 N -7541.610 E measured    167.037 secs ago
+GPS Location:  3504.436 N -7542.110 E measured      66.53 secs ago
+   sensor:c_wpt_lat(lat)=3504.297                 21559.2 secs ago
+   sensor:c_wpt_lon(lon)=-7544.832                21559.3 secs ago
+   sensor:m_battery(volts)=12.5181182266021         9.239 secs ago
+   sensor:m_gps_lat(lat)=3504.4363                 66.853 secs ago
+   sensor:m_gps_lon(lon)=-7542.1098                66.895 secs ago
+   sensor:m_iridium_signal_strength(nodim)=4       29.308 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5           9.317 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.703 secs ago
+   sensor:m_mission_start_time(timestamp)=1514477928     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515210898.04422      0.774 secs ago
+   sensor:m_tot_num_inflections(nodim)=27501      203.689 secs ago
+   sensor:m_vacuum(inHg)=8.23103287545788          78.432 secs ago
+   sensor:m_water_vx(m/s)=0.134447265457139        66.826 secs ago
+   sensor:m_water_vy(m/s)=0.105994104713725        66.863 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3505.653             132483 secs ago
+   sensor:x_last_wpt_lon(lon)=-7541.742            132483 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   8/   0/   0 odd:6416/  15/   3
+ABORT HISTORY: total since reset: 3
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2017-12-28T16:16:53
+ABORT HISTORY: last abort segment: ramses-2017-356-0-91 (0094.0091)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3504.2970,-7544.8320) Range: 4145m, Bearing: 279deg, Age: 36:48h:m
+Time until diving is: 230 secs
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:248.0155 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:5.0155
+732986 76 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+732990 77 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:248.0155 C_su:233.0000
+:OOD:   delta:15.0155 limit:10.0000 over:5.0155
+s 00950133.mlg
+
+--------------------------------
+733000 79 00950137.mlg LOG FILE CLOSED
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+733009 82 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: NO TRANSMISSION: the overall list of files is empty
+733011    Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: About to send 1 files
+Prechecking is not necessary for this invocation
+733014    save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+733014    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�33692    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+733692    restore_sensors()....
+733692    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+SHUFFLING FILES.
+GLD: Sent 1 file(s):
+c:\logs\00950133.MLG
+GLD: SUCCESS
+733701 84 SCI:PROGLET house_elf begin() called
+733701    SCI:   house_elf: Version 1.2
+733702    SCI:PROGLET ctd41cp begin() called
+733702    SCI:   ctd41cp: Version 0.2
+733702    SCI:     ctd41cp:  Will be sending the following data to glider:
+733702    SCI:           sci_water_cond(s/m)
+733702    SCI:           sci_water_temp(degc)
+733702    SCI:           sci_water_pressure(bar)
+733702    SCI:           sci_ctd41cp_timestamp(timestamp)
+733702    SCI:PROGLET oxy4 begin() called
+733702    SCI:   oxy4: Version 0.0
+733702    SCI:     oxy4:  Will be sending following data to glider:
+733702    SCI:           sci_oxy4_oxygen(um)
+733703    SCI:           sci_oxy4_saturation(%)
+733703    SCI:           sci_oxy4_temp(degc)
+733703    SCI:           sci_oxy4_calphase(deg)
+733703    SCI:           sci_oxy4_tcphase(deg)
+733703    SCI:           sci_oxy4_c1rph(deg)
+733703    SCI:           sci_oxy4_c2rph(deg)
+733703    SCI:           sci_oxy4_c1amp(mv)
+733703    SCI:           sci_oxy4_c2amp(mv)
+733703    SCI:           sci_oxy4_rawtemp(mv)
+733703    SCI:           sci_oxy4_timestamp(timestamp)
+733703    SCI:  Opening Bit(34) for output
+733704 85 SCI:PROGLET flbbcd begin() called
+733704    SCI:   flbbcd: Version 0.0
+733704    SCI:     flbbcd:  Will be sending following data to glider:
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:251.6460 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:8.6460
+733705    DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+733705    SCI:           sci_flbbcd_chlor_units(ug/l)
+733705    SCI:           sci_flbbcd_bb_units(nodim)
+733705    SCI:           sci_flbbcd_cdom_units(ppb)
+733705    SCI:           sci_flbbcd_chlor_sig(nodim)
+733705    SCI:           sci_flbbcd_bb_sig(nodim)
+733705    SCI:           sci_flbbcd_cdom_sig(nodim)
+733705    SCI:           sci_flbbcd_chlor_ref(nodim)
+733706    SCI:           sci_flbbcd_bb_ref(nodim)
+733706    SCI:           sci_flbbcd_cdom_ref(nodim)
+733706    SCI:           sci_flbbcd_therm(nodim)
+733706    SCI:           sci_flbbcd_timestamp(timestamp)
+733706    SCI:  Opening Bit(29) for output
+733712 86 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:251.6460 C_su:233.0000
+:OOD:   delta:18.6460 limit:10.0000 over:8.6460
+733713    SCI:PROGLET house_elf start() called
+733713    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+733713    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:247.5617 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:4.5617
+733724 90 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+733783    00950138.mlg LOG FILE OPENED
+
+--------------------------------
+733784    behavior surface_7: SUBSTATE 7 ->7 : After data transmission, waiting for control-C to exit/resume
+733786    DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:247.5617 C_su:233.0000
+:OOD:   delta:14.5617 limit:10.0000 over:4.5617
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2017-361-0-138 (0095.0138)
+Vehicle Name: ramses
+Curr Time: Sat Jan  6 04:08:37 2018 MT:  733802
+DR  Location:  3504.436 N -7542.110 E measured    885.662 secs ago
+GPS TooFar:    3505.625 N -7540.490 E measured     152092 secs ago
+GPS Invalid :  3504.026 N -7541.610 E measured    986.676 secs ago
+GPS Location:  3504.436 N -7542.110 E measured    886.169 secs ago
+   sensor:c_wpt_lat(lat)=3504.297                 22378.9 secs ago
+   sensor:c_wpt_lon(lon)=-7544.832                22378.9 secs ago
+   sensor:m_battery(volts)=12.5248890657245         3.064 secs ago
+   sensor:m_gps_lat(lat)=3504.4363                886.492 secs ago
+   sensor:m_gps_lon(lon)=-7542.1098               886.532 secs ago
+   sensor:m_iridium_signal_strength(nodim)=4      848.947 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49996947496947       2.95 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      2.983 secs ago
+   sensor:m_mission_start_time(timestamp)=1514477928     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515211717.68314      0.774 secs ago
+   sensor:m_tot_num_inflections(nodim)=27501      1023.32 secs ago
+   sensor:m_vacuum(inHg)=8.56201431623931           3.472 secs ago
+   sensor:m_water_vx(m/s)=0.134447265457139        886.46 secs ago
+   sensor:m_water_vy(m/s)=0.105994104713725       886.496 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3505.653             133303 secs ago
+   sensor:x_last_wpt_lon(lon)=-7541.742            133303 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   8/   0/   0 odd:6422/  21/   9
+ABORT HISTORY: total since reset: 3
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2017-12-28T16:16:53
+ABORT HISTORY: last abort segment: ramses-2017-356-0-91 (0094.0091)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3504.2970,-7544.8320) Range: 4145m, Bearing: 279deg, Age: 37:1h:m
+Time until diving is: 294 secs
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:249.8308 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:6.8308
+733795 92 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+733800 93 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:249.8308 C_su:233.0000
+:OOD:   delta:16.8308 limit:10.0000 over:6.8308
+s *.sbd *.tbd
+
+--------------------------------
+733806 94 00950138.mlg LOG FILE CLOSED
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+733815 97 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+00950138.nlg LOG FILE CLOSED
+SCI: Enumerating and selecting files
+733830 98 DRIVER_ODDITY:digifin:12077:xxx_ctrl() ran too long
+SCI: NOTICE: file list truncated from 30 to 3 files due to implicit time limit
+SCI: About to send 3 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES...
+SCI: Sent 3 file(s):
+c:\logs\00950138.TBD  c:\logs\00950137.TBD  c:\logs\00950136.TBD
+SCI: SUCCESS
+report_heap_size(): SCI_M_FREE_HEAP=90.0K,  SCI_M_SPARE_HEAP=90.0K
+Megabytes used      on CF file system = 407.406250
+Megabytes available on CF file system = 1593.531250
+Running algorithm to free disk space if required
+Not necessary to delete any files at this time
+initiate_open_helper(): ERROR on 00950138.tbd from fopen(): Unknown Error (17)
+report_heap_size(): SCI_M_FREE_HEAP=90.0K,  SCI_M_SPARE_HEAP=90.0K
+735567  7 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: About to send 7 files
+Prechecking is not necessary for this invocation
+735572    save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+735572    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�

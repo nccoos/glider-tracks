@@ -1,0 +1,34 @@
+Connection Event: Carrier Detect found.  1637    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 15:27:10 2018 MT:    1636
+DR  Location:  3550.946 N -7523.253 E measured      0.882 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3550.832 N -7523.415 E measured    124.525 secs ago
+GPS Location:  3550.946 N -7523.253 E measured     44.572 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=15.3246390456048         4.495 secs ago
+   sensor:m_gps_lat(lat)=3550.9463                 45.019 secs ago
+   sensor:m_gps_lon(lon)=-7523.2526                45.077 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        8.966 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5           4.577 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.624 secs ago
+   sensor:m_mission_start_time(timestamp)=1526396393     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526398029.28259      1.693 secs ago
+   sensor:m_tot_num_inflections(nodim)=28357      1347.22 secs ago
+   sensor:m_vacuum(inHg)=7.62822905982906           5.036 secs ago
+   sensor:m_water_vx(m/s)=0.457107787444098       1237.33 secs ago
+   sensor:m_water_vy(m/s)=0.211566434872196       1237.38 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+  1638    No login script found for processing.
+
+
+GliderDos N -1 >run status.mi
+
+Starting Mission: STATUS.MI
+The instantaneous lag time between the system and gps clock is -26.0 seconds.
+The average lag time between the system and gps clock is -23.3 seconds.
+Exiting all devices ...
+  1676 72 disabling Iridium cons

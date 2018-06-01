@@ -1,0 +1,7 @@
+<script src='jquery.js'></script>
+<script src='togeojson.js'></script>
+<script>
+$.ajax('./linestring.kml').done(function(xml) {
+    console.log(toGeoJSON.kml(xml));
+});
+</script>

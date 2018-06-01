@@ -1,0 +1,815 @@
+Connection Event: Carrier Detect found.  2775    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 16:36:13 2018 MT:    2774
+DR  Location:  3551.097 N -7522.718 E measured    575.357 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3551.033 N -7522.858 E measured    645.853 secs ago
+GPS Location:  3551.097 N -7522.718 E measured    576.901 secs ago
+   sensor:c_wpt_lat(lat)=3550.92192               2597.84 secs ago
+   sensor:c_wpt_lon(lon)=-7521.87085              2597.91 secs ago
+   sensor:m_battery(volts)=15.2179397345372        50.676 secs ago
+   sensor:m_gps_lat(lat)=3551.0966                577.337 secs ago
+   sensor:m_gps_lon(lon)=-7522.7183               577.424 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       12.177 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49996947496947     50.751 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      7.173 secs ago
+   sensor:m_mission_start_time(timestamp)=1526399398     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526402172.22262      1.823 secs ago
+   sensor:m_tot_num_inflections(nodim)=28368      602.071 secs ago
+   sensor:m_vacuum(inHg)=7.88767829670329          51.237 secs ago
+   sensor:m_water_vx(m/s)=0.181326137079924       1592.77 secs ago
+   sensor:m_water_vy(m/s)=-0.0474295905653479     1592.82 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+  2776    No login script found for processing.
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-134-5-3 (0117.0003)
+Vehicle Name: ramses
+Curr Time: Tue May 15 16:36:27 2018 MT:    2789
+DR  Location:  3551.097 N -7522.718 E measured    589.973 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3551.033 N -7522.858 E measured    660.468 secs ago
+GPS Location:  3551.097 N -7522.718 E measured    591.516 secs ago
+   sensor:c_wpt_lat(lat)=3550.92192               2612.42 secs ago
+   sensor:c_wpt_lon(lon)=-7521.87085              2612.46 secs ago
+   sensor:m_battery(volts)=15.2179397345372        65.211 secs ago
+   sensor:m_gps_lat(lat)=3551.0966                591.841 secs ago
+   sensor:m_gps_lon(lon)=-7522.7183               591.883 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       26.624 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5           4.717 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.751 secs ago
+   sensor:m_mission_start_time(timestamp)=1526399398     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526402187.68396      0.774 secs ago
+   sensor:m_tot_num_inflections(nodim)=28368      616.472 secs ago
+   sensor:m_vacuum(inHg)=7.88767829670329          65.617 secs ago
+   sensor:m_water_vx(m/s)=0.181326137079924       1607.14 secs ago
+   sensor:m_water_vy(m/s)=-0.0474295905653479     1607.17 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   1/   1/   0 odd:  51/  24/   8
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3550.9219,-7521.8709) Range: 1316m, Bearing: 117deg, Age: 0:43h:m
+Time until diving is: 232 secs
+^EExtending surface time by 5 minutes
+^C  2830 20 behavior surface_7: User Hit a Control-C, terminating the mission
+  2831    behavior surface_7: STATE Active -> Mission Complete
+  2831    behavior ?_-1: layered_control(): Mission completed normally
+  2831    behavior ?_-1: run_mission(): Mission completed: MS_COMPLETED_NORMALLY(-1)
+
+Vehicle Name: ramses
+Mission Name:   SHELF_30.MI
+Mission Number: ramses-2018-134-5-3 (0117.0003)
+post_mission_cleanup(): End of Mission
+timestamp: Tue May 15 16:37:13 2018
+  2835    01170003.mlg LOG FILE CLOSED
+timestamp: Tue May 15 16:37:17 2018
+Mission completed normally
+Mission end: grun_mission() SHELF_30.MI ramses-2018-134-5-3 (0117.0003)
+
+
+GliderDos N -1 >
+  2839 20 NOTE:GPS fix is getting stale: 641 secs old
+
+  2839    GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >^@
+
+Bad command or file name
+GliderDos N -1 >send 01170000.nlg
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  2915 41 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 1 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES.
+SCI: Sent 1 file(s):
+c:\logs\01170000.NLG
+SCI: SUCCESS
+  2942 48 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: NO TRANSMISSION: the overall list of files is empty
+  2956 49 DRIVER_ODDITY:digifin:11528:xxx_ctrl() ran too long
+
+
+GliderDos N -1 >use
+             name in ALLCAPS means CRITICAL device (* => SUPERCRITICAL)
+                  [I Installed] [- Not_Installed]
+                    [u In_use] [- Not_In_use] [X Out_of_Service]
+             name       limits     stats (#total/#mission/#segment)
+ 0        simdrvr  -
+ 1    test_driver  -
+ 2          ARGOS* I u  -1  20   5  0
+ 3       WATCHDOG  I u  -1  -1  -1  0
+ 4        DEADMAN  I u  -1  20   5  0
+ 5        CONSOLE* I u  -1  20   5  0
+ 6            GPS  I u  -1  20   5  0
+ 7         pinger  -
+ 8       attitude  I u   3  20   5  0
+ 9  attitude_tcm3  -
+10   attitude_rev  -
+11 ocean_pressure  I u   3  20   5  0
+12         vacuum  I u   3  20   5  0
+13        battery  I u   3  20   5  0
+14lithium_battery  -
+15       air_pump  I u   3  20   5  0
+16    pitch_motor  I u   3  20   5  0
+17  science_super  I u   3  20   5  0 [   0   0  0] [   1   1  0] [  15   2  0]
+18     roll_motor  -
+19    fpitch_pump  -
+20      fin_motor  -
+21        digifin  I u   3  20   5  0 [   0   0  0] [   0   0  0] [   1   1  1]
+22      altimeter  I u   3  20   5  0
+23            ctd  -
+24        IRIDIUM* I u  -1  20   5  0 [   0   0  0] [   0   0  0] [  14   6  6]
+25     leakdetect  I u   3  20   5  0
+26       recovery  -
+27        coulomb  -
+28       veh_temp  -
+29          avbot  -
+30  BUOYANCY_PUMP  I u  20 100  10  0 [   0   0  0] [   0   0  0] [  22  16  2]
+31THERMAL_ACC_PRE  -
+32 THERMAL_ENGINE  -
+33   THERMAL_PUMP  -
+34        DE_PUMP  -
+devices:(t/m/s) errs:   0/   0/   0 warn:   1/   1/   0 odd:  52/  25/   9
+
+
+GliderDos N -1 >loadmission sci_on.mi
+
+load_mission(): Opening Mission file: SCI_ON.MI
+Setting SENSOR c_science_on(enum) = 3.000000
+Setting SENSOR c_science_all_on(secs) = 0.000000
+Setting SENSOR c_science_send_all(bool) = 1.000000
+Setting SENSOR u_use_ctd_depth_for_flying(bool) = 0.000000
+
+
+GliderDos N -1 >  2999 62 Sent science:s:c_flbbcd_on(sec) 0-
+  2999    Sent science:s:c_oxy4_on(sec) 0-
+  2999    Sent science:s:c_profile_on(sec) 0-
+  2999    Sent science:s:c_science_send_all(bool) 1-
+  2999    Sent science:s:m_cycle_number(nodim) 463-
+  3000    Sent science:s:c_science_on(bool) 3-
+  3002    science wrote:sci_m_present_secs_into_mission(sec) 3002.16918945312
+  3002    science wrote:sci_m_present_time(timestamp) 1526402400.16919
+  3002    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3002    Sent science:sensor_num:sci_flbbcd_bb_ref(nodim) 933-
+  3003    science wrote:sci_flbbcd_bb_sig(nodim) 1624
+  3003    Sent science:sensor_num:sci_flbbcd_bb_sig(nodim) 934-
+  3003    science wrote:sci_flbbcd_bb_units(nodim) 0.00309291
+  3003    Sent science:sensor_num:sci_flbbcd_bb_units(nodim) 935-
+  3003    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3003    Sent science:sensor_num:sci_flbbcd_cdom_ref(nodim) 936-
+  3003    science wrote:sci_flbbcd_cdom_sig(nodim) 56
+  3003    Sent science:sensor_num:sci_flbbcd_cdom_sig(nodim) 937-
+  3003    science wrote:sci_flbbcd_cdom_units(ppb) 1.944
+  3003    Sent science:sensor_num:sci_flbbcd_cdom_units(ppb) 938-
+  3004 63 science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3004    Sent science:sensor_num:sci_flbbcd_chlor_ref(nodim) 939-
+  3004    science wrote:sci_flbbcd_chlor_sig(nodim) 75
+  3004    Sent science:sensor_num:sci_flbbcd_chlor_sig(nodim) 940-
+  3004    Sent science:s:m_cycle_number(nodim) 464-
+  3005    science wrote:sci_flbbcd_chlor_units(ug/l) 0.196
+  3005    Sent science:sensor_num:sci_flbbcd_chlor_units(ug/l) 941-
+  3005    science wrote:sci_flbbcd_therm(nodim) 547
+  3005    Sent science:sensor_num:sci_flbbcd_therm(nodim) 943-
+  3005    science wrote:sci_flbbcd_timestamp(timestamp) 1526402400.86222
+  3005    Sent science:sensor_num:sci_flbbcd_timestamp(timestamp) 944-
+  3006    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3006    science wrote:sci_flbbcd_bb_sig(nodim) 2336
+  3006    science wrote:sci_flbbcd_bb_units(nodim) 0.00449199
+  3006    Sent science:sensor_num:sci_flbbcd_bb_units(nodim) 935-
+  3006    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3006    Sent science:sensor_num:sci_flbbcd_cdom_ref(nodim) 936-
+  3006    science wrote:sci_flbbcd_cdom_sig(nodim) 64
+  3006    Sent science:sensor_num:sci_flbbcd_cdom_sig(nodim) 937-
+  3006    science wrote:sci_flbbcd_cdom_units(ppb) 2.592
+  3006    Sent science:sensor_num:sci_flbbcd_cdom_units(ppb) 938-
+  3006    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3007    Sent science:sensor_num:sci_flbbcd_chlor_ref(nodim) 939-
+  3007    science wrote:sci_flbbcd_chlor_sig(nodim) 147
+  3007    Sent science:sensor_num:sci_flbbcd_chlor_sig(nodim) 940-
+  3007    science wrote:sci_flbbcd_chlor_units(ug/l) 0.7
+  3007    Sent science:sensor_num:sci_flbbcd_chlor_units(ug/l) 941-
+  3007    science wrote:sci_flbbcd_therm(nodim) 547
+  3007    Sent science:sensor_num:sci_flbbcd_therm(nodim) 943-
+  3007    science wrote:sci_flbbcd_timestamp(timestamp) 1526402401.99173
+  3007    Sent science:sensor_num:sci_flbbcd_timestamp(timestamp) 944-
+  3007    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3008    science wrote:sci_flbbcd_bb_sig(nodim) 1653
+  3008    science wrote:sci_flbbcd_bb_units(nodim) 0.003149895
+  3008    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3008 65 science wrote:sci_flbbcd_cdom_sig(nodim) 48
+  3008    science wrote:sci_flbbcd_cdom_units(ppb) 1.296
+  3008    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3008    science wrote:sci_flbbcd_chlor_sig(nodim) 76
+  3008    Sent science:s:m_cycle_number(nodim) 465-
+  3009    science wrote:sci_flbbcd_chlor_units(ug/l) 0.203
+  3009    Sent science:sensor_num:sci_flbbcd_chlor_units(ug/l) 941-
+  3009    science wrote:sci_flbbcd_therm(nodim) 547
+  3009    Sent science:sensor_num:sci_flbbcd_therm(nodim) 943-
+  3009    science wrote:sci_flbbcd_timestamp(timestamp) 1526402403.11493
+  3009    Sent science:sensor_num:sci_flbbcd_timestamp(timestamp) 944-
+  3010    science wrote:sci_m_present_secs_into_mission(sec) 3006.16934204102
+  3010    science wrote:sci_m_present_time(timestamp) 1526402404.16934
+  3010    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3010    science wrote:sci_flbbcd_bb_sig(nodim) 1540
+  3010    science wrote:sci_flbbcd_bb_units(nodim) 0.00292785
+  3010    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3010    science wrote:sci_flbbcd_cdom_sig(nodim) 44
+  3010    science wrote:sci_flbbcd_cdom_units(ppb) 0.972
+  3010    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3010    science wrote:sci_flbbcd_chlor_sig(nodim) 78
+  3010    science wrote:sci_flbbcd_chlor_units(ug/l) 0.217
+  3010    science wrote:sci_flbbcd_therm(nodim) 547
+  3010    Sent science:sensor_num:sci_flbbcd_therm(nodim) 943-
+  3010    science wrote:sci_flbbcd_timestamp(timestamp) 1526402404.24366
+  3010    Sent science:sensor_num:sci_flbbcd_timestamp(timestamp) 944-
+  3011    science wrote:sci_oxy4_c1amp(mV) 542.1
+  3011    Sent science:sensor_num:sci_oxy4_c1amp(mv) 1174-
+  3011    science wrote:sci_oxy4_c1rph(deg) 39.744
+  3011    Sent science:sensor_num:sci_oxy4_c1rph(deg) 1175-
+  3011    science wrote:sci_oxy4_c2amp(mV) 706.8
+  3011    Sent science:sensor_num:sci_oxy4_c2amp(mv) 1176-
+  3011    science wrote:sci_oxy4_c2rph(deg) 7.879
+  3011    Sent science:sensor_num:sci_oxy4_c2rph(deg) 1177-
+  3011    science wrote:sci_oxy4_calphase(deg) 28.358
+  3011    Sent science:sensor_num:sci_oxy4_calphase(deg) 1178-
+  3012    science wrote:sci_oxy4_oxygen(uM) 251.985
+  3012    Sent science:sensor_num:sci_oxy4_oxygen(um) 1180-
+  3012    science wrote:sci_oxy4_rawtemp(mV) 220.5
+  3012    Sent science:sensor_num:sci_oxy4_rawtemp(mv) 1181-
+  3012    science wrote:sci_oxy4_saturation(%) 104.569
+  3012    Sent science:sensor_num:sci_oxy4_saturation(%) 1182-
+  3012 66 science wrote:sci_oxy4_tcphase(deg) 31.865
+  3012    Sent science:sensor_num:sci_oxy4_tcphase(deg) 1183-
+  3012    science wrote:sci_oxy4_temp(degC) 17.716
+  3012    Sent science:sensor_num:sci_oxy4_temp(degc) 1184-
+  3012    Sent science:s:m_cycle_number(nodim) 466-
+  3013    Sent science:s:m_depth_state(enum) 1-
+  3014    science wrote:sci_oxy4_timestamp(timestamp) 1526402404.61875
+  3014    Sent science:sensor_num:sci_oxy4_timestamp(timestamp) 1185-
+  3014    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3014    science wrote:sci_flbbcd_bb_sig(nodim) 1481
+  3014    science wrote:sci_flbbcd_bb_units(nodim) 0.002811915
+  3014    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3014    science wrote:sci_flbbcd_cdom_sig(nodim) 58
+  3014    science wrote:sci_flbbcd_cdom_units(ppb) 2.106
+  3014    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3014    science wrote:sci_flbbcd_chlor_sig(nodim) 75
+  3014    science wrote:sci_flbbcd_chlor_units(ug/l) 0.196
+  3014    science wrote:sci_flbbcd_therm(nodim) 547
+  3014    science wrote:sci_flbbcd_timestamp(timestamp) 1526402405.36475
+  3014    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3014    science wrote:sci_flbbcd_bb_sig(nodim) 1612
+  3014    science wrote:sci_flbbcd_bb_units(nodim) 0.00306933
+  3015    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3015    science wrote:sci_flbbcd_cdom_sig(nodim) 49
+  3015    science wrote:sci_flbbcd_cdom_units(ppb) 1.377
+  3015    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3015    science wrote:sci_flbbcd_chlor_sig(nodim) 75
+  3015    science wrote:sci_flbbcd_chlor_units(ug/l) 0.196
+  3015    science wrote:sci_flbbcd_therm(nodim) 546
+  3015    science wrote:sci_flbbcd_timestamp(timestamp) 1526402406.49229
+  3015    science wrote:sci_oxy4_c1amp(mV) 542.1
+  3015    Sent science:sensor_num:sci_oxy4_c1amp(mv) 1174-
+  3015    science wrote:sci_oxy4_c1rph(deg) 39.733
+  3015    Sent science:sensor_num:sci_oxy4_c1rph(deg) 1175-
+  3015    science wrote:sci_oxy4_c2amp(mV) 706.3
+  3015    Sent science:sensor_num:sci_oxy4_c2amp(mv) 1176-
+  3016    science wrote:sci_oxy4_c2rph(deg) 7.874
+  3016    Sent science:sensor_num:sci_oxy4_c2rph(deg) 1177-
+  3016    science wrote:sci_oxy4_calphase(deg) 28.351
+  3016    Sent science:sensor_num:sci_oxy4_calphase(deg) 1178-
+  3016    science wrote:sci_oxy4_oxygen(uM) 252.133
+  3016    Sent science:sensor_num:sci_oxy4_oxygen(um) 1180-
+  3016 67 science wrote:sci_oxy4_rawtemp(mV) 220.5
+  3016    Sent science:sensor_num:sci_oxy4_rawtemp(mv) 1181-
+  3016    science wrote:sci_oxy4_saturation(%) 104.63
+  3016    Sent science:sensor_num:sci_oxy4_saturation(%) 1182-
+  3017    Sent science:s:m_cycle_number(nodim) 467-
+  3017    Sent science:s:m_depth_state(enum) 0-
+  3018    science wrote:sci_oxy4_tcphase(deg) 31.858
+  3018    Sent science:sensor_num:sci_oxy4_tcphase(deg) 1183-
+  3018    science wrote:sci_oxy4_temp(degC) 17.715
+  3018    Sent science:sensor_num:sci_oxy4_temp(degc) 1184-
+  3018    science wrote:sci_oxy4_timestamp(timestamp) 1526402406.61407
+  3018    Sent science:sensor_num:sci_oxy4_timestamp(timestamp) 1185-
+  3018    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402407.25604
+  3018    Sent science:sensor_num:sci_ctd41cp_timestamp(timestamp) 843-
+  3018    science wrote:sci_water_cond(S/m) 4.05411
+  3018    Sent science:sensor_num:sci_water_cond(s/m) 1245-
+  3018    science wrote:sci_water_pressure(bar) 0.011
+  3019    Sent science:sensor_num:sci_water_pressure(bar) 1247-
+  3019    science wrote:sci_water_temp(degC) 17.6815
+  3019    Sent science:sensor_num:sci_water_temp(degc) 1249-
+  3019    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3019    science wrote:sci_flbbcd_bb_sig(nodim) 1529
+  3019    science wrote:sci_flbbcd_bb_units(nodim) 0.002906235
+  3019    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3019    science wrote:sci_flbbcd_cdom_sig(nodim) 53
+  3019    science wrote:sci_flbbcd_cdom_units(ppb) 1.701
+  3019    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3019    science wrote:sci_flbbcd_chlor_sig(nodim) 77
+  3019    science wrote:sci_flbbcd_chlor_units(ug/l) 0.21
+  3019    science wrote:sci_flbbcd_therm(nodim) 546
+  3019    science wrote:sci_flbbcd_timestamp(timestamp) 1526402407.61826
+  3020    science wrote:sci_m_present_secs_into_mission(sec) 3010.16662597656
+  3020    science wrote:sci_m_present_time(timestamp) 1526402408.16663
+  3020    science wrote:sci_oxy4_c1amp(mV) 542
+  3020    Sent science:sensor_num:sci_oxy4_c1amp(mv) 1174-
+  3020    science wrote:sci_oxy4_c1rph(deg) 39.732
+  3020    Sent science:sensor_num:sci_oxy4_c1rph(deg) 1175-
+  3020    science wrote:sci_oxy4_c2amp(mV) 705.9
+  3020    Sent science:sensor_num:sci_oxy4_c2amp(mv) 1176-
+  3020    science wrote:sci_oxy4_c2rph(deg) 7.874
+  3020    Sent science:sensor_num:sci_oxy4_c2rph(deg) 1177-
+  3020 67 science wrote:sci_oxy4_calphase(deg) 28.351
+  3021    Sent science:sensor_num:sci_oxy4_calphase(deg) 1178-
+  3021    science wrote:sci_oxy4_oxygen(uM) 252.107
+  3021    Sent science:sensor_num:sci_oxy4_oxygen(um) 1180-
+  3021    Sent science:s:m_cycle_number(nodim) 468-
+  3022    science wrote:sci_oxy4_rawtemp(mV) 220.4
+  3022    Sent science:sensor_num:sci_oxy4_rawtemp(mv) 1181-
+  3022    science wrote:sci_oxy4_saturation(%) 104.628
+  3022    Sent science:sensor_num:sci_oxy4_saturation(%) 1182-
+  3022    science wrote:sci_oxy4_tcphase(deg) 31.858
+  3022    Sent science:sensor_num:sci_oxy4_tcphase(deg) 1183-
+  3022    science wrote:sci_oxy4_temp(degC) 17.72
+  3022    Sent science:sensor_num:sci_oxy4_temp(degc) 1184-
+  3022    science wrote:sci_oxy4_timestamp(timestamp) 1526402408.61508
+  3022    Sent science:sensor_num:sci_oxy4_timestamp(timestamp) 1185-
+  3023    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3023    science wrote:sci_flbbcd_bb_sig(nodim) 1526
+  3023    science wrote:sci_flbbcd_bb_units(nodim) 0.00290034
+  3023    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3023    science wrote:sci_flbbcd
+
+***<Iridium Output Buffer was full, tossed 17831 chars>***
+
+
+  3047    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402427.22944
+  3047    science wrote:sci_water_cond(S/m) 4.0537
+  3048    science wrote:sci_water_pressure(bar) 0.01
+  3048    science wrote:sci_water_temp(degC) 17.6674
+  3048    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3048    science wrote:sci_flbbcd_bb_sig(nodim) 1564
+  3048    science wrote:sci_flbbcd_bb_units(nodim) 0.00297501
+  3048    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3048    science wrote:sci_flbbcd_cdom_sig(nodim) 48
+  3048    science wrote:sci_flbbcd_cdom_units(ppb) 1.296
+  3048    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3048    science wrote:sci_flbbcd_chlor_sig(nodim) 74
+  3048    science wrote:sci_flbbcd_chlor_units(ug/l) 0.189
+  3048    science wrote:sci_flbbcd_therm(nodim) 545
+  3048    science wrote:sci_flbbcd_timestamp(timestamp) 1526402427.87256
+  3048    science wrote:sci_m_present_secs_into_mission(sec) 3030.16909790039
+  3048 74 science wrote:sci_m_present_time(timestamp) 1526402428.1691
+  3048    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3049    science wrote:sci_flbbcd_bb_sig(nodim) 1580
+  3049    science wrote:sci_flbbcd_bb_units(nodim) 0.00300645
+  3049    Sent science:s:m_cycle_number(nodim) 474-
+  3049    Sent science:s:m_depth_state(enum) 2-
+  3050    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3050    science wrote:sci_flbbcd_cdom_sig(nodim) 50
+  3050    science wrote:sci_flbbcd_cdom_units(ppb) 1.458
+  3050    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3050    science wrote:sci_flbbcd_chlor_sig(nodim) 77
+  3050    science wrote:sci_flbbcd_chlor_units(ug/l) 0.21
+  3050    science wrote:sci_flbbcd_therm(nodim) 546
+  3050    science wrote:sci_flbbcd_timestamp(timestamp) 1526402429.00677
+  3050    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402429.22742
+  3050    science wrote:sci_water_cond(S/m) 4.05378
+  3050    science wrote:sci_water_pressure(bar) 0.01
+  3050    science wrote:sci_water_temp(degC) 17.6594
+  3050    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3050    science wrote:sci_flbbcd_bb_sig(nodim) 1592
+  3050    science wrote:sci_flbbcd_bb_units(nodim) 0.00303003
+  3050    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3051    science wrote:sci_flbbcd_cdom_sig(nodim) 54
+  3051    science wrote:sci_flbbcd_cdom_units(ppb) 1.782
+  3051    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3051    science wrote:sci_flbbcd_chlor_sig(nodim) 76
+  3051    science wrote:sci_flbbcd_chlor_units(ug/l) 0.203
+  3051    science wrote:sci_flbbcd_therm(nodim) 546
+  3051    science wrote:sci_flbbcd_timestamp(timestamp) 1526402430.1255
+  3051    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402431.23255
+  3051    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3051    science wrote:sci_flbbcd_bb_sig(nodim) 1524
+  3051    science wrote:sci_flbbcd_bb_units(nodim) 0.00289641
+  3051    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3051    science wrote:sci_flbbcd_cdom_sig(nodim) 50
+  3051    science wrote:sci_flbbcd_cdom_units(ppb) 1.458
+  3051    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3051    science wrote:sci_flbbcd_chlor_sig(nodim) 77
+  3051    science wrote:sci_flbbcd_chlor_units(ug/l) 0.21
+  3052    science wrote:sci_flbbcd_therm(nodim) 546
+  3052    science wrote:sci_flbbcd_timestamp(timestamp) 1526402431.27374
+  3052    science wrote:sci_water_cond(S/m) 4.05379
+  3052    science wrote:sci_water_pressure(bar) 0.01
+  3052    science wrote:sci_water_temp(degC) 17.6711
+  3052    science wrote:sci_m_present_secs_into_mission(sec) 3034.16839599609
+  3052    science wrote:sci_m_present_time(timestamp) 1526402432.1684
+  3052    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3052    science wrote:sci_flbbcd_bb_sig(nodim) 1513
+  3052    science wrote:sci_flbbcd_bb_units(nodim) 0.002874795
+  3052    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3052    science wrote:sci_flbbcd_cdom_sig(nodim) 51
+  3052    science wrote:sci_flbbcd_cdom_units(ppb) 1.539
+  3052    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3052    science wrote:sci_flbbcd_chlor_sig(nodim) 75
+  3052    science wrote:sci_flbbcd_chlor_units(ug/l) 0.196
+  3052 75 science wrote:sci_flbbcd_therm(nodim) 546
+  3053    science wrote:sci_flbbcd_timestamp(timestamp) 1526402432.37855
+  3053    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402433.22831
+  3053    science wrote:sci_water_cond(S/m) 4.05371
+  3053    Sent science:s:m_cycle_number(nodim) 475-
+  3053    Sent science:s:m_depth_state(enum) 3-
+  3054    science wrote:sci_water_pressure(bar) 0.01
+  3054    science wrote:sci_water_temp(degC) 17.6699
+  3054    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3054    science wrote:sci_flbbcd_bb_sig(nodim) 1586
+  3054    science wrote:sci_flbbcd_bb_units(nodim) 0.00301824
+  3054    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3054    science wrote:sci_flbbcd_cdom_sig(nodim) 41
+  3054    science wrote:sci_flbbcd_cdom_units(ppb) 0.729
+  3054    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3054    science wrote:sci_flbbcd_chlor_sig(nodim) 77
+  3054    science wrote:sci_flbbcd_chlor_units(ug/l) 0.21
+  3054
+
+***<Iridium Output Buffer was full, tossed 23680 chars>***
+
+
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:255.8440 C_su:233.0000
+:OOD:   delta:22.8440 LIMIT:20.0000 over:2.8440
+  3079    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402461.22781
+  3079    science wrote:sci_water_cond(S/m) 4.0522
+  3079    science wrote:sci_water_pressure(bar) 0.01
+  3079    science wrote:sci_water_temp(degC) 17.6733
+  3079    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3079    science wrote:sci_flbbcd_bb_sig(nodim) 1481
+  3080    science wrote:sci_flbbcd_bb_units(nodim) 0.002811915
+  3080    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3080    science wrote:sci_flbbcd_cdom_sig(nodim) 62
+  3080    science wrote:sci_flbbcd_cdom_units(ppb) 2.43
+  3080    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3080    science wrote:sci_flbbcd_chlor_sig(nodim) 74
+  3080    science wrote:sci_flbbcd_chlor_units(ug/l) 0.189
+  3080    science wrote:sci_flbbcd_therm(nodim) 545
+  3080    science wrote:sci_flbbcd_timestamp(timestamp) 1526402461.64429
+  3080    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3080    science wrote:sci_flbbcd_bb_sig(nodim) 1476
+  3080    science wrote:sci_flbbcd_bb_units(nodim) 0.00280209
+  3080    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3080    science wrote:sci_flbbcd_cdom_sig(nodim) 44
+  3080    science wrote:sci_flbbcd_cdom_units(ppb) 0.972
+  3080    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3080    science wrote:sci_flbbcd_chlor_sig(nodim) 76
+  3080    science wrote:sci_flbbcd_chlor_units(ug/l) 0.203
+  3080    science wrote:sci_flbbcd_therm(nodim) 545
+  3081    science wrote:sci_flbbcd_timestamp(timestamp) 1526402462.76258
+  3081    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402463.22812
+  3081    science wrote:sci_water_cond(S/m) 4.05232
+  3081    science wrote:sci_water_pressure(bar) 0.01
+  3081    science wrote:sci_water_temp(degC) 17.6745
+  3081    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3081    science wrote:sci_flbbcd_bb_sig(nodim) 1592
+  3081    science wrote:sci_flbbcd_bb_units(nodim) 0.00303003
+  3081    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3081    science wrote:sci_flbbcd_cdom_sig(nodim) 56
+  3081    science wrote:sci_flbbcd_cdom_units(ppb) 1.944
+  3081    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3081    science wrote:sci_flbbcd_chlor_sig(nodim) 78
+  3081    science wrote:sci_flbbcd_chlor_units(ug/l) 0.217
+  3081    science wrote:sci_flbbcd_therm(nodim) 545
+  3081    science wrote:sci_flbbcd_timestamp(timestamp) 1526402463.89335
+  3081    science wrote:sci_m_present_secs_into_mission(sec) 3066.16653442383
+  3081    science wrote:sci_m_present_time(timestamp) 1526402464.16653
+  3082    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3082    science wrote:sci_flbbcd_bb_sig(nodim) 1541
+  3082    science wrote:sci_flbbcd_bb_units(nodim) 0.002929815
+  3082    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3082    science wrote:sci_flbbcd_cdom_sig(nodim) 50
+  3082    science wrote:sci_flbbcd_cdom_units(ppb) 1.458
+  3082    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3082    science wrote:sci_flbbcd_chlor_sig(nodim) 76
+  3082    science wrote:sci_flbbcd_chlor_units(ug/l) 0.203
+  3082    science wrote:sci_flbbcd_therm(nodim) 545
+  3082 82 science wrote:sci_flbbcd_timestamp(timestamp) 1526402465.01563
+  3082    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402465.23086
+  3082    science wrote:sci_water_cond(S/m) 4.05201
+  3082    science wrote:sci_water_pressure(bar) 0.01
+  3082    Sent science:s:m_cycle_number(nodim) 482-
+  3083    science wrote:sci_water_temp(degC) 17.6711
+  3083    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3083    science wrote:sci_flbbcd_bb_sig(nodim) 1441
+  3083    science wrote:sci_flbbcd_bb_units(nodim) 0.002733315
+  3084    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3084    science wrote:sci_flbbcd_cdom_sig(nodim) 50
+  3084    science wrote:sci_flbbcd_cdom_units(ppb) 1.458
+  3084    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3084    science wrote:sci_flbbcd_chlor_sig(nodim) 76
+  3084    science wrote:sci_flbbcd_chlor_units(ug/l) 0.203
+  3084    science wrote:sci_flbbcd_therm(nodim) 545
+  3084    science wrote:sci_flbbcd_timestamp(timestamp) 1526402466.14596
+  3084    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402467.22639
+  3084    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3084    science wrote:sci_flbbcd_bb_sig(nodim) 1497
+  3084    science wrote:sci_flbbcd_bb_units(nodim) 0.002843355
+  3084    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3084    science wrote:sci_flbbcd_cdom_sig(nodim) 39
+  3084    science wrote:sci_flbbcd_cdom_units(ppb) 0.567
+  3084    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3084    science wrote:sci_flbbcd_chlor_sig(nodim) 79
+  3084    science wrote:sci_flbbcd_chlor_units(ug/l) 0.224
+  3085    science wrote:sci_flbbcd_therm(nodim) 545
+  3085    science wrote:sci_flbbcd_timestamp(timestamp) 1526402467.26655
+  3085    science wrote:sci_water_cond(S/m) 4.05209
+  3085    sc
+
+***<Iridium Output Buffer was full, tossed 23624 chars>***
+
+
+  3109    science wrote:sci_flbbcd_timestamp(timestamp) 1526402498.77961
+  3109    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402499.22742
+  3109    science wrote:sci_water_cond(S/m) 4.05192
+  3110    science wrote:sci_water_pressure(bar) 0.01
+  3110    science wrote:sci_water_temp(degC) 17.6852
+  3110    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3110    science wrote:sci_flbbcd_bb_sig(nodim) 1658
+  3110    science wrote:sci_flbbcd_bb_units(nodim) 0.00315972
+  3110    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3110    science wrote:sci_flbbcd_cdom_sig(nodim) 49
+  3110    science wrote:sci_flbbcd_cdom_units(ppb) 1.377
+  3110    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3110    science wrote:sci_flbbcd_chlor_sig(nodim) 73
+  3110    science wrote:sci_flbbcd_chlor_units(ug/l) 0.182
+  3110    science wrote:sci_flbbcd_therm(nodim) 545
+  3110    science wrote:sci_flbbcd_timestamp(timestamp) 1526402499.91026
+  3110    science wrote:sci_m_present_secs_into_mission(sec) 3102.16723632812
+  3110    science wrote:sci_m_present_time(timestamp) 1526402500.16724
+  3110    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3110    science wrote:sci_flbbcd_bb_sig(nodim) 1771
+  3111    science wrote:sci_flbbcd_bb_units(nodim) 0.003381765
+  3111    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3111    science wrote:sci_flbbcd_cdom_sig(nodim) 57
+  3111    science wrote:sci_flbbcd_cdom_units(ppb) 2.025
+  3111    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3111    science wrote:sci_flbbcd_chlor_sig(nodim) 76
+  3111    science wrote:sci_flbbcd_chlor_units(ug/l) 0.203
+  3111    science wrote:sci_flbbcd_therm(nodim) 545
+  3111    science wrote:sci_flbbcd_timestamp(timestamp) 1526402501.03535
+  3111    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402501.22687
+  3111 88 science wrote:sci_water_cond(S/m) 4.05195
+  3111    science wrote:sci_water_pressure(bar) 0.01
+  3111    science wrote:sci_water_temp(degC) 17.6859
+  3111    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3111    science wrote:sci_flbbcd_bb_sig(nodim) 1626
+  3111    Sent science:s:m_cycle_number(nodim) 489-
+  3112    Sent science:s:m_depth_state(enum) 1-
+  3112    science wrote:sci_flbbcd_bb_units(nodim) 0.00309684
+  3112    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3113    science wrote:sci_flbbcd_cdom_sig(nodim) 47
+  3113    science wrote:sci_flbbcd_cdom_units(ppb) 1.215
+  3113    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3113    science wrote:sci_flbbcd_chlor_sig(nodim) 75
+  3113    science wrote:sci_flbbcd_chlor_units(ug/l) 0.196
+  3113    science wrote:sci_flbbcd_therm(nodim) 545
+  3113    science wrote:sci_flbbcd_timestamp(timestamp) 1526402502.15515
+  3113    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402503.22891
+  3113    science wrote:sci_water_cond(S/m) 4.05211
+  3113    science wrote:sci_water_pressure(bar) 0.01
+  3113    science wrote:sci_water_temp(degC) 17.6902
+  3113    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3113    science wrote:sci_flbbcd_bb_sig(nodim) 1657
+  3113    science wrote:sci_flbbcd_bb_units(nodim) 0.003157755
+  3113    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3113    science wrote:sci_flbbcd_cdom_sig(nodim) 47
+  3113    science wrote:sci_flbbcd_cdom_units(ppb) 1.215
+  3113    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3114    science wrote:sci_flbbcd_chlor_sig(nodim) 74
+  3114    science wrote:sci_flbbcd_chlor_units(ug/l) 0.189
+  3114    science wrote:sci_flbbcd_therm(nodim) 545
+  3114    science wrote:sci_flbbcd_timestamp(timestamp) 1526402503.28474
+  3114    science wrote:sci_m_present_secs_into_mission(sec) 3106.16696166992
+  3114    science wrote:sci_m_present_time(timestamp) 1526402504.16696
+  3114    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3114    science wrote:sci_flbbcd_bb_sig(nodim) 1628
+  3114    science wrote:sci_flbbcd_bb_units(nodim) 0.00310077
+  3114    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3114    science wrote:sci_flbbcd_cdom_sig(nodim) 45
+  3114    science wrote:sci_flbbcd_cdom_units(ppb) 1.053
+  3114    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3114    science wrote:sci_flbbcd_chlor_sig(nodim) 77
+  3114    science wrote:sci_flbbcd_chlor_units(ug/l) 0.21
+  3114    science wrote:sci_flbbcd_therm(nodim) 544
+  3114    science wrote:sci_flbbcd_timestamp(timestamp) 1526402504.41107
+  3114    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402505.22663
+  3115    science wrote:sci_water_cond(S/m) 4.05188
+  3115    science wrote:sci_water_pressure(bar) 0.01
+  3115    science wrote:sci_water_temp(degC) 17.6843
+  3115    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3115    science wrote:sci_flbbcd_bb_sig(nodim) 1561
+  3115    science wrote:sci_flbbcd_bb_units(nodim) 0.002969115
+  3115    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3115    science wrote:sci_flbbcd_cdom_sig(nodim) 38
+  3115    science wrote:sci_flbbcd_cdom_units(ppb) 0.486
+  3115    science w
+
+***<Iridium Output Buffer was full, tossed 18845 chars>***
+
+
+  3140    science wrote:sci_flbbcd_chlor_sig(nodim) 74
+  3140    science wrote:sci_flbbcd_chlor_units(ug/l) 0.189
+  3140    science wrote:sci_flbbcd_therm(nodim) 544
+  3140    science wrote:sci_flbbcd_timestamp(timestamp) 1526402530.29655
+  3140    science wrote:sci_ctd41cp_timestamp(timestamp) 1526402531.22662
+  3140    science wrote:sci_water_cond(S/m) 4.05192
+  3140    science wrote:sci_water_pressure(bar) 0.01
+  3140    science wrote:sci_water_temp(degC) 17.6833
+  3140    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3140    science wrote:sci_flbbcd_bb_sig(nodim) 1525
+  3140    science wrote:sci_flbbcd_bb_units(nodim) 0.002898375
+  3140    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3140    science wrote:sci_flbbcd_cdom_sig(nodim) 52
+  3140    science wrote:sci_flbbcd_cdom_units(ppb) 1.62
+  3140    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+put c_science_on 1
+
+  3142    sensor: c_science_on = 1 bool
+
+
+GliderDos N -1 >
+  3142    NOTE:GPS fix is getting stale: 944 secs old
+
+  3142    GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >get sci_oxy4_oxygen
+ = 251.646000 uM
+
+GliderDos N -1 >get sci_oxy4_saturation
+ = 104.529000 %
+
+GliderDos N -1 >  3243 21 DRIVER_ODDITY:science_super:1800:oxy4_parse_line(): Received a bad output line (non numeric).
+  3243    DRIVER_ODDITY:science_super:1800:    !*	ERROR	SYNTAX ERROR
+  3244 23 DRIVER_ODDITY:science_super:1800:oxy4_run(): Error(1003) parsing:!*	ERROR	SYNTAX ERROR
+  3244    DRIVER_ODDITY:science_super:1800:ERROR from PROGLET oxy4 : 1003
+  3244    DRIVER_ODDITY:science_super:1800:PROGLET oxy4_run() recently generated an error: 1003
+  3245    DRIVER_ODDITY:science_super:1800:       oxy4_run(): 1 error(s) in a row. (5 is fatal)
+  3245    DRIVER_ODDITY:science_super:1800:       oxy4_run(): 2 error(s) since oxy4_begin(). (50 is fatal)
+send 01170001.nlg
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  3270 29 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 1 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES.
+SCI: Sent 1 file(s):
+c:\logs\01170001.NLG
+SCI: SUCCESS
+  3287 33 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: NO TRANSMISSION: the overall list of files is empty
+  3294 34 DRIVER_ODDITY:science_super:1800:oxy4_parse_line(): Received a bad output line (non numeric).
+  3294    DRIVER_ODDITY:science_super:1800:    �*	ERROR	SYNTAX ERROR
+  3294    DRIVER_ODDITY:science_super:1800:oxy4_run(): Error(1003) parsing:�*	ERROR	SYNTAX ERROR
+  3294    DRIVER_ODDITY:science_super:1800:ERROR from PROGLET oxy4 : 1003
+  3294    DRIVER_ODDITY:science_super:1800:PROGLET oxy4_run() recently generated an error: 1003
+  3294    DRIVER_ODDITY:science_super:1800:       oxy4_run(): 1 error(s) in a row. (5 is fatal)
+  3295    DRIVER_ODDITY:science_super:1800:       oxy4_run(): 3 error(s) since oxy4_begin(). (50 is fatal)
+
+
+GliderDos N -1 >send 01170002.nlg 01170003.nlg
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  3314 40 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 2 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES..
+SCI: Sent 2 file(s):
+c:\logs\01170003.NLG  c:\logs\01170002.NLG
+SCI: SUCCESS
+  3341 46 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: NO TRANSMISSION: the overall list of files is empty
+
+
+GliderDos N -1 >  3348 48 DRIVER_ODDITY:science_super:1800:oxy4_parse_line(): Received a bad output line (non numeric).
+  3348    DRIVER_ODDITY:science_super:1800:    !*	ERROR	SYNTAX ERROR
+  3348    DRIVER_ODDITY:science_super:1800:oxy4_run(): Error(1003) parsing:!*	ERROR	SYNTAX ERROR
+  3348    DRIVER_ODDITY:science_super:1800:ERROR from PROGLET oxy4 : 1003
+  3349    DRIVER_ODDITY:science_super:1800:PROGLET oxy4_run() recently generated an error: 1003
+  3349    DRIVER_ODDITY:science_super:1800:       oxy4_run(): 1 error(s) in a row. (5 is fatal)
+  3349    DRIVER_ODDITY:science_super:1800:       oxy4_run(): 4 error(s) since oxy4_begin(). (50 is fatal)
+use
+             name in ALLCAPS means CRITICAL device (* => SUPERCRITICAL)
+                  [I Installed] [- Not_Installed]
+                    [u In_use] [- Not_In_use] [X Out_of_Service]
+             name       limits     stats (#total/#mission/#segment)
+ 0        simdrvr  -
+ 1    test_driver  -
+ 2          ARGOS* I u  -1  20   5  0
+ 3       WATCHDOG  I u  -1  -1  -1  0
+ 4        DEADMAN  I u  -1  20   5  0
+ 5        CONSOLE* I u  -1  20   5  0
+ 6            GPS  I u  -1  20   5  0
+ 7         pinger  -
+ 8       attitude  I u   3  20   5  0
+ 9  attitude_tcm3  -
+10   attitude_rev  -
+11 ocean_pressure  I u   3  20   5  0
+12         vacuum  I u   3  20   5  0
+13        battery  I u   3  20   5  0
+14lithium_battery  -
+15       air_pump  I u   3  20   5  0
+16    pitch_motor  I u   3  20   5  0
+17  science_super  I u   3  20   5  0 [   0   0  0] [   1   1  0] [  43  30 28]
+18     roll_motor  -
+19    fpitch_pump  -
+20      fin_motor  -
+21        digifin  I u   3  20   5  0 [   0   0  0] [   0   0  0] [   1   1  1]
+22      altimeter  I u   3  20   5  0
+23            ctd  -
+24        IRIDIUM* I u  -1  20   5  0 [   0   0  0] [   0   0  0] [  14   6  6]
+25     leakdetect  I u   3  20   5  0
+26       recovery  -
+27        coulomb  -
+28       veh_temp  -
+29          avbot  -
+30  BUOYANCY_PUMP  I u  20 100  10  0 [   0   0  0] [   0   0  0] [  24  18  4]
+31THERMAL_ACC_PRE  -
+32 THERMAL_ENGINE  -
+33   THERMAL_PUMP  -
+34        DE_PUMP  -
+devices:(t/m/s) errs:   0/   0/   0 warn:   1/   1/   0 odd:  82/  55/  39
+
+
+GliderDos N -1 >get sci_oxy4_oxygen
+ = 251.949000 uM
+
+GliderDos N -1 >use - science_super
+
+  SCIENCE_SUPER:ok
+Exiting all devices ...
+  3435 70 disabling Iridium cons

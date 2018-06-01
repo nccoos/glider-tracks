@@ -1,0 +1,28 @@
+Connection Event: Carrier Detect found.253.56    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 14:20:54 2018 MT:     253
+DR  Location:  3550.527 N -7523.706 E measured     49.659 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3504.141 N -7542.246 E measured    101.259 secs ago
+GPS Location:  3550.527 N -7523.706 E measured     53.689 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=15.3773897684812         4.388 secs ago
+   sensor:m_gps_lat(lat)=3550.5269                 54.023 secs ago
+   sensor:m_gps_lon(lon)=-7523.7059                54.065 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        20.84 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          49.089 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.682 secs ago
+   sensor:m_mission_start_time(timestamp)=1526393801     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526394054.11142      1.407 secs ago
+   sensor:m_tot_num_inflections(nodim)=28353      173.711 secs ago
+   sensor:m_vacuum(inHg)=7.24582176434676             4.8 secs ago
+   sensor:m_water_vx(m/s)=0                        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0                        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+254.55    No login script found for processing.
+
+
+GliderDos N -1 >

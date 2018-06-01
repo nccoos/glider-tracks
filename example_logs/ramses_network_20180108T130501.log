@@ -1,0 +1,50 @@
+Connection Event: Carrier Detect found.  5991    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 13:05:03 2018 MT:    5990
+DR  Location:  3503.929 N -7543.490 E measured      45.43 secs ago
+GPS TooFar:    3505.625 N -7540.490 E measured     1e+308 secs ago
+GPS Invalid :  3503.964 N -7543.503 E measured    320.235 secs ago
+GPS Location:  3503.929 N -7543.490 E measured     48.376 secs ago
+   sensor:c_wpt_lat(lat)=3504.20190004932         5476.69 secs ago
+   sensor:c_wpt_lon(lon)=-7543.69730000045        5476.73 secs ago
+   sensor:m_battery(volts)=12.0292425212555          4.31 secs ago
+   sensor:m_gps_lat(lat)=3503.9291                 48.693 secs ago
+   sensor:m_gps_lon(lon)=-7543.4896                48.734 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       12.671 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49996947496947     44.935 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.604 secs ago
+   sensor:m_mission_start_time(timestamp)=1515410712     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515416702.48108      1.385 secs ago
+   sensor:m_tot_num_inflections(nodim)=28329      5799.18 secs ago
+   sensor:m_vacuum(inHg)=8.59874706959706           4.718 secs ago
+   sensor:m_water_vx(m/s)=0.156231105397101        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0.0847489451242281       1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3504.20190004932    5483.16 secs ago
+   sensor:x_last_wpt_lon(lon)=-7543.69730000045    5483.19 secs ago
+ABORT HISTORY: total since reset: 6
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T10:59:22
+ABORT HISTORY: last abort segment: ramses-2018-007-1-2 (0097.0002)
+ABORT HISTORY: last abort mission: lastgasp.mi
+  5992    No login script found for processing.
+get u_max_time_in_gliderdos
+ = 900.000000 sec
+
+GliderDos N -1 >put u_max_time_in_gliderdos 7200
+
+  6063 48 sensor: u_max_time_in_gliderdos = 7200 sec
+
+
+GliderDos N -1 >  6410 33 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:255.8817 C_su:233.0000
+:OOD:   delta:22.8817 LIMIT:20.0000 over:2.8817
+callback 20
+
+I am going to hangup the Iridium!
+I will call you back in 20 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 >  6654 93 disabl

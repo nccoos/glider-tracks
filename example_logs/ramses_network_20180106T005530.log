@@ -1,0 +1,104 @@
+Connection Event: Carrier Detect found.722198    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Sat Jan  6 00:55:26 2018 MT:  722207
+DR  Location:  3504.033 N -7541.707 E measured     48.635 secs ago
+GPS TooFar:    3505.625 N -7540.490 E measured     140500 secs ago
+GPS Invalid :  3504.277 N -7541.788 E measured    130.536 secs ago
+GPS Location:  3504.033 N -7541.707 E measured     50.108 secs ago
+   sensor:c_wpt_lat(lat)=3504.297                 10787.1 secs ago
+   sensor:c_wpt_lon(lon)=-7544.832                10787.2 secs ago
+   sensor:m_battery(volts)=12.4665246762588         7.008 secs ago
+   sensor:m_gps_lat(lat)=3504.0331                 50.542 secs ago
+   sensor:m_gps_lon(lon)=-7541.7068                50.613 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5         12.2 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5           7.185 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      7.229 secs ago
+   sensor:m_mission_start_time(timestamp)=1514477928     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515200123.30838      3.557 secs ago
+   sensor:m_tot_num_inflections(nodim)=27454      337.184 secs ago
+   sensor:m_vacuum(inHg)=8.2542325091575           70.935 secs ago
+   sensor:m_water_vx(m/s)=0.137564963231146       116.347 secs ago
+   sensor:m_water_vy(m/s)=0.0720510333345598      116.399 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3505.653             121711 secs ago
+   sensor:x_last_wpt_lon(lon)=-7541.742            121711 secs ago
+ABORT HISTORY: total since reset: 3
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2017-12-28T16:16:53
+ABORT HISTORY: last abort segment: ramses-2017-356-0-91 (0094.0091)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+722199    No login script found for processing.
+722199    DRIVER_ODDITY:iridium:1561:xxx_ctrl() ran too long
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2017-361-0-135 (0095.0135)
+Vehicle Name: ramses
+Curr Time: Sat Jan  6 00:55:40 2018 MT:  722224
+DR  Location:  3504.033 N -7541.707 E measured     62.681 secs ago
+GPS TooFar:    3505.625 N -7540.490 E measured     140514 secs ago
+GPS Invalid :  3504.277 N -7541.788 E measured    144.579 secs ago
+GPS Location:  3504.033 N -7541.707 E measured     64.153 secs ago
+   sensor:c_wpt_lat(lat)=3504.297                 10801.1 secs ago
+   sensor:c_wpt_lon(lon)=-7544.832                10801.2 secs ago
+   sensor:m_battery(volts)=12.4665246762588        20.976 secs ago
+   sensor:m_gps_lat(lat)=3504.0331                 64.476 secs ago
+   sensor:m_gps_lon(lon)=-7541.7068                64.519 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       26.092 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          21.058 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.628 secs ago
+   sensor:m_mission_start_time(timestamp)=1514477928     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515200139.93845      0.775 secs ago
+   sensor:m_tot_num_inflections(nodim)=27454      351.019 secs ago
+   sensor:m_vacuum(inHg)=8.2542325091575           84.751 secs ago
+   sensor:m_water_vx(m/s)=0.137564963231146       130.146 secs ago
+   sensor:m_water_vy(m/s)=0.0720510333345598      130.186 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3505.653             121725 secs ago
+   sensor:x_last_wpt_lon(lon)=-7541.742            121725 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   8/   0/   0 odd:6407/   6/   6
+ABORT HISTORY: total since reset: 3
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2017-12-28T16:16:53
+ABORT HISTORY: last abort segment: ramses-2017-356-0-91 (0094.0091)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations waiting for final gps fix(ideally -54 secs)
+Waypoint: (3504.2970,-7544.8320) Range: 4774m, Bearing: 289deg, Age: 33:48h:m
+Time until diving is: 233 secs
+s *.sbd *.tbd
+
+--------------------------------
+722228  6 00950135.mlg LOG FILE CLOSED
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+722237  9 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: NOTICE: file list truncated from 30 to 2 files due to implicit time limit
+SCI: About to send 2 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�

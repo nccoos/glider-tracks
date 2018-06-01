@@ -1,0 +1,187 @@
+Connection Event: Carrier Detect found.  6840    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 19:42:00 2018 MT:    6839
+DR  Location:  3502.925 N -7542.649 E measured     44.254 secs ago
+GPS TooFar:    3503.732 N -7543.414 E measured     1e+308 secs ago
+GPS Invalid :  3503.104 N -7542.675 E measured    196.174 secs ago
+GPS Location:  3502.925 N -7542.649 E measured     46.037 secs ago
+   sensor:c_wpt_lat(lat)=3503.21460004927         5572.35 secs ago
+   sensor:c_wpt_lon(lon)=-7542.79910000044         5572.4 secs ago
+   sensor:m_battery(volts)=11.9817323105278         4.398 secs ago
+   sensor:m_gps_lat(lat)=3502.9249                 46.449 secs ago
+   sensor:m_gps_lon(lon)=-7542.6493                46.503 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       12.824 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5         2263.78 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.787 secs ago
+   sensor:m_mission_start_time(timestamp)=1515433680     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515440519.57242      1.665 secs ago
+   sensor:m_tot_num_inflections(nodim)=28343      2436.57 secs ago
+   sensor:m_vacuum(inHg)=8.66525268620269           4.942 secs ago
+   sensor:m_water_vx(m/s)=0.186206511466521       2301.56 secs ago
+   sensor:m_water_vy(m/s)=0.0764963531789766      2301.62 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3503.21460004927    5578.98 secs ago
+   sensor:x_last_wpt_lon(lon)=-7542.79910000044    5579.03 secs ago
+ABORT HISTORY: total since reset: 9
+ABORT HISTORY: last abort cause: MS_ABORT_USER_INTERRUPT
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-01-08T19:18:57
+ABORT HISTORY: last abort segment: ramses-2018-007-6-6 (0102.0006)
+ABORT HISTORY: last abort mission: lastgasp.mi
+  6841    No login script found for processing.
+
+  6917 18 GliderDos: No keystroke heard for 300 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos A 11 >
+
+GliderDos A 11 >
+
+GliderDos A 11 >run shelf_30.mi
+
+Starting Mission: SHELF_30.MI
+The instantaneous lag time between the system and gps clock is 0.0 seconds.
+The average lag time between the system and gps clock is -0.7 seconds.
+timestamp: Mon Jan  8 19:47:32 2018
+load_mission(): Opening Mission file: SHELF_30.MI
+Setting SENSOR u_use_current_correction(nodim) = 1.000000
+Setting SENSOR c_science_send_all(bool) = 0.000000
+Setting SENSOR c_science_all_on_enabled(bool) = 0.000000
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 19:47:33 2018 MT:    7171
+DR  Location:  3502.926 N -7542.648 E measured    109.978 secs ago
+GPS TooFar:    3503.732 N -7543.414 E measured     1e+308 secs ago
+GPS Invalid :  3503.104 N -7542.675 E measured    529.198 secs ago
+GPS Location:  3502.925 N -7542.649 E measured    379.063 secs ago
+   sensor:c_wpt_lat(lat)=3503.21460004927         5905.38 secs ago
+   sensor:c_wpt_lon(lon)=-7542.79910000044        5905.43 secs ago
+   sensor:m_battery(volts)=11.9739129599771         1.614 secs ago
+   sensor:m_gps_lat(lat)=3502.9249                379.473 secs ago
+   sensor:m_gps_lon(lon)=-7542.6493               379.529 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      345.847 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          2596.8 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      2.012 secs ago
+   sensor:m_mission_start_time(timestamp)=1515433680     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515440851.30988      2.949 secs ago
+   sensor:m_tot_num_inflections(nodim)=28343      2769.59 secs ago
+   sensor:m_vacuum(inHg)=8.65365286935286           2.154 secs ago
+   sensor:m_water_vx(m/s)=0.186206511466521       2634.59 secs ago
+   sensor:m_water_vy(m/s)=0.0764963531789766      2634.64 secs ago
+   sensor:u_use_current_correction(nodim)=1         1.803 secs ago
+   sensor:x_last_wpt_lat(lat)=3503.21460004927    5912.01 secs ago
+   sensor:x_last_wpt_lon(lon)=-7542.79910000044    5912.06 secs ago
+start_alldevices()
+
+PARSED iridium_phone_data for datum# 0: ===========
+   predial initialization cmds (from c:\config\iridinit.0):
+      ATE
+      AT+cbst=6,0,1
+      AT+CSQ
+   dial string: ATD00881600005168
+      from sensors:
+         C_IRIDIUM_LEAD_ZEROS
+         C_IRIDIUM_PHONE_NUM
+   Iridium login script (from c:\config\loginexp.0):   empty or non-existent
+
+PARSED iridium_phone_data for datum# 1: ===========
+   predial initialization cmds (from c:\config\iridinit.1):
+      ATE
+      AT+cbst=6,0,1
+      AT+CSQ
+   dial string: ATD0015085482446
+      from sensors:
+         C_IRIDIUM_LEAD_ZEROS_ALT
+         C_IRIDIUM_PHONE_NUM_ALT
+   Iridium login script (from c:\config\loginexp.1):   empty or non-existent
+ 72.72  3 01030000.mlg LOG FILE OPENED
+MissionSTARTDate: 08 Jan 2018 19:47:34 Z
+Mission Name:   SHELF_30.MI
+Mission Number: ramses-2018-007-7-0 (0103.0000)
+log_c_stack():
+  1-abend           2-surface         3-surface         4-surface         5-surface         
+  6-surface         7-surface         8-goto_list       9-yo              10-sample          
+  11-sample          12-sample          13-prepare_to_dive 14-sensors_in      
+report_heap_size(): M_FREE_HEAP=226.0K,  M_SPARE_HEAP=207.0K
+pre_mission_init():End of Initialization
+ 82.35  4 behavior sensors_in_14: STATE UnInited -> Active
+ 82.41    behavior sensors_in_14: argument: c_att_time = -1.000000 sec
+ 82.47    behavior sensors_in_14: argument: c_pressure_time = -1.000000 sec
+ 82.54    behavior sensors_in_14: argument: c_alt_time = -1.000000 sec
+ 82.60    behavior sensors_in_14: argument: u_battery_time = -1.000000 sec
+ 82.67    behavior sensors_in_14: argument: u_vacuum_time = -1.000000 sec
+ 82.74    behavior sensors_in_14: argument: c_leakdetect_time = -1.000000 sec
+ 82.80    behavior sensors_in_14: argument: c_gps_on = 0.000000 bool
+ 82.86    behavior sensors_in_14: argument: c_science_all_on = -1.000000 sec
+ 82.93    behavior sensors_in_14: argument: c_profile_on = -1.000000 sec
+ 83.00    behavior sensors_in_14: argument: c_hs2_on = -1.000000 sec
+ 83.06    behavior sensors_in_14: argument: c_bb2f_on = -1.000000 sec
+ 83.12    behavior sensors_in_14: argument: c_bb2c_on = -1.000000 sec
+ 83.19    behavior sensors_in_14: argument: c_bb2lss_on = -1.000000 sec
+ 83.25    behavior sensors_in_14: argument: c_sam_on = -1.000000 sec
+ 83.32    behavior sensors_in_14: argument: c_whpar_on = -1.000000 sec
+ 83.38    behavior sensors_in_14: argument: c_whgpbm_on = -1.000000 sec
+ 83.45    behavior sensors_in_14: argument: c_motebb_on = -1.000000 sec
+ 83.51    behavior sensors_in_14: argument: c_bbfl2s_on = -1.000000 sec
+ 83.58    behavior sensors_in_14: argument: c_fl3slo_on = -1.000000 sec
+ 83.64    behavior sensors_in_14: argument: c_bb3slo_on = -1.000000 sec
+ 83.71    behavior sensors_in_14: argument: c_oxy3835_on = -1.000000 sec
+ 83.78    behavior sensors_in_14: argument: c_whfctd_on = -1.000000 sec
+ 83.84    behavior sensors_in_14: argument: c_bam_on = -1.000000 sec
+ 83.92    behavior sensors_in_14: argument: c_ocr504R_on = -1.000000 sec
+ 83.99    behavior sensors_in_14: argument: c_ocr504I_on = -1.000000 sec
+ 84.05    behavior sensors_in_14: argument: c_flntu_on = -1.000000 sec
+ 84.12    behavior sensors_in_14: argument: c_fl3slov2_on = -1.000000 sec
+ 84.18    behavior sensors_in_14: argument: c_bb3slov2_on = -1.000000 sec
+ 84.25    behavior sensors_in_14: argument: c_ocr507R_on = -1.000000 sec
+ 84.31    behavior sensors_in_14: argument: c_ocr507I_on = -1.000000 sec
+ 84.38    behavior sensors_in_14: argument: c_bb3slov3_on = -1.000000 sec
+ 84.44    behavior sensors_in_14: argument: c_bb2fls_on = -1.000000 sec
+ 84.51    behavior sensors_in_14: argument: c_bb2flsV2_on = -1.000000 sec
+ 84.57    behavior sensors_in_14: argument: c_oxy3835_wphase_on = -1.000000 sec
+ 84.64    behavior sensors_in_14: argument: c_auvb_on = -1.000000 sec
+ 84.71    behavior sensors_in_14: argument: c_bb2fV2_on = -1.000000 sec
+ 84.77    behavior sensors_in_14: argument: c_tarr_on = -1.000000 sec
+ 84.84    behavior sensors_in_14: argument: c_bbfl2sV2_on = -1.000000 sec
+ 84.90    behavior sensors_in_14: argument: c_glbps_on = -1.000000 sec
+ 84.97    behavior sensors_in_14: argument: c_sscsd_on = -1.000000 sec
+ 85.03    behavior sensors_in_14: argument: c_bb2flsV3_on = -1.000000 sec
+ 85.10    behavior sensors_in_14: argument: c_fire_on = -1.000000 sec
+ 85.16    behavior sensors_in_14: argument: c_ohf_on = -1.000000 sec
+ 85.22    behavior sensors_in_14: argument: c_bb2flsV4_on = -1.000000 sec
+ 85.29    behavior sensors_in_14: argument: c_bb2flsV5_on = -1.000000 sec
+ 85.36    behavior sensors_in_14: argument: c_logger_on = -1.000000 sec
+ 85.42    behavior sensors_in_14: argument: c_bbam_on = -1.000000 sec
+ 85.49    behavior sensors_in_14: argument: c_uModem_on = -1.000000 sec
+ 85.56    behavior sensors_in_14: argument: c_rinkoII_on = -1.000000 sec
+ 85.62    behavior sensors_in_14: argument: c_dvl_on = -1.000000 sec
+ 85.68    behavior sensors_in_14: argument: c_bb2flsV6_on = -1.000000 sec
+ 85.75    behavior sensors_in_14: argument: c_flbbrh_on = -1.000000 sec
+ 85.82    behavior sensors_in_14: argument: c_flur_on = -1.000000 sec
+ 85.88    behavior sensors_in_14: argument: c_bb2flsV7_on = -1.000000 sec
+ 85.95    behavior sensors_in_14: argument: c_flbbcd_on = -1.000000 sec
+ 86.01    behavior sensors_in_14: argument: c_dmon_on = -1.000000 sec
+ 86.07    behavior sensors_in_14: argument: c_c3sfl_on = -1.000000 sec
+ 86.14    behavior sensors_in_14: argument: c_suna_on = -1.000000 sec
+ 86.20    behavior sensors_in_14: argument: c_satpar_on = -1.000000 sec
+ 86.27    behavior sensors_in_14: argument: c_vsf_on = -1.000000 sec
+ 86.33    behavior sensors_in_14: argument: c_oxy4_on = -1.000000 sec
+ 86.40    behavior sensors_in_14: argument: c_gamma_rad5_on = -1.000000 sec
+ 86.46    behavior sensors_in_14: argument: c_bsipar_on = -1.000000 sec
+ 86.53    behavior sensors_in_14: argument: c_flbb_on = -1.000000 sec
+ 86.59    behavior sensors_in_14: argument: c_vr2c_on = -1.000000 sec
+ 86.66    behavior sensors_in_14: argument: c_ctd41cp2_on = -1.000000 sec
+ 86.77    behavior prepare_to_dive_13: STATE UnInited -> Waiting for Activation
+ 86.83    behavior prepare_to_dive_13: argument: args_from_file = -1.000000 enum
+ 86.90    behavior prepare_to_dive_13: argument: start_when = 0.000000 enum
+ 86.96    behavior prepare_to_dive_13: argument: wait_time = 720.000000 sec
+ 87.03    behavior prepare_to_dive_13: argument: max_thermal_charge_time = 120.000000 sec
+ 87.10    behavior prepare_to_dive_13: argument: max_pumping_charge_time = 1000.000000 sec
+ 87.18    behavior prepare_to_dive_13: STATE Waiting for Activation -> Active
+ 87.24    init_gps_input()
+ 87.27    behavior prepare_to_dive_13: SUBSTATE 0 UnInited->1 : Waiting for initial GPS fix
+ 87.35    behavior sample_12: sample(): reading bargs
+ 87.40    behavior sample_12: Reading b_args from sample30.ma
+ 87.50    behavior sample_12: sensor_type(enum)=48.000000
+ 88.24    behavior sample_12: state_to_sample(enum)=7.000000
+ 88.49    behavior sample_12: sample_time_after_state_change(s)=0.000000
+ 88.57    behavior sample_12: intersample_time(s)=3.000000

@@ -1,0 +1,39 @@
+Connection Event: Carrier Detect found. 48158    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Wed Jan 10 06:52:30 2018 MT:   48157
+DR  Location:  3501.758 N -7530.743 E measured     41.345 secs ago
+GPS TooFar:    3501.499 N -7531.577 E measured     3653.4 secs ago
+GPS Invalid :  3501.630 N -7531.185 E measured     1815.6 secs ago
+GPS Location:  3501.758 N -7530.743 E measured     45.397 secs ago
+   sensor:c_wpt_lat(lat)=3501.15050004916         47840.6 secs ago
+   sensor:c_wpt_lon(lon)=-7536.52020000037        47840.7 secs ago
+   sensor:m_battery(volts)=11.9982306576385         4.297 secs ago
+   sensor:m_gps_lat(lat)=3501.7577                 45.707 secs ago
+   sensor:m_gps_lon(lon)=-7530.7433                45.748 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       12.607 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          20.584 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.595 secs ago
+   sensor:m_mission_start_time(timestamp)=1515518992     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515567149.85229      1.374 secs ago
+   sensor:m_tot_num_inflections(nodim)=28352      48046.2 secs ago
+   sensor:m_vacuum(inHg)=7.82271932234433           4.707 secs ago
+   sensor:m_water_vx(m/s)=0                        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0                        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.15050004916    47850.4 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.52020000037    47850.5 secs ago
+ABORT HISTORY: total since reset: 2
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The buoyancy_pump device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-09T17:07:13
+ABORT HISTORY: last abort segment: ramses-2018-008-3-0 (0108.0000)
+ABORT HISTORY: last abort mission: INI0.MI
+ 48159    No login script found for processing.
+callback 30
+
+I am going to hangup the Iridium!
+I will call you back in 30 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 > 48178 92 disabling Irid

@@ -1,0 +1,265 @@
+Connection Event: Carrier Detect found.476845    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Mon May 21 05:28:21 2018 MT:  476844
+DR  Location:  3538.104 N -7459.688 E measured     38.893 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     436347 secs ago
+GPS Invalid :  3538.055 N -7459.625 E measured    146.928 secs ago
+GPS Location:  3538.104 N -7459.688 E measured     41.297 secs ago
+   sensor:c_wpt_lat(lat)=3536.44812               33088.4 secs ago
+   sensor:c_wpt_lon(lon)=-7459.6208               33088.5 secs ago
+   sensor:m_battery(volts)=13.6252330417753        51.221 secs ago
+   sensor:m_gps_lat(lat)=3538.1035                 41.722 secs ago
+   sensor:m_gps_lon(lon)=-7459.6878                41.793 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       10.819 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          51.397 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.797 secs ago
+   sensor:m_mission_start_time(timestamp)=1526403656     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526880500.44626      1.766 secs ago
+   sensor:m_tot_num_inflections(nodim)=29583      202.371 secs ago
+   sensor:m_vacuum(inHg)=8.3365912087912           51.785 secs ago
+   sensor:m_water_vx(m/s)=-0.0572571561551147      50.254 secs ago
+   sensor:m_water_vy(m/s)=0.192233144321345        50.307 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3538.33721          33089.5 secs ago
+   sensor:x_last_wpt_lon(lon)=-7458.9906          33089.6 secs ago
+476846    No login script found for processing.
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-134-6-91 (0118.0091)
+Vehicle Name: ramses
+Curr Time: Mon May 21 05:28:44 2018 MT:  476868
+DR  Location:  3538.104 N -7459.688 E measured     62.093 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     436371 secs ago
+GPS Invalid :  3538.055 N -7459.625 E measured    170.125 secs ago
+GPS Location:  3538.104 N -7459.688 E measured     64.494 secs ago
+   sensor:c_wpt_lat(lat)=3536.44812               33111.6 secs ago
+   sensor:c_wpt_lon(lon)=-7459.6208               33111.6 secs ago
+   sensor:m_battery(volts)=13.6133969170849        12.976 secs ago
+   sensor:m_gps_lat(lat)=3538.1035                 64.816 secs ago
+   sensor:m_gps_lon(lon)=-7459.6878                64.857 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       33.871 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49993894993895     13.056 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      3.171 secs ago
+   sensor:m_mission_start_time(timestamp)=1526403656     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526880524.44467      0.775 secs ago
+   sensor:m_tot_num_inflections(nodim)=29583      225.364 secs ago
+   sensor:m_vacuum(inHg)=8.3365912087912            74.76 secs ago
+   sensor:m_water_vx(m/s)=-0.0572571561551147      73.218 secs ago
+   sensor:m_water_vy(m/s)=0.192233144321345        73.257 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3538.33721          33112.4 secs ago
+   sensor:x_last_wpt_lon(lon)=-7458.9906          33112.5 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   3/   2/   0 odd:1391/1298/   1
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3536.4481,-7459.6208) Range: 3062m, Bearing: 191deg, Age: 9:11h:m
+Time until diving is: 229 secs
+s *.sbd *.tbd
+
+--------------------------------
+476884 15 01180091.mlg LOG FILE CLOSED
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+476893 19 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 2 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES..
+SCI: Sent 2 file(s):
+c:\logs\01180091.TBD  c:\logs\01180090.TBD
+SCI: SUCCESS
+477155 80 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: About to send 2 files
+Prechecking is not necessary for this invocation
+477157    save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+477157    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�77313    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+477313    restore_sensors()....
+477313    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+SHUFFLING FILES..
+GLD: Sent 2 file(s):
+c:\logs\01180091.SBD  c:\logs\01180090.SBD
+GLD: SUCCESS
+477321 83 SCI:PROGLET house_elf begin() called
+477321    SCI:   house_elf: Version 1.2
+477321    SCI:PROGLET ctd41cp begin() called
+477322    SCI:   ctd41cp: Version 0.2
+477322    SCI:     ctd41cp:  Will be sending the following data to glider:
+477322    SCI:           sci_water_cond(s/m)
+477322    SCI:           sci_water_temp(degc)
+477322    SCI:           sci_water_pressure(bar)
+477322    SCI:           sci_ctd41cp_timestamp(timestamp)
+477322    SCI:PROGLET oxy4 begin() called
+477322    SCI:   oxy4: Version 0.0
+477322    SCI:     oxy4:  Will be sending following data to glider:
+477322    SCI:           sci_oxy4_oxygen(um)
+477323    SCI:           sci_oxy4_saturation(%)
+477323    SCI:           sci_oxy4_temp(degc)
+477323    SCI:           sci_oxy4_calphase(deg)
+477323    SCI:           sci_oxy4_tcphase(deg)
+477323    SCI:           sci_oxy4_c1rph(deg)
+477323    SCI:           sci_oxy4_c2rph(deg)
+477323    SCI:           sci_oxy4_c1amp(mv)
+477323    SCI:           sci_oxy4_c2amp(mv)
+477323    SCI:           sci_oxy4_rawtemp(mv)
+477323    SCI:           sci_oxy4_timestamp(timestamp)
+477323    SCI:  Opening Bit(34) for output
+477324 84 SCI:PROGLET flbbcd begin() called
+477324    SCI:   flbbcd: Version 0.0
+477324    SCI:     flbbcd:  Will be sending following data to glider:
+477325    SCI:           sci_flbbcd_chlor_units(ug/l)
+477325    SCI:           sci_flbbcd_bb_units(nodim)
+477325    SCI:           sci_flbbcd_cdom_units(ppb)
+477325    SCI:           sci_flbbcd_chlor_sig(nodim)
+477325    SCI:           sci_flbbcd_bb_sig(nodim)
+477325    SCI:           sci_flbbcd_cdom_sig(nodim)
+477325    SCI:           sci_flbbcd_chlor_ref(nodim)
+477325    SCI:           sci_flbbcd_bb_ref(nodim)
+477326    SCI:           sci_flbbcd_cdom_ref(nodim)
+477326    SCI:           sci_flbbcd_therm(nodim)
+477326    SCI:           sci_flbbcd_timestamp(timestamp)
+477326    SCI:  Opening Bit(29) for output
+477332 85 SCI:PROGLET house_elf start() called
+477333    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+477333    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+477393 87 01180092.mlg LOG FILE OPENED
+
+--------------------------------
+477393    behavior surface_7: SUBSTATE 7 ->7 : After data transmission, waiting for control-C to exit/resume
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-134-6-92 (0118.0092)
+Vehicle Name: ramses
+Curr Time: Mon May 21 05:37:33 2018 MT:  477397
+DR  Location:  3538.104 N -7459.688 E measured    591.234 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     436900 secs ago
+GPS Invalid :  3538.055 N -7459.625 E measured    699.268 secs ago
+GPS Location:  3538.104 N -7459.688 E measured    593.637 secs ago
+   sensor:c_wpt_lat(lat)=3536.44812               33640.7 secs ago
+   sensor:c_wpt_lon(lon)=-7459.6208               33640.7 secs ago
+   sensor:m_battery(volts)=13.6145422070614          3.16 secs ago
+   sensor:m_gps_lat(lat)=3538.1035                593.958 secs ago
+   sensor:m_gps_lon(lon)=-7459.6878                   594 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      563.015 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5           3.104 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1       3.14 secs ago
+   sensor:m_mission_start_time(timestamp)=1526403656     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526881053.58624      0.778 secs ago
+   sensor:m_tot_num_inflections(nodim)=29583      754.509 secs ago
+   sensor:m_vacuum(inHg)=8.32808467643467            3.57 secs ago
+   sensor:m_water_vx(m/s)=-0.0572571561551147     602.362 secs ago
+   sensor:m_water_vy(m/s)=0.192233144321345       602.399 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3538.33721          33641.5 secs ago
+   sensor:x_last_wpt_lon(lon)=-7458.9906          33641.6 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   3/   2/   0 odd:1405/1312/  15
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3536.4481,-7459.6208) Range: 3062m, Bearing: 191deg, Age: 9:20h:m
+Time until diving is: 295 secs
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:252.0907 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:9.0907
+477403 88 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+477409 89 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:252.0907 C_su:233.0000
+:OOD:   delta:19.0907 limit:10.0000 over:9.0907
+^R477413 90 behavior surface_7: User typed Control-R, resuming
+
+
+   I heard a Control-R
+   RESUMING MISSION
+
+Megabytes used      on CF file system = 113.343750
+Megabytes available on CF file system = 1887.593750
+477417    01180092.mlg LOG FILE CLOSED
+Doing system wide housekeeping.......
+report_heap_size(): M_FREE_HEAP=259.0K,  M_SPARE_HEAP=240.0K
+Running algorithm to free disk space if required
+Not necessary to delete any files at this time
+Writing longterm state disk file: c:/state/longterm.sta
+   c_iridium_phone_num(digits) 881600005168.000000
+   f_ocean_pressure_min(volts) 0.212973
+   m_avg_climb_rate(m/s) -0.105576
+   m_avg_speed(m/s) 0.183140
+   m_avg_upward_inflection_time(sec) 11.545826
+   m_battery(volts) 13.614542
+   m_coulomb_amphr_total(amp-hrs) 0.000000
+   m_iridium_call_num(nodim) 1057.000000
+   m_iridium_dialed_num(nodim) 2201.000000
+   m_lat(lat) 3538.103500
+   m_lon(lon) -7459.687800
+   m_tot_ballast_pumped_energy(kjoules) 1570.306330
+   m_tot_horz_dist(km) 1200.945491
+   m_tot_num_inflections(nodim) 29583.000000
+   s_water_depth_avg(m) 200.000000
+   s_water_depth_delta(m) 0.000000
+   s_water_depth_wavelength(m) 100.000000
+   x_hover_ballast_deep(cc) 0.000000
+   x_hover_ballast_shallow(cc) 0.000000
+   x_hover_depth_deep(m) 0.000000
+   x_hover_depth_shallow(m) 0.000000
+   x_last_wpt_lat(lat) 3538.337210
+   x_last_wpt_lon(lon) -7458.990600
+The instantaneous lag time between the system and gps clock is -7.0 seconds.
+The average lag time between the system and gps clock is -7.1 seconds.
+Housekeeping is done
+477489 95 01180093.mlg LOG FILE OPENED
+Megabytes used      on CF file system = 113.468750
+Megabytes available on CF file system = 1887.468750
+477491    init_gps_input()
+477491    behavior surface_7: SUBSTATE 7 ->9 : Waiting for final gps fix
+surface_7: Waiting

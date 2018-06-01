@@ -1,0 +1,82 @@
+Connection Event: Carrier Detect found. 13065    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue Jan  9 21:07:37 2018 MT:   13064
+DR  Location:  3501.602 N -7534.951 E measured    1098.93 secs ago
+GPS TooFar:    3501.602 N -7534.951 E measured    2852.69 secs ago
+GPS Invalid :  3501.453 N -7535.568 E measured    6601.34 secs ago
+GPS Location:  3501.602 N -7534.951 E measured    1102.08 secs ago
+   sensor:c_wpt_lat(lat)=3501.15050004916         12747.4 secs ago
+   sensor:c_wpt_lon(lon)=-7536.52020000037        12747.5 secs ago
+   sensor:m_battery(volts)=12.0013076899151         4.353 secs ago
+   sensor:m_gps_lat(lat)=3501.6021                1102.39 secs ago
+   sensor:m_gps_lon(lon)=-7534.9512               1102.43 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       16.725 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49996947496947     20.668 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.646 secs ago
+   sensor:m_mission_start_time(timestamp)=1515518992     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515532056.66052      1.373 secs ago
+   sensor:m_tot_num_inflections(nodim)=28352        12953 secs ago
+   sensor:m_vacuum(inHg)=7.93949081196581           4.763 secs ago
+   sensor:m_water_vx(m/s)=0                        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0                        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.15050004916    12757.2 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.52020000037    12757.3 secs ago
+ABORT HISTORY: total since reset: 2
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The buoyancy_pump device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-09T17:07:13
+ABORT HISTORY: last abort segment: ramses-2018-008-3-0 (0108.0000)
+ABORT HISTORY: last abort mission: INI0.MI
+ 13066    No login script found for processing.
+send *.tbd
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+ 13172 21 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: NOTICE: file list truncated from 30 to 2 files due to implicit time limit
+SCI: About to send 2 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES..
+SCI: Sent 2 file(s):
+c:\logs\00950115.TBD  c:\logs\00950114.TBD
+SCI: SUCCESS
+ 13841 78 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: NO TRANSMISSION: the overall list of files is empty
+
+
+GliderDos N -1 >
+ 13850 80 NOTE:GPS fix is getting stale: 1887 secs old
+
+GliderDos N -1 >logging on
+
+ 13982 98 01090002.mlg LOG FILE OPENED
+Logging during GliderDos initiated:ramses-2018-008-4-2 (0109.0002)
+
+
+GliderDos N -1 >
+
+GliderDos N -1 >get sci_water_temp
+ = 16.463000 degC
+
+GliderDos N -1 >callback 15
+
+I am going to hangup the Iridium!
+I will call you back in 15 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 > 14054 14 disabling Iridium console...

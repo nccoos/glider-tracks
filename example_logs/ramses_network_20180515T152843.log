@@ -1,0 +1,34 @@
+Connection Event: Carrier Detect found. 91.05    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 15:28:58 2018 MT:      90
+DR  Location:  3550.951 N -7523.251 E measured     1e+308 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3550.832 N -7523.415 E measured     1e+308 secs ago
+GPS Location:  3550.946 N -7523.253 E measured     1e+308 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=15.276555961272         41.959 secs ago
+   sensor:m_gps_lat(lat)=3550.9463                 1e+308 secs ago
+   sensor:m_gps_lon(lon)=-7523.2526                1e+308 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       16.754 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          42.006 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1       6.56 secs ago
+   sensor:m_mission_start_time(timestamp)=1526398047     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526398137.03744      2.332 secs ago
+   sensor:m_tot_num_inflections(nodim)=28358       42.104 secs ago
+   sensor:m_vacuum(inHg)=5.76491181318681          42.651 secs ago
+   sensor:m_water_vx(m/s)=0.457107787444098        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0.211566434872196        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+ 92.64    No login script found for processing.
+ 92.68    DRIVER_ODDITY:iridium:1751:xxx_ctrl() ran too long
+surface_2: Waiting for sensors to report.
+surface_2: Waiting for sensors to report.
+104.28 12 sensor: m_water_pressure = 0.007 bar
+107.27 13 ERROR behavior surface_2: Timed out waiting for input sensors:
+107.34    ERROR behavior surface_2:    Sensor NOT reporting: m_raw_altitude
+107.41    behavior surface_2: SUBSTATE 2 ->3 : waiting for GPS fix
+107.48    init_gps_input()
+surface_2:

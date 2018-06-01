@@ -1,0 +1,141 @@
+Connection Event: Carrier Detect found.400.71    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 20:25:26 2018 MT:     398
+DR  Location:  3502.791 N -7542.593 E measured     169.91 secs ago
+GPS TooFar:    3503.732 N -7543.414 E measured     1e+308 secs ago
+GPS Invalid :  3502.860 N -7542.629 E measured      236.1 secs ago
+GPS Location:  3502.791 N -7542.593 E measured    170.364 secs ago
+   sensor:c_wpt_lat(lat)=3502.79070004924          62.277 secs ago
+   sensor:c_wpt_lon(lon)=-7542.59260000044         62.334 secs ago
+   sensor:m_battery(volts)=11.7754936004582        12.258 secs ago
+   sensor:m_gps_lat(lat)=3502.7907                170.753 secs ago
+   sensor:m_gps_lon(lon)=-7542.5926               170.816 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       22.263 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          17.282 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      7.589 secs ago
+   sensor:m_mission_start_time(timestamp)=1515442725     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515443123.39242      3.853 secs ago
+   sensor:m_tot_num_inflections(nodim)=28346      180.747 secs ago
+   sensor:m_vacuum(inHg)=7.59845619658119         108.907 secs ago
+   sensor:m_water_vx(m/s)=0.0853980204287164      197.585 secs ago
+   sensor:m_water_vy(m/s)=0.035082753444286       197.639 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3502.79070004924      4.134 secs ago
+   sensor:x_last_wpt_lon(lon)=-7542.59260000044      4.181 secs ago
+ABORT HISTORY: total since reset: 10
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T19:55:25
+ABORT HISTORY: last abort segment: ramses-2018-007-7-0 (0103.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+402.10    No login script found for processing.
+402.13    DRIVER_ODDITY:iridium:1523:xxx_ctrl() ran too long
+404.73 65 behavior goto_wpt_5: STATE UnInited -> Active
+404.78    behavior goto_wpt_5: argument: start_when = 1.000000 enum
+404.84    behavior goto_wpt_5: argument: stop_when = 7.000000 enum
+404.91    behavior goto_wpt_5: argument: when_wpt_dist = 10.000000 m
+404.97    behavior goto_wpt_5: argument: wpt_units = 0.000000 enum
+405.03    behavior goto_wpt_5: argument: wpt_x = 0.000000 X
+405.08    behavior goto_wpt_5: argument: wpt_y = 0.000000 X
+405.14    behavior goto_wpt_5: argument: utm_zd = 19.000000 byte
+405.20    behavior goto_wpt_5: argument: utm_zc = 19.000000 byte
+405.26    behavior goto_wpt_5: argument: end_action = 2.000000 enum
+405.33    behavior goto_wpt_5: SUBSTATE 0 UnInited->1 : Translating waypoint to LMC
+405.47    Waypoint: lat lon lmc_x lmc_y
+405.51            3502.791  -7542.593                    0                    0
+405.60    behavior goto_wpt_5: SUBSTATE 1 ->2 : waiting an initial cycle
+409.78 66 behavior goto_wpt_5: SUBSTATE 2 ->3 : Waiting until we get to waypoint
+^C444.17 73 behavior surface_2: User Hit a Control-C, terminating the mission
+444.23    behavior surface_2: STATE Active -> Mission Complete
+444.31    behavior ?_-1: layered_control(): Mission completed normally
+444.37    behavior ?_-1: run_mission(): Mission completed: MS_COMPLETED_NORMALLY(-1)
+
+Vehicle Name: ramses
+Mission Name:   lastgasp.mi
+Mission Number: ramses-2018-007-8-0 (0104.0000)
+post_mission_cleanup(): End of Mission
+timestamp: Mon Jan  8 20:26:18 2018
+454.98    01040000.mlg LOG FILE CLOSED
+timestamp: Mon Jan  8 20:26:24 2018
+Mission completed normally
+Mission end: grun_mission() lastgasp.mi ramses-2018-007-8-0 (0104.0000)
+SEQUENCE: lastgasp.mi ramses-2018-007-8-0 (0104.0000) completed normally
+SEQUENCE: lastgasp mission finished normally
+SEQUENCE: Going to re-execute lastgasp mission
+
+
+
+ABORT HISTORY: total since reset: 10
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T19:55:25
+ABORT HISTORY: last abort segment: ramses-2018-007-7-0 (0103.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+SEQUENCE: About to run lastgasp.mi on try 1
+    You have 120 seconds to type a control-C to terminate the sequence.
+    The control-P character immediately starts the mission.
+    All other characters are ignored.
+^@
+I heard a keystroke ('NUL'), but not the right one!
+There were no pending chars in input buffer to drain.
+
+
+
+ABORT HISTORY: total since reset: 10
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T19:55:25
+ABORT HISTORY: last abort segment: ramses-2018-007-7-0 (0103.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+SEQUENCE: About to run lastgasp.mi on try 1
+    You have 120 seconds to type a control-C to terminate the sequence.
+    The control-P character immediately starts the mission.
+    All other characters are ignored.
+^C
+Heard a Control-C, terminating the sequence
+
+
+GliderDos N -1 >
+
+GliderDos N -1 >cd ..
+
+
+
+GliderDos N -1 >dir
+
+
+ Volume in drive C is MB 032     
+ Volume Serial Number is EC9F-27B7
+ Directory of C:\
+
+STATE          <DIR>         11-16-12  4:16p
+LOGS           <DIR>         11-16-12  4:16p
+SENTLOGS       <DIR>         09-09-16  6:57p
+AUTOEXEC.BAT             39  11-15-12  1:02p
+APP            <DIR>         11-15-12  1:02p
+BIN            <DIR>         11-15-12  1:02p
+CONFIG         <DIR>         11-15-12  1:02p
+MAFILES        <DIR>         11-15-12  1:02p
+MISSIONS       <DIR>         11-15-12  1:02p
+
+         1 file(s)              39 bytes
+         8 dir(s)    1,317,044,224 bytes free
+
+GliderDos N -1 >cd LOGS
+
+\LOGS
+
+GliderDos N -1 >zs 01030000.mlg
+Enumerating files; patience
+Checking for dupes; one dot for every 10 files
+.
+About to send 1 files
+Prechecking is not necessary for this invocation
+796.87 61 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+796.95    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�

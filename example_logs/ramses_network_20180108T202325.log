@@ -1,0 +1,32 @@
+Connection Event: Carrier Detect found.282.60    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 20:23:28 2018 MT:     282
+DR  Location:  3502.791 N -7542.593 E measured       51.8 secs ago
+GPS TooFar:    3503.732 N -7543.414 E measured     1e+308 secs ago
+GPS Invalid :  3502.860 N -7542.629 E measured    117.993 secs ago
+GPS Location:  3502.791 N -7542.593 E measured     52.254 secs ago
+   sensor:c_wpt_lat(lat)=3502.79070004924           5.727 secs ago
+   sensor:c_wpt_lon(lon)=-7542.59260000044          5.784 secs ago
+   sensor:m_battery(volts)=11.7638191392322        19.897 secs ago
+   sensor:m_gps_lat(lat)=3502.7907                 52.646 secs ago
+   sensor:m_gps_lon(lon)=-7542.5926                52.704 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       15.081 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          24.933 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.295 secs ago
+   sensor:m_mission_start_time(timestamp)=1515442725     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515443007.39798      1.738 secs ago
+   sensor:m_tot_num_inflections(nodim)=28346       62.639 secs ago
+   sensor:m_vacuum(inHg)=8.80870375457876         114.426 secs ago
+   sensor:m_water_vx(m/s)=0.0853980204287164       79.478 secs ago
+   sensor:m_water_vy(m/s)=0.035082753444286        79.532 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3502.79070004924      11.76 secs ago
+   sensor:x_last_wpt_lon(lon)=-7542.59260000044     11.806 secs ago
+ABORT HISTORY: total since reset: 10
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T19:55:25
+ABORT HISTORY: last abort segment: ramses-2018-007-7-0 (0103.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+283.99    No login script found for processing.
+284.03    DRIVER_ODDITY:iridium:1516:xxx_ctrl() ran too long

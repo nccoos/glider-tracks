@@ -1,0 +1,396 @@
+body {
+    font-family: helvetica,sans-serf;
+    font-size: 0.9em;
+    margin: 0 0.25em;
+    padding: 0;
+}
+
+div {
+    background-color: #eef;
+}
+
+img {
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    border: #000 solid 2px;
+    text-align: center;
+}
+
+thead {
+    border-bottom: #000 solid 2px;
+}
+
+thead td, thead th {
+    border: #000 solid 1px;
+}
+
+td, th {
+    border: #000 solid 1px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0.25em 0;
+    padding: 0;
+}
+
+/* page banner */
+#header {
+    border: #000 solid 2px;
+    padding: 0.25em 0.5em;
+}
+
+#header h1 {
+    text-transform: capitalize;
+}
+
+#navigation {
+    border: #000 solid 2px;
+    margin: 0.25em 0;
+    padding: 0.25em 0.5em;
+}
+
+/* page navigation div */
+/* Every top-level item in this has it's margin-top: -0.25em to
+   get it to display properly */
+#nav {
+    margin: 0.25em 0;
+    padding: 0.5em 0.5em;
+    height: 1em;
+}
+
+#main {
+    border: #000 solid 2px;
+    padding: 0.25em 0.5em;
+    margin: 0.25em 0;
+}
+
+#spacer {
+    border: #000 solid 1px;
+    margin-top: 5px;
+}
+
+/* Navigation drop-down menus/lists */
+#navMenus, #navMenus ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* Each list-item in the top-level list */
+#navMenus li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    margin-right: 1em;
+}
+/* Do not show the lists by default*/
+#navMenus li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 1em;
+    border: #000 solid 1px;
+    background-color: #EEE;
+}
+/* Bottom-level list-items */
+#navMenus li ul li {
+    width: 8em;
+    margin-left: 0.25em;
+}
+
+/* Show the list on hover over the top-level list-items */
+/*
+#navMenus li:hover ul {
+    display: block;
+}
+*/
+    
+#navMenus a:link, #navMenus a:visited {
+    color: #00D;
+    text-decoration: none;
+}
+/* END navigation drop-down menus/lists */
+
+/* all tables in #main div */
+#main table {
+    font-size: 0.9em;
+    margin: 0.5em 0;
+}
+
+#main table td.green_td {
+}
+
+#main table td.yellow_td {
+    background-color: #FF0;
+    color: #000;
+    font-weight: bold;
+}
+
+#main table td.red_td {
+    background-color: #C00;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#main thead {
+    background-color: #AAA;
+}
+
+/* footer */
+#footer {
+    border: #000 solid 2px;
+    margin: 0.25em 0;
+    padding: 0;
+    padding: 0.25em 0.5em;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0.25em 0;
+}
+
+/* <p /> containing the javascript clock */
+#clockbar {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+/* www3 valididation images */
+.w3 img {
+    border: none;
+}
+
+/* #deployments table */
+#main td, #main th {
+    padding: 0.2em;
+}
+
+#main > a, a.log_filename {
+    font-size: 0.8em;
+}
+
+#deployments td {
+    border: #000 solid 1px;
+}
+
+tr.odd {
+    background-color: #CAE1FF;
+}
+
+tr.even {
+    background-color: #B9C9FE;
+}
+
+/* Class for hover effect for current table row.
+* Must be below any CSS for setting <tr /> background-color or it will not
+* work */
+.hoverTr tbody tr:hover {
+    background-color: #FFF;
+}
+
+/* Used for sortable_us.js javascript library */
+a.sortheader:link, a.sortheader:visited {
+    color: #00F;
+    text-decoration: none;
+}
+a.sortheader:hover {
+    color: #FF0;
+}
+
+/*
+#deployments thead a:link, #deployments thead a:visited {
+    color: #00F;
+    text-decoration: none;
+}
+*/
+
+#deployments a.red {
+    color: #C00;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* tables with class=history */
+.history thead td {
+    font-weight: bold;
+}
+
+/* row color */
+.history tr.odd {
+    background-color: #CAE1FF;
+}
+
+/* row color */
+.history tr.even {
+    background-color: #B9C9FE;
+}
+
+/* Use to make an element disappear */
+.hide {
+    display: none;
+}
+
+/* Notes */
+#notes {
+    background-color: #CCC;
+}
+
+#notes thead td {
+    font-weight: bold;
+}
+
+#notes tbody td {
+    border: #000 solid 1px;
+    vertical-align: top;
+}
+
+td.noteText {
+    background-color: #FFF;
+    width: 45em;
+    text-align: left;
+    font-family: monospace;
+    font-size: 1.25em;
+}
+
+/* new notes are denoted by bold-facing the font of the date and coloring it
+* red */
+td.red {
+    color: #C00;
+    font-weight: bold;
+}
+
+td.black {
+    background-color: #000;
+}
+
+#note_form td, #note_form th {
+    border: none;
+}
+
+#note_form th {
+    vertical-align: top;
+    text-align: right;
+}
+
+#note_form td.left {
+    text-align: left;
+}
+
+#note_form textarea {
+    width: 30em;
+    height: 10em;
+    margin-right: 1em;
+}
+
+#daySelectorFormTable, #daySelectorFormTable th, #daySelectorFormTable td {
+    border: none;
+}
+
+#kmzs, #kmzs th, #kmzs td, #kmzs thead {
+    border: #000 solid 1px;
+}
+
+/* Deployment links */
+p.nav {
+    margin: 0;
+    vertical-align: super;
+}
+
+p.nav span {
+    font-weight: bold;
+}
+
+p.nav a {
+    margin: 0 0.5em;
+    text-transform: capitalize;
+    color: #00F;
+}
+
+/* Table imagery */
+table.imagery td, table.imagery th {
+    border: #000 2px solid;
+}
+
+table.imagery th {
+    background-color: #AAA;
+}
+
+table.imagery td {
+    background-color: #FFF;
+}
+
+img.img {
+    border: #000 solid 2px;
+}
+
+/* Styling for surface dialogs */
+td.dialog {
+    font-family: monospace;
+    text-align: left;
+    background-color: #FFF;
+    font-size: 1.2em;
+}
+
+/* Surface dialog "top" links */
+td.dialog a:visited, td.dialog a:link {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #00D;
+}
+
+.kmz a {
+    text-decoration: none;
+}
+
+.kmz a span {
+    vertical-align: 60%;
+}
+
+/* Segment table formatting */
+td.project {
+    font-weight: bold;
+}
+
+tr.dive {
+    font-weight: bold;
+}
+
+/* Segment imagery styles */
+#segment img.thumb {
+    height: 192px;
+}
+
+/* Surface Sensor plot styles */
+table.sensorImagery th, table.sensorImagery td {
+    padding: 5em;
+}
+
+table.sensorImagery th {
+    background-color: #CCC;
+}
+
+table.sensorImagery td {
+    background-color: #FFF;
+}
+
+#segHeaderDiv p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.ui-datepicker {
+    font-size: 90% !important;
+}
+
+table.imagery img.map {
+    height: 256px;
+}
+
+#image img.map {
+    height: 768px;
+}
+

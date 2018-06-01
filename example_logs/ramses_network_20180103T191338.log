@@ -1,0 +1,40 @@
+Connection Event: Carrier Detect found.528897    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Wed Jan  3 19:13:45 2018 MT:  528897
+DR  Location:  3507.415 N -7535.811 E measured    1211.48 secs ago
+GPS TooFar:    3504.200 N -7534.131 E measured    62688.8 secs ago
+GPS Invalid :  3506.554 N -7535.666 E measured    1312.26 secs ago
+GPS Location:  3507.415 N -7535.811 E measured    1213.88 secs ago
+   sensor:c_wpt_lat(lat)=3508.364                 11950.5 secs ago
+   sensor:c_wpt_lon(lon)=-7535.562                11950.5 secs ago
+   sensor:m_battery(volts)=12.6446287910995       1163.18 secs ago
+   sensor:m_gps_lat(lat)=3507.4152                 1214.2 secs ago
+   sensor:m_gps_lon(lon)=-7535.8105               1214.25 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       13.386 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5         1163.26 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.501 secs ago
+   sensor:m_mission_start_time(timestamp)=1514477928     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515006824.9277      1.372 secs ago
+   sensor:m_tot_num_inflections(nodim)=26968      1569.82 secs ago
+   sensor:m_vacuum(inHg)=8.49512203907204         1228.64 secs ago
+   sensor:m_water_vx(m/s)=0.123526107768982       1212.27 secs ago
+   sensor:m_water_vy(m/s)=0.0242932930406032      1212.31 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3505.89             29579.6 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.435           29579.6 secs ago
+ABORT HISTORY: total since reset: 3
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2017-12-28T16:16:53
+ABORT HISTORY: last abort segment: ramses-2017-356-0-91 (0094.0091)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+528898    No login script found for processing.
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:255.1757 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:12.1757
+528904 63 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+528962    00950101.mlg LOG FILE OPENED
+Megabytes used      on CF file system = 677.437500
+Megabytes available on CF file system = 1323.500000
+528966    init_gps_input()
+528966    behavior surface_7: SUBSTATE 7 ->9 : Waiting for final gps fix
+528966    behavio

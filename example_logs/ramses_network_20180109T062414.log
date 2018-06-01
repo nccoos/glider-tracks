@@ -1,0 +1,50 @@
+Connection Event: Carrier Detect found.  4006    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue Jan  9 06:24:13 2018 MT:    4005
+DR  Location:  3502.532 N -7542.814 E measured     37.312 secs ago
+GPS TooFar:    3503.732 N -7543.414 E measured     1e+308 secs ago
+GPS Invalid :  3502.530 N -7542.971 E measured    1811.13 secs ago
+GPS Location:  3502.532 N -7542.814 E measured      41.38 secs ago
+   sensor:c_wpt_lat(lat)=3502.52730004923         3452.25 secs ago
+   sensor:c_wpt_lon(lon)=-7543.01140000044        3452.29 secs ago
+   sensor:m_battery(volts)=11.9264102451839         4.304 secs ago
+   sensor:m_gps_lat(lat)=3502.5318                 41.691 secs ago
+   sensor:m_gps_lon(lon)=-7542.8144                 41.73 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        8.601 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49847374847375     45.078 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.603 secs ago
+   sensor:m_mission_start_time(timestamp)=1515475047     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515479052.6842       1.39 secs ago
+   sensor:m_tot_num_inflections(nodim)=28349      3772.07 secs ago
+   sensor:m_vacuum(inHg)=8.55660106837606           4.715 secs ago
+   sensor:m_water_vx(m/s)=0.0853980204287164       1e+308 secs ago
+   sensor:m_water_vy(m/s)=0.035082753444286        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3502.52730004923    3459.98 secs ago
+   sensor:x_last_wpt_lon(lon)=-7543.01140000044    3460.02 secs ago
+ABORT HISTORY: total since reset: 11
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-09T02:02:11
+ABORT HISTORY: last abort segment: ramses-2018-008-0-0 (0105.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+  4007    No login script found for processing.
+  4289 20 DRIVER_ODDITY:digifin:11518:xxx_ctrl() ran too long
+put u_iridium_max_time_til_callback 10800
+
+  4355 38 sensor: u_iridium_max_time_til_callback = 10800 sec
+
+
+GliderDos N -1 >put u_iridium_max_time_til_callback 10800
+
+  4381 48 sensor: u_iridium_max_time_til_callback = 10800 sec
+
+
+GliderDos N -1 >callback 60
+
+I am going to hangup the Iridium!
+I will call you back in 60 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 >  4407 55 disabling 

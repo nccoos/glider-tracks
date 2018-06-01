@@ -1,0 +1,116 @@
+Connection Event: Carrier Detect found.  2368    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 16:29:26 2018 MT:    2367
+DR  Location:  3551.097 N -7522.718 E measured    168.273 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3551.033 N -7522.858 E measured    238.768 secs ago
+GPS Location:  3551.097 N -7522.718 E measured    169.816 secs ago
+   sensor:c_wpt_lat(lat)=3550.92192               2190.74 secs ago
+   sensor:c_wpt_lon(lon)=-7521.87085              2190.82 secs ago
+   sensor:m_battery(volts)=15.2092316410066         5.449 secs ago
+   sensor:m_gps_lat(lat)=3551.0966                170.245 secs ago
+   sensor:m_gps_lon(lon)=-7522.7183               170.315 secs ago
+   sensor:m_iridium_signal_strength(nodim)=3        10.67 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49996947496947      5.615 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.658 secs ago
+   sensor:m_mission_start_time(timestamp)=1526399398     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526401765.1658       1.77 secs ago
+   sensor:m_tot_num_inflections(nodim)=28368      194.964 secs ago
+   sensor:m_vacuum(inHg)=7.91783782051282          73.669 secs ago
+   sensor:m_water_vx(m/s)=0.181326137079924       1185.67 secs ago
+   sensor:m_water_vy(m/s)=-0.0474295905653479     1185.72 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+  2369    No login script found for processing.
+s *.sbd *.tbd
+
+--------------------------------
+  2416 67 01170002.mlg LOG FILE CLOSED
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  2425 70 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 5 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES.....
+SCI: Sent 5 file(s):
+c:\logs\01170002.TBD  c:\logs\01170001.TBD  c:\logs\01150000.TBD
+c:\logs\01130000.TBD  c:\logs\01120000.TBD
+SCI: SUCCESS
+  2520 93 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: About to send 6 files
+Prechecking is not necessary for this invocation
+  2525    save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+  2525    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�()....
+  2640    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+SHUFFLING FILES..*.*^XB0800000000022d
+DEL**^XB0800000000022d
+DEL...
+GLD: Sent 6 file(s):
+c:\logs\01170002.SBD  c:\logs\01170001.SBD  c:\logs\01160000.SBD
+c:\logs\01150000.SBD  c:\logs\01140000.SBD  c:\logs\01130000.SBD
+GLD: SUCCESS
+  2652 95 SCI:PROGLET house_elf begin() called
+  2652    SCI:   house_elf: Version 1.2
+  2652    SCI:PROGLET ctd41cp begin() called
+  2652    SCI:   ctd41cp: Version 0.2
+  2652    SCI:     ctd41cp:  Will be sending the following data to glider:
+  2652    SCI:           sci_water_cond(s/m)
+  2652    SCI:           sci_water_temp(degc)
+  2652    SCI:           sci_water_pressure(bar)
+  2652    SCI:           sci_ctd41cp_timestamp(timestamp)
+  2653    SCI:PROGLET oxy4 begin() called
+  2653    SCI:   oxy4: Version 0.0
+  2653    SCI:     oxy4:  Will be sending following data to glider:
+  2653    SCI:           sci_oxy4_oxygen(um)
+  2653    SCI:           sci_oxy4_saturation(%)
+  2653    SCI:           sci_oxy4_temp(degc)
+  2653    SCI:           sci_oxy4_calphase(deg)
+  2653    SCI:           sci_oxy4_tcphase(deg)
+  2653    SCI:           sci_oxy4_c1rph(deg)
+  2653    SCI:           sci_oxy4_c2rph(deg)
+  2653    SCI:           sci_oxy4_c1amp(mv)
+  2654    SCI:           sci_oxy4_c2amp(mv)
+  2654    SCI:           sci_oxy4_rawtemp(mv)
+  2654    SCI:           sci_oxy4_timestamp(timestamp)
+  2654    SCI:  Opening Bit(34) for output
+  2654 96 SCI:PROGLET flbbcd begin() called
+  2654    SCI:   flbbcd: Version 0.0
+  2654    SCI:     flbbcd:  Will be sending following data to glider:
+  2655    SCI:           sci_flbbcd_chlor_units(ug/l)
+  2655    SCI:           sci_flbbcd_bb_units(nodim)
+  2655    SCI:           sci_flbbcd_cdom_units(ppb)
+  2655    SCI:           sci_flbbcd_chlor_sig(nodim)
+  2656    SCI:           sci_flbbcd_bb_sig(nodim)
+  2656    SCI:           sci_flbbcd_cdom_sig(nodim)
+  2656    SCI:           sci_flbbcd_chlor_ref(nodim)
+  2656    SCI:           sci_flbbcd_bb_ref(nodim)
+  2656    SCI:           sci_flbbcd_cdom_ref(nodim)
+  2656    SCI:           sci_flbbcd_therm(nodim)
+  2656    SCI:           sci_flbbcd_timestamp(timestamp)
+  2656    SCI:  Opening Bit(29) for output
+  2663 97 SCI:PROGLET house_elf start() called
+  2663    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+  2663    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)

@@ -1,0 +1,64 @@
+Connection Event: Carrier Detect found. 41449    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue Jan  9 16:48:16 2018 MT:   41448
+DR  Location:  3501.014 N -7536.942 E measured    435.879 secs ago
+GPS TooFar:    3501.014 N -7536.942 E measured    887.761 secs ago
+GPS Invalid :  3500.922 N -7537.279 E measured    4013.29 secs ago
+GPS Location:  3501.014 N -7536.942 E measured    439.956 secs ago
+   sensor:c_wpt_lat(lat)=3502.52730004923         40895.3 secs ago
+   sensor:c_wpt_lon(lon)=-7543.01140000044        40895.3 secs ago
+   sensor:m_battery(volts)=12.0336144298913         4.318 secs ago
+   sensor:m_gps_lat(lat)=3501.014                 440.267 secs ago
+   sensor:m_gps_lon(lon)=-7536.9423               440.307 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       12.611 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          53.025 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.612 secs ago
+   sensor:m_mission_start_time(timestamp)=1515475047     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515516495.71045      1.376 secs ago
+   sensor:m_tot_num_inflections(nodim)=28349      41215.1 secs ago
+   sensor:m_vacuum(inHg)=7.90353137973138           4.726 secs ago
+   sensor:m_water_vx(m/s)=0.0853980204287164       1e+308 secs ago
+   sensor:m_water_vy(m/s)=0.035082753444286        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3502.52730004923      40903 secs ago
+   sensor:x_last_wpt_lon(lon)=-7543.01140000044      40903 secs ago
+ABORT HISTORY: total since reset: 11
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-09T02:02:11
+ABORT HISTORY: last abort segment: ramses-2018-008-0-0 (0105.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+ 41450    No login script found for processing.
+exit reset
+
+Preparing to exit GliderDos
+WAITING for all motors to be idle --and--
+            science power to be stable
+Motors are idle
+Writing longterm state disk file: c:/state/longterm.sta
+   c_iridium_phone_num(digits) 881600005168.000000
+   f_ocean_pressure_min(volts) 0.210897
+   m_avg_climb_rate(m/s) -0.222720
+   m_avg_speed(m/s) 0.047795
+   m_avg_upward_inflection_time(sec) 82.000000
+   m_battery(volts) 12.007435
+   m_coulomb_amphr_total(amp-hrs) 0.000000
+   m_iridium_call_num(nodim) 944.000000
+   m_iridium_dialed_num(nodim) 1966.000000
+   m_lat(lat) 3501.014000
+   m_lon(lon) -7536.942300
+   m_tot_ballast_pumped_energy(kjoules) 1488.383300
+   m_tot_horz_dist(km) 1120.949472
+   m_tot_num_inflections(nodim) 28349.000000
+   s_water_depth_avg(m) 200.000000
+   s_water_depth_delta(m) 0.000000
+   s_water_depth_wavelength(m) 100.000000
+   x_hover_ballast_deep(cc) 0.000000
+   x_hover_ballast_shallow(cc) 0.000000
+   x_hover_depth_deep(m) 0.000000
+   x_hover_depth_shallow(m) 0.000000
+   x_last_wpt_lat(lat) 3502.527300
+   x_last_wpt_lon(lon) -7543.011400
+Returning from GliderDos
+Exiting all devices ...
+ 41793 43 disabling Iridium cons

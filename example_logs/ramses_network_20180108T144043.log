@@ -1,0 +1,288 @@
+Connection Event: Carrier Detect found.271.94    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 14:40:41 2018 MT:     271
+DR  Location:  3503.683 N -7543.363 E measured     46.939 secs ago
+GPS TooFar:    3503.732 N -7543.414 E measured     1e+308 secs ago
+GPS Invalid :  3503.709 N -7543.402 E measured    106.624 secs ago
+GPS Location:  3503.683 N -7543.363 E measured     47.234 secs ago
+   sensor:c_wpt_lat(lat)=3503.68300004929          44.662 secs ago
+   sensor:c_wpt_lon(lon)=-7543.36260000044          44.72 secs ago
+   sensor:m_battery(volts)=11.8068883176198         5.061 secs ago
+   sensor:m_gps_lat(lat)=3503.683                  47.626 secs ago
+   sensor:m_gps_lon(lon)=-7543.3626                47.702 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       10.404 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          10.303 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.435 secs ago
+   sensor:m_mission_start_time(timestamp)=1515422169     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515422440.57364      1.746 secs ago
+   sensor:m_tot_num_inflections(nodim)=28332       57.769 secs ago
+   sensor:m_vacuum(inHg)=8.87443605006105          93.534 secs ago
+   sensor:m_water_vx(m/s)=0.156231105397101        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0.0847489451242281       1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3503.68300004929      2.028 secs ago
+   sensor:x_last_wpt_lon(lon)=-7543.36260000044      2.075 secs ago
+ABORT HISTORY: total since reset: 7
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T14:09:16
+ABORT HISTORY: last abort segment: ramses-2018-007-3-0 (0099.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+273.33    No login script found for processing.
+273.36    DRIVER_ODDITY:iridium:1510:xxx_ctrl() ran too long
+276.12 41 behavior goto_wpt_5: STATE UnInited -> Active
+276.17    behavior goto_wpt_5: argument: start_when = 1.000000 enum
+276.24    behavior goto_wpt_5: argument: stop_when = 7.000000 enum
+276.30    behavior goto_wpt_5: argument: when_wpt_dist = 10.000000 m
+276.36    behavior goto_wpt_5: argument: wpt_units = 0.000000 enum
+276.42    behavior goto_wpt_5: argument: wpt_x = 0.000000 X
+276.48    behavior goto_wpt_5: argument: wpt_y = 0.000000 X
+276.53    behavior goto_wpt_5: argument: utm_zd = 19.000000 byte
+276.60    behavior goto_wpt_5: argument: utm_zc = 19.000000 byte
+276.66    behavior goto_wpt_5: argument: end_action = 2.000000 enum
+276.72    behavior goto_wpt_5: SUBSTATE 0 UnInited->1 : Translating waypoint to LMC
+276.86    Waypoint: lat lon lmc_x lmc_y
+276.90            3503.683  -7543.363                    0                    0
+276.99    behavior goto_wpt_5: SUBSTATE 1 ->2 : waiting an initial cycle
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:256.0834 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:13.0834
+281.85    DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+284.42 42 behavior goto_wpt_5: SUBSTATE 2 ->3 : Waiting until we get to waypoint
+285.35    DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:256.0834 C_su:233.0000
+:OOD:   delta:23.0834 limit:10.0000 over:13.0834
+g
+I heard a character ('g'), but not the right one
+Drained the following 7 pending chars from input buffer:
+65 74 20 78 5f 62 61          e   t   SP  x   _   b   a           et x_ba 
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:260.4199 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:17.4199
+314.88 48 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+l
+I heard a character ('l'), but not the right one
+Drained the following 10 pending chars from input buffer:
+6c 61 73 74 5f 70 75 6d       l   a   s   t   _   p   u   m       last_pum
+70 65                         p   e                               pe      
+319.70 49 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:260.4199 C_su:233.0000
+:OOD:   delta:27.4199 limit:10.0000 over:17.4199
+d
+I heard a character ('d'), but not the right one
+Drained the following 26 pending chars from input buffer:
+5f 70 61 73 73 69 76 65       _   p   a   s   s   i   v   e       _passive
+5f 72 65 74 72 61 63 74       _   r   e   t   r   a   c   t       _retract
+69 6f 6e 5f 64 65 70 74       i   o   n   _   d   e   p   t       ion_dept
+68 0d                         h   CR                              h.      
+
+
+
+
+Glider ramses at surface.
+Because:Hit a waypoint [behavior surface_2 start_when = 8.0]
+MissionName:lastgasp.mi MissionNum:ramses-2018-007-4-0 (0100.0000)
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 14:41:38 2018 MT:     328
+DR  Location:  3503.683 N -7543.363 E measured     103.48 secs ago
+GPS TooFar:    3503.732 N -7543.414 E measured     1e+308 secs ago
+GPS Invalid :  3503.709 N -7543.402 E measured    163.164 secs ago
+GPS Location:  3503.683 N -7543.363 E measured    103.773 secs ago
+   sensor:c_wpt_lat(lat)=3503.68300004929          51.875 secs ago
+   sensor:c_wpt_lon(lon)=-7543.36260000044         51.916 secs ago
+   sensor:m_battery(volts)=11.8068883176198        61.555 secs ago
+   sensor:m_gps_lat(lat)=3503.683                 104.086 secs ago
+   sensor:m_gps_lon(lon)=-7543.3626                104.13 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        66.82 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5           4.185 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.218 secs ago
+   sensor:m_mission_start_time(timestamp)=1515422169     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515422497.94284      0.747 secs ago
+   sensor:m_tot_num_inflections(nodim)=28332      114.126 secs ago
+   sensor:m_vacuum(inHg)=7.77786669719169          24.238 secs ago
+   sensor:m_water_vx(m/s)=0.156231105397101        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0.0847489451242281       1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3503.68300004929     58.317 secs ago
+   sensor:x_last_wpt_lon(lon)=-7543.36260000044     58.355 secs ago
+devices:(t/m/s) errs: 232/   0/   0 warn:  72/   0/   0 odd:8013/   8/   8
+ABORT HISTORY: total since reset: 7
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T14:09:16
+ABORT HISTORY: last abort segment: ramses-2018-007-3-0 (0099.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3503.6830,-7543.3626) Range: 0m, Bearing: NaNdeg, Age: 0:2h:m
+Drifting toward outer watch circle, centered on waypoint
+Now 0.0 meters from middle, will dive at 100.0 meters
+Time until diving is: Inf secs(estimated)
+333.49 52 behavior goto_wpt_5: STATE Active -> UnInited
+338.53 53 behavior goto_wpt_5: STATE UnInited -> Active
+338.58    behavior goto_wpt_5: argument: start_when = 1.000000 enum
+338.65    behavior goto_wpt_5: argument: stop_when = 7.000000 enum
+338.71    behavior goto_wpt_5: argument: when_wpt_dist = 10.000000 m
+338.78    behavior goto_wpt_5: argument: wpt_units = 0.000000 enum
+338.84    behavior goto_wpt_5: argument: wpt_x = 0.000000 X
+338.89    behavior goto_wpt_5: argument: wpt_y = 0.000000 X
+338.95    behavior goto_wpt_5: argument: utm_zd = 19.000000 byte
+339.01    behavior goto_wpt_5: argument: utm_zc = 19.000000 byte
+339.07    behavior goto_wpt_5: argument: end_action = 2.000000 enum
+339.13    behavior goto_wpt_5: SUBSTATE 0 UnInited->1 : Translating waypoint to LMC
+339.27    Waypoint: lat lon lmc_x lmc_y
+339.31            3503.683  -7543.363                    0                    0
+339.40    behavior goto_wpt_5: SUBSTATE 1 ->2 : waiting an initial cycle
+^C339.48    behavior surface_2: User Hit a Control-C, terminating the mission
+339.54    behavior surface_2: STATE Active -> Mission Complete
+339.62    behavior ?_-1: layered_control(): Mission completed normally
+339.68    behavior ?_-1: run_mission(): Mission completed: MS_COMPLETED_NORMALLY(-1)
+
+Vehicle Name: ramses
+Mission Name:   lastgasp.mi
+Mission Number: ramses-2018-007-4-0 (0100.0000)
+post_mission_cleanup(): End of Mission
+timestamp: Mon Jan  8 14:42:02 2018
+352.74    01000000.mlg LOG FILE CLOSED
+timestamp: Mon Jan  8 14:42:06 2018
+Mission completed normally
+Mission end: grun_mission() lastgasp.mi ramses-2018-007-4-0 (0100.0000)
+SEQUENCE: lastgasp.mi ramses-2018-007-4-0 (0100.0000) completed normally
+SEQUENCE: lastgasp mission finished normally
+SEQUENCE: Going to re-execute lastgasp mission
+
+
+
+ABORT HISTORY: total since reset: 7
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T14:09:16
+ABORT HISTORY: last abort segment: ramses-2018-007-3-0 (0099.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+SEQUENCE: About to run lastgasp.mi on try 1
+    You have 120 seconds to type a control-C to terminate the sequence.
+    The control-P character immediately starts the mission.
+    All other characters are ignored.
+^@
+I heard a keystroke ('NUL'), but not the right one!
+There were no pending chars in input buffer to drain.
+
+
+
+ABORT HISTORY: total since reset: 7
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T14:09:16
+ABORT HISTORY: last abort segment: ramses-2018-007-3-0 (0099.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+SEQUENCE: About to run lastgasp.mi on try 1
+    You have 120 seconds to type a control-C to terminate the sequence.
+    The control-P character immediately starts the mission.
+    All other characters are ignored.
+^C
+Heard a Control-C, terminating the sequence
+
+
+GliderDos N -1 >^C
+
+GliderDos N -1 >get x_ballast_pumped_passive_retraction_depth
+ = 21.999215 m
+
+GliderDos N -1 >zs 00990000.mlg
+Enumerating files; patience
+Checking for dupes; one dot for every 10 files
+.
+About to send 1 files
+Prechecking is not necessary for this invocation
+416.70 73 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+416.78    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�46.42    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+946.48    restore_sensors()....
+946.50    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+Successfully sent 1 file(s)
+
+
+GliderDos N -1 >
+947.76    NOTE:GPS fix is getting stale: 723 secs old
+
+947.79    GliderDos: No keystroke heard for 0 seconds
+          900 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >953.87 75 SCI:PROGLET house_elf begin() called
+953.96    SCI:   house_elf: Version 1.2
+954.03    SCI:PROGLET ctd41cp begin() called
+954.13    SCI:   ctd41cp: Version 0.2
+954.22    SCI:     ctd41cp:  Will be sending the following data to glider:
+954.41    SCI:           sci_water_cond(s/m)
+954.50    SCI:           sci_water_temp(degc)
+954.58    SCI:           sci_water_pressure(bar)
+954.70    SCI:           sci_ctd41cp_timestamp(timestamp)
+954.80    SCI:PROGLET oxy4 begin() called
+954.88    SCI:   oxy4: Version 0.0
+955.02    SCI:     oxy4:  Will be sending following data to glider:
+955.14    SCI:           sci_oxy4_oxygen(um)
+955.24    SCI:           sci_oxy4_saturation(%)
+955.33    SCI:           sci_oxy4_temp(degc)
+955.42    SCI:           sci_oxy4_calphase(deg)
+955.57    SCI:           sci_oxy4_tcphase(deg)
+955.65    SCI:           sci_oxy4_c1rph(deg)
+955.74    SCI:           sci_oxy4_c2rph(deg)
+955.84    SCI:           sci_oxy4_c1amp(mv)
+955.92    SCI:           sci_oxy4_c2amp(mv)
+956.01    SCI:           sci_oxy4_rawtemp(mv)
+956.23 76 SCI:           sci_oxy4_timestamp(timestamp)
+956.33    SCI:  Opening Bit(34) for output
+956.42    SCI:PROGLET flbbcd begin() called
+957.32    SCI:   flbbcd: Version 0.0
+957.42    SCI:     flbbcd:  Will be sending following data to glider:
+957.60    SCI:           sci_flbbcd_chlor_units(ug/l)
+957.70    SCI:           sci_flbbcd_bb_units(nodim)
+957.86    SCI:           sci_flbbcd_cdom_units(ppb)
+957.96    SCI:           sci_flbbcd_chlor_sig(nodim)
+958.08    SCI:           sci_flbbcd_bb_sig(nodim)
+958.17    SCI:           sci_flbbcd_cdom_sig(nodim)
+958.28    SCI:           sci_flbbcd_chlor_ref(nodim)
+958.38    SCI:           sci_flbbcd_bb_ref(nodim)
+958.48    SCI:           sci_flbbcd_cdom_ref(nodim)
+958.58    SCI:           sci_flbbcd_therm(nodim)
+958.70    SCI:           sci_flbbcd_timestamp(timestamp)
+958.80    SCI:  Opening Bit(29) for output
+962.16 77 SCI:PROGLET house_elf start() called
+962.28    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+962.44    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+  1059  1 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:255.3774 C_su:233.0000
+:OOD:   delta:22.3774 LIMIT:20.0000 over:2.3774
+
+
+GliderDos N -1 >put u_max_time_in_gliderdos 3600
+
+  1187 34 sensor: u_max_time_in_gliderdos = 3600 sec
+
+
+GliderDos N -1 >callback 30
+
+I am going to hangup the Iridium!
+I will call you back in 30 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 >
+  1270 55 NOTE:GPS fix is getting stal

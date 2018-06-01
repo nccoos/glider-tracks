@@ -1,0 +1,374 @@
+Connection Event: Carrier Detect found.246.52    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 14:54:32 2018 MT:     246
+DR  Location:  3550.790 N -7523.507 E measured     37.422 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3550.743 N -7523.563 E measured     89.767 secs ago
+GPS Location:  3550.790 N -7523.507 E measured     41.304 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=15.3336485520454         4.381 secs ago
+   sensor:m_gps_lat(lat)=3550.7898                 41.637 secs ago
+   sensor:m_gps_lon(lon)=-7523.5071                 41.68 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        8.677 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49996947496947      4.436 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.474 secs ago
+   sensor:m_mission_start_time(timestamp)=1526395826     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526396072.00049      1.415 secs ago
+   sensor:m_tot_num_inflections(nodim)=28354      194.672 secs ago
+   sensor:m_vacuum(inHg)=7.54084377289377           4.788 secs ago
+   sensor:m_water_vx(m/s)=0                        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0                        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+247.51    No login script found for processing.
+zr
+287.55 50 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+287.63    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B01000800275775�306.14    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+306.20    restore_sensors()....
+306.22    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+Done!
+
+
+GliderDos N -1 >311.46 52 SCI:PROGLET house_elf begin() called
+311.54    SCI:   house_elf: Version 1.2
+311.62    SCI:PROGLET ctd41cp begin() called
+311.76    SCI:   ctd41cp: Version 0.2
+311.86    SCI:     ctd41cp:  Will be sending the following data to glider:
+312.04    SCI:           sci_water_cond(s/m)
+312.13    SCI:           sci_water_temp(degc)
+312.22    SCI:           sci_water_pressure(bar)
+312.33    SCI:           sci_ctd41cp_timestamp(timestamp)
+312.43    SCI:PROGLET oxy4 begin() called
+312.51    SCI:   oxy4: Version 0.0
+312.65    SCI:     oxy4:  Will be sending following data to glider:
+312.77    SCI:           sci_oxy4_oxygen(um)
+312.87    SCI:           sci_oxy4_saturation(%)
+312.96    SCI:           sci_oxy4_temp(degc)
+313.05    SCI:           sci_oxy4_calphase(deg)
+313.15    SCI:           sci_oxy4_tcphase(deg)
+313.24    SCI:           sci_oxy4_c1rph(deg)
+313.32    SCI:           sci_oxy4_c2rph(deg)
+313.42    SCI:           sci_oxy4_c1amp(mv)
+313.50    SCI:           sci_oxy4_c2amp(mv)
+313.59    SCI:           sci_oxy4_rawtemp(mv)
+313.74    SCI:           sci_oxy4_timestamp(timestamp)
+313.84    SCI:  Opening Bit(34) for output
+313.92    SCI:PROGLET flbbcd begin() called
+314.01    SCI:   flbbcd: Version 0.0
+314.10    SCI:     flbbcd:  Will be sending following data to glider:
+314.29    SCI:           sci_flbbcd_chlor_units(ug/l)
+314.39    SCI:           sci_flbbcd_bb_units(nodim)
+314.55    SCI:           sci_flbbcd_cdom_units(ppb)
+314.65    SCI:           sci_flbbcd_chlor_sig(nodim)
+314.90 53 SCI:           sci_flbbcd_bb_sig(nodim)
+315.00    SCI:           sci_flbbcd_cdom_sig(nodim)
+315.93    SCI:           sci_flbbcd_chlor_ref(nodim)
+316.03    SCI:           sci_flbbcd_bb_ref(nodim)
+316.14    SCI:           sci_flbbcd_cdom_ref(nodim)
+316.24    SCI:           sci_flbbcd_therm(nodim)
+316.34    SCI:           sci_flbbcd_timestamp(timestamp)
+consci
+communications NOT ready for consci.
+... because: sci_m_science_on = 0
+
+CAN'T CONSCI AT THIS TIME
+GliderDos N -1 >316.79 54 SCI:  Opening Bit(29) for output
+319.88    SCI:PROGLET house_elf start() called
+319.99    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+320.17    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+
+
+GliderDos N -1 >consci
+335.65 59 Choosing console...No freewave carrier, using IRIDIUM
+CONSCI REQUESTED (using IRIDIUM as console)
+
+
+GliderDos N -1 >ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+336.77 60 Neutering the Freewave Console
+
+sci_shell
+Version 3.14 BADD_MMP and VR2C
+        from release Version 7.10  open ocean
+
+SciDos>zr
+START
+**B01000800275775�
+Done!
+
+
+SciDos>cd config
+
+\CONFIG
+
+SciDos>type tbdlist.dat
+
+# tbdlist.dat
+# A small subset of a dbd file intended to be transmitted in real time.
+#
+# 2009-10-06 fnj@omegatech.hatchescreek.com  Initial.
+# cedwards@skio: downsampled yo cycle 
+#
+SCI_M_PRESENT_TIME			-1	15	-1	1
+#SCI_M_PRESENT_SECS_INTO_MISSION
+SCI_WATER_COND				9	15	-1	1
+SCI_WATER_TEMP				9	15	-1	1
+SCI_WATER_PRESSURE			9	15	-1	1
+SCI_OXY4_WPHASE_OXYGEN 			9 	15	-1	1
+SCI_OXY4_WPHASE_SATURATION 		9 	15	-1	1
+SCI_FLBBCD_CHLOR_UNITS     		9	15	-1	1 
+SCI_FLBBCD_BB_UNITS     		9 	15	-1	1
+SCI_FLBBCD_CDOM_UNITS      		9 	15 	-1 	1
+
+# <sensor_name> [<interval>] [<state>] [<halfyos>] [<yo_duty_cycle>]
+#
+#   <sensor_name> specifies that the sensor be stored in the *.sbd file
+#
+#                 Default    sensor value is only stored when....
+#
+#   <interval>       0      There have been this many secs since
+#                            the last value was stored.  0 means
+#                            store every value.
+#
+#    <state>         15      A code representing what the glider
+#                            is doing: dive/hove/climb/surface
+#                            Data only stored when glider is doing
+#                            what is specified. 15 is always store.
+#                            See Argument Details for more info.
+#
+#    <halfyos>       -1      For this many dive/climbs in this
+#                            segment, e.g. since last surfacing.
+#                            -1 means stored for all dive/climbs
+#                            See Argument Details for more info.
+#
+#   <yo_duty_cycle>  -1      Only stores data every n"th" yo in this 
+#                            segment, i.e. would cause data from 
+#                            every 10th dive&climb to be stored.
+#                            <= 1 means every dive&climb.
+#
+# State Values:
+#
+#      0  none
+#      1  diving
+#      2  hovering
+#      3  diving|hovering
+#      4  climbing
+#      5  diving|climbing
+#      6  hovering|climbing
+#      7  diving|hovering|climbing
+#      8  on_surface
+#      9  diving|on_surface
+#      10 hovering|on_surface
+#      11 diving|hovering|on_surface
+#      12 climbing|on_surface
+#      13 diving|climbing|on_surface
+#      14 hovering|climbing|on_surface
+#      15 diving|hovering|climbing|on_surface
+
+
+
+SciDos>zr
+START
+**B01000800275775�
+Done!
+
+
+SciDos>type tbdlist.dat
+
+# tbdlist.dat
+# A small subset of a dbd file intended to be transmitted in real time.
+#
+# 2009-10-06 fnj@omegatech.hatchescreek.com  Initial.
+# cedwards@skio: downsampled yo cycle 
+#
+SCI_M_PRESENT_TIME			0	15	-1	1
+#SCI_M_PRESENT_SECS_INTO_MISSION
+SCI_WATER_COND				9	15	-1	1
+SCI_WATER_TEMP				9	15	-1	1
+SCI_WATER_PRESSURE			9	15	-1	1
+SCI_OXY4_WPHASE_OXYGEN 			9 	15	-1	1
+SCI_OXY4_WPHASE_SATURATION 		9 	15	-1	1
+SCI_FLBBCD_CHLOR_UNITS     		9	15	-1	1 
+SCI_FLBBCD_BB_UNITS     		9 	15	-1	1
+SCI_FLBBCD_CDOM_UNITS      		9 	15 	-1 	1
+
+# <sensor_name> [<interval>] [<state>] [<halfyos>] [<yo_duty_cycle>]
+#
+#   <sensor_name> specifies that the sensor be stored in the *.sbd file
+#
+#                 Default    sensor value is only stored when....
+#
+#   <interval>       0      There have been this many secs since
+#                            the last value was stored.  0 means
+#                            store every value.
+#
+#    <state>         15      A code representing what the glider
+#                            is doing: dive/hove/climb/surface
+#                            Data only stored when glider is doing
+#                            what is specified. 15 is always store.
+#                            See Argument Details for more info.
+#
+#    <halfyos>       -1      For this many dive/climbs in this
+#                            segment, e.g. since last surfacing.
+#                            -1 means stored for all dive/climbs
+#                            See Argument Details for more info.
+#
+#   <yo_duty_cycle>  -1      Only stores data every n"th" yo in this 
+#                            segment, i.e. would cause data from 
+#                            every 10th dive&climb to be stored.
+#                            <= 1 means every dive&climb.
+#
+# State Values:
+#
+#      0  none
+#      1  diving
+#      2  hovering
+#      3  diving|hovering
+#      4  climbing
+#      5  diving|climbing
+#      6  hovering|climbing
+#      7  diving|hovering|climbing
+#      8  on_surface
+#      9  diving|on_surface
+#      10 hovering|on_surface
+#      11 diving|hovering|on_surface
+#      12 climbing|on_surface
+#      13 diving|climbing|on_surface
+#      14 hovering|climbing|on_surface
+#      15 diving|hovering|climbing|on_surface
+
+
+
+SciDos>quit
+Returning from SciDos
+524.51  4 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+
+
+551.92 10 GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >
+
+GliderDos N -1 >run ini0.mi
+
+Starting Mission: INI0.MI
+The instantaneous lag time between the system and gps clock is -26.0 seconds.
+The average lag time between the system and gps clock is -6.1 seconds.
+timestamp: Tue May 15 14:59:52 2018
+load_mission(): Opening Mission file: INI0.MI
+Setting SENSOR u_use_current_correction(nodim) = 0.000000
+Vehicle Name: ramses
+Curr Time: Tue May 15 14:59:52 2018 MT:     565
+DR  Location:  3550.790 N -7523.507 E measured    357.443 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3550.743 N -7523.563 E measured    409.785 secs ago
+GPS Location:  3550.790 N -7523.507 E measured    361.323 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=15.3101072746873         1.213 secs ago
+   sensor:m_gps_lat(lat)=3550.7898                361.656 secs ago
+   sensor:m_gps_lon(lon)=-7523.5071               361.699 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      328.694 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49996947496947     14.109 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      1.505 secs ago
+   sensor:m_mission_start_time(timestamp)=1526395826     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526396391.08057      2.352 secs ago
+   sensor:m_tot_num_inflections(nodim)=28354      514.689 secs ago
+   sensor:m_vacuum(inHg)=7.49676446886447           1.618 secs ago
+   sensor:m_water_vx(m/s)=0                        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0                        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0         1.368 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+start_alldevices()
+
+PARSED iridium_phone_data for datum# 0: ===========
+   predial initialization cmds (from c:\config\iridinit.0):
+      ATE
+      AT+cbst=6,0,1
+      AT+CSQ
+   dial string: ATD00881600005168
+      from sensors:
+         C_IRIDIUM_LEAD_ZEROS
+         C_IRIDIUM_PHONE_NUM
+   Iridium login script (from c:\config\loginexp.0):   empty or non-existent
+
+PARSED iridium_phone_data for datum# 1: ===========
+   predial initialization cmds (from c:\config\iridinit.1):
+      ATE
+      AT+cbst=6,0,1
+      AT+CSQ
+   dial string: ATD0015085482446
+      from sensors:
+         C_IRIDIUM_LEAD_ZEROS_ALT
+         C_IRIDIUM_PHONE_NUM_ALT
+   Iridium login script (from c:\config\loginexp.1):   empty or non-existent
+  5.98  1 SCI:ERROR:tbdlist.dat:line12: Unknown sensor for logging:sci_oxy4_wphase_oxygen, IGNORED
+  6.17    SCI:      SCI_OXY4_WPHASE_OXYGEN ---9 -15--1-1
+  6.34    SCI:ERROR:tbdlist.dat:line13: Unknown sensor for logging:sci_oxy4_wphase_saturation, IGNORED
+  6.55    SCI:      SCI_OXY4_WPHASE_SATURATION --9 -15--1-1
+  6.69    SCI:ERROR: Some sensor/interval/state modified when reading from TBD file
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:244.0767 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:1.0767
+  8.73  2 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+ 60.65    01140000.mlg LOG FILE OPENED
+MissionSTARTDate: 15 May 2018 14:59:53 Z
+Mission Name:   INI0.MI
+Mission Number: ramses-2018-134-2-0 (0114.0000)
+log_c_stack():
+  1-abend           2-surface         3-set_heading     4-yo              5-sample          
+  6-prepare_to_dive 7-sensors_in      8-pinger_on       
+report_heap_size(): M_FREE_HEAP=260.0K,  M_SPARE_HEAP=241.0K
+pre_mission_init():End of Initialization
+ 63.94  3 behavior pinger_on_8: STATE UnInited -> Active
+ 63.99    behavior pinger_on_8: argument: c_pinger_on = 1.000000 bool
+ 64.06    behavior pinger_on_8: argument: u_ping_n_enabled = 1.000000 bool
+ 64.12    behavior pinger_on_8: argument: u_pinger_rep_rate = 8.000000 sec
+ 64.19    behavior pinger_on_8: argument: u_pinger_max_depth = 1000.000000 m
+ 64.51    behavior sensors_in_7: STATE UnInited -> Active
+ 64.56    behavior sensors_in_7: argument: c_att_time = 0.000000 sec
+ 64.62    behavior sensors_in_7: argument: c_pressure_time = 0.000000 sec
+ 64.69    behavior sensors_in_7: argument: c_alt_time = 0.000000 sec
+ 64.75    behavior sensors_in_7: argument: u_battery_time = 0.000000 sec
+ 64.82    behavior sensors_in_7: argument: u_vacuum_time = 0.000000 sec
+ 64.88    behavior sensors_in_7: argument: c_leakdetect_time = 0.000000 sec
+ 64.94    behavior sensors_in_7: argument: c_gps_on = 0.000000 bool
+ 65.00    behavior sensors_in_7: argument: c_science_all_on = -1.000000 sec
+ 65.07    behavior sensors_in_7: argument: c_profile_on = -1.000000 sec
+ 65.14    behavior sensors_in_7: argument: c_hs2_on = -1.000000 sec
+ 65.20    behavior sensors_in_7: argument: c_bb2f_on = -1.000000 sec
+ 65.26    behavior sensors_in_7: argument: c_bb2c_on = -1.000000 sec
+ 65.33    behavior sensors_in_7: argument: c_bb2lss_on = -1.000000 sec
+ 65.39    behavior sensors_in_7: argument: c_sam_on = -1.000000 sec
+ 65.46    behavior sensors_in_7: argument: c_whpar_on = -1.000000 sec
+ 65.52    behavior sensors_in_7: argument: c_whgpbm_on = -1.000000 sec
+ 65.59    behavior sensors_in_7: argument: c_motebb_on = -1.000000 sec
+ 65.65    behavior sensors_in_7: argument: c_bbfl2s_on = -1.000000 sec
+ 65.72    behavior sensors_in_7: argument: c_fl3slo_on = -1.000000 sec
+ 65.78    behavior sensors_in_7: argument: c_bb3slo_on = -1.000000 sec
+ 65.85    behavior sensors_in_7: argument: c_oxy3835_on = -1.000000 sec
+ 65.92    behavior sensors_in_7: argument: c_whfctd_on = -1.000000 sec
+ 65.98    behavior sensors_in_7: argument: c_bam_on = -1.000000 sec
+ 66.04    behavior sensors_in_7: argument: c_ocr504R_on = -1.000000 sec
+ 66.11    behavior sensors_in_7: argument: c_ocr504I_on = -1.000000 sec
+ 66.17    behavior sensors_in_7: argument: c_flntu_on = -1.000000 sec
+ 66.24    behavior se

@@ -1,0 +1,110 @@
+Connection Event: Carrier Detect found.  4591    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 19:04:31 2018 MT:    4590
+DR  Location:  3503.109 N -7542.672 E measured     46.989 secs ago
+GPS TooFar:    3503.732 N -7543.414 E measured     1e+308 secs ago
+GPS Invalid :  3503.055 N -7542.617 E measured    150.898 secs ago
+GPS Location:  3503.109 N -7542.672 E measured      49.41 secs ago
+   sensor:c_wpt_lat(lat)=3503.21460004927          3323.7 secs ago
+   sensor:c_wpt_lon(lon)=-7542.79910000044        3323.76 secs ago
+   sensor:m_battery(volts)=11.8699788240912        10.058 secs ago
+   sensor:m_gps_lat(lat)=3503.1089                 49.803 secs ago
+   sensor:m_gps_lon(lon)=-7542.6722                49.875 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        15.29 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          15.167 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1       5.63 secs ago
+   sensor:m_mission_start_time(timestamp)=1515433680     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515438270.87485       1.74 secs ago
+   sensor:m_tot_num_inflections(nodim)=28343      187.945 secs ago
+   sensor:m_vacuum(inHg)=7.99168998778998          77.718 secs ago
+   sensor:m_water_vx(m/s)=0.186206511466521        52.945 secs ago
+   sensor:m_water_vy(m/s)=0.0764963531789766       52.996 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3503.21460004927    3330.35 secs ago
+   sensor:x_last_wpt_lon(lon)=-7542.79910000044     3330.4 secs ago
+ABORT HISTORY: total since reset: 8
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T17:21:38
+ABORT HISTORY: last abort segment: ramses-2018-007-5-0 (0101.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+  4593    No login script found for processing.
+  4593    DRIVER_ODDITY:iridium:1517:xxx_ctrl() ran too long
+
+
+
+
+Glider ramses at surface.
+Because:no comms for a while [behavior surface_3 start_when = 12.0]
+MissionName:lastgasp.mi MissionNum:ramses-2018-007-6-4 (0102.0004)
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 19:04:46 2018 MT:    4605
+DR  Location:  3503.109 N -7542.672 E measured     61.169 secs ago
+GPS TooFar:    3503.732 N -7543.414 E measured     1e+308 secs ago
+GPS Invalid :  3503.055 N -7542.617 E measured    165.077 secs ago
+GPS Location:  3503.109 N -7542.672 E measured     63.589 secs ago
+   sensor:c_wpt_lat(lat)=3503.21460004927         3337.86 secs ago
+   sensor:c_wpt_lon(lon)=-7542.79910000044         3337.9 secs ago
+   sensor:m_battery(volts)=11.8699788240912         24.19 secs ago
+   sensor:m_gps_lat(lat)=3503.1089                 63.902 secs ago
+   sensor:m_gps_lon(lon)=-7542.6722                63.943 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       29.346 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          29.203 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      3.105 secs ago
+   sensor:m_mission_start_time(timestamp)=1515433680     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515438285.87112       0.75 secs ago
+   sensor:m_tot_num_inflections(nodim)=28343      201.938 secs ago
+   sensor:m_vacuum(inHg)=7.99168998778998          91.693 secs ago
+   sensor:m_water_vx(m/s)=0.186206511466521        66.907 secs ago
+   sensor:m_water_vy(m/s)=0.0764963531789766       66.945 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3503.21460004927    3344.28 secs ago
+   sensor:x_last_wpt_lon(lon)=-7542.79910000044    3344.32 secs ago
+devices:(t/m/s) errs: 293/   0/   0 warn:  88/   8/   8 odd:8170/  96/  26
+ABORT HISTORY: total since reset: 8
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T17:21:38
+ABORT HISTORY: last abort segment: ramses-2018-007-5-0 (0101.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3503.2146,-7542.7991) Range: 275m, Bearing: 328deg, Age: 1:15h:m
+Time until diving is: 110 secs
+s *.sbd *.tbd
+
+--------------------------------
+  4622 11 01020004.mlg LOG FILE CLOSED
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:251.0409 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:8.0409
+  4623 13 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+SCIENCE DATA LOGGING: science IS running
+  4627 14 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:251.0409 C_su:233.0000
+:OOD:   delta:18.0409 limit:10.0000 over:8.0409
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  4631 15 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: NOTICE: file list truncated from 30 to 4 files due to implicit time limit
+SCI: About to send 4 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�

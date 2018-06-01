@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Glider Simple</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map_canvas {
+        height: 100%;
+	}      
+    </style>
+  </head>
+ 
+  <body>
+
+      <div id="map_canvas"></div>
+      <script type="text/javascript">
+      var map;
+      var layer;
+      //var kmlsrc = 'http://imsdockserver.dyndns.org/realtime/tracks/ramses_track.kml' + '?rev=' + Math.round(Math.random() * 10000000000);
+      //var kmlsrc = 'http://imsdockserver.dyndns.org/realtime/tracks/network_link.kml';
+      var kmlsrc = 'http://imsdockserver.dyndns.org/realtime/tracks/ramses_track.kml';
+
+      function initMap() {
+      var options = {
+      center: new google.maps.LatLng(35, -75),
+      zoom: 9,
+      mapTypeId: google.maps.MapTypeId.SATELLITE
+      }
+
+      map = new google.maps.Map(document.getElementById("map_canvas"), options);
+      layer = new google.maps.KmlLayer(kmlsrc,{
+      preserveViewport: true,
+      suppressInfoWindows: false,
+      });
+      layer.setMap(map);
+
+      };
+      </script>
+
+      <script async defer 
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOzKPIS4OEnTPu-5hoobvcF3zM7-knKHA&callback=initMap">
+      </script>
+  </body>
+</html>

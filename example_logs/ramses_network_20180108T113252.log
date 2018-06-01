@@ -1,0 +1,80 @@
+Connection Event: Carrier Detect found.458.21    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 11:32:51 2018 MT:     457
+DR  Location:  3504.202 N -7543.697 E measured    245.459 secs ago
+GPS TooFar:    3505.625 N -7540.490 E measured     1e+308 secs ago
+GPS Invalid :  3504.188 N -7543.739 E measured    301.562 secs ago
+GPS Location:  3504.202 N -7543.697 E measured    246.976 secs ago
+   sensor:c_wpt_lat(lat)=3504.20190004932           5.795 secs ago
+   sensor:c_wpt_lon(lon)=-7543.69730000045          5.851 secs ago
+   sensor:m_battery(volts)=11.821098342646         64.119 secs ago
+   sensor:m_gps_lat(lat)=3504.2019                247.382 secs ago
+   sensor:m_gps_lon(lon)=-7543.6973               247.453 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       15.188 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          15.062 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.363 secs ago
+   sensor:m_mission_start_time(timestamp)=1515410712     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515411170.18134        1.8 secs ago
+   sensor:m_tot_num_inflections(nodim)=28329      267.316 secs ago
+   sensor:m_vacuum(inHg)=8.80793043345544          44.787 secs ago
+   sensor:m_water_vx(m/s)=0.156231105397101        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0.0847489451242281       1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3504.20190004932     11.843 secs ago
+   sensor:x_last_wpt_lon(lon)=-7543.69730000045      11.89 secs ago
+ABORT HISTORY: total since reset: 6
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T10:59:22
+ABORT HISTORY: last abort segment: ramses-2018-007-1-2 (0097.0002)
+ABORT HISTORY: last abort mission: lastgasp.mi
+459.61    No login script found for processing.
+459.65    DRIVER_ODDITY:iridium:1529:xxx_ctrl() ran too long
+
+
+
+
+Glider ramses at surface.
+Because:Hit a waypoint [behavior surface_2 start_when = 8.0]
+MissionName:lastgasp.mi MissionNum:ramses-2018-007-2-0 (0098.0000)
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 11:33:35 2018 MT:     503
+DR  Location:  3504.202 N -7543.697 E measured    290.253 secs ago
+GPS TooFar:    3505.625 N -7540.490 E measured     1e+308 secs ago
+GPS Invalid :  3504.188 N -7543.739 E measured    346.355 secs ago
+GPS Location:  3504.202 N -7543.697 E measured    291.769 secs ago
+   sensor:c_wpt_lat(lat)=3504.20190004932          50.572 secs ago
+   sensor:c_wpt_lon(lon)=-7543.69730000045         50.617 secs ago
+   sensor:m_battery(volts)=11.8223574949504        43.593 secs ago
+   sensor:m_gps_lat(lat)=3504.2019                292.086 secs ago
+   sensor:m_gps_lon(lon)=-7543.6973               292.127 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        59.85 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          59.706 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.697 secs ago
+   sensor:m_mission_start_time(timestamp)=1515410712     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515411215.84967      0.751 secs ago
+   sensor:m_tot_num_inflections(nodim)=28329       311.92 secs ago
+   sensor:m_vacuum(inHg)=8.80793043345544          89.373 secs ago
+   sensor:m_water_vx(m/s)=0.156231105397101        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0.0847489451242281       1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3504.20190004932     56.373 secs ago
+   sensor:x_last_wpt_lon(lon)=-7543.69730000045     56.413 secs ago
+devices:(t/m/s) errs: 170/   0/   0 warn:  62/   0/   0 odd:7925/   6/   6
+ABORT HISTORY: total since reset: 6
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T10:59:22
+ABORT HISTORY: last abort segment: ramses-2018-007-1-2 (0097.0002)
+ABORT HISTORY: last abort mission: lastgasp.mi
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                              

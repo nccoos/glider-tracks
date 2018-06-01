@@ -1,0 +1,601 @@
+Connection Event: Carrier Detect found.429714    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Mon May 28 20:38:26 2018 MT:  429726
+DR  Location:  3526.188 N -7514.188 E measured     41.604 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3526.484 N -7514.224 E measured    111.045 secs ago
+GPS Location:  3526.188 N -7514.188 E measured     45.488 secs ago
+   sensor:c_wpt_lat(lat)=3526.16                  4455.56 secs ago
+   sensor:c_wpt_lon(lon)=-7514.477                 4455.6 secs ago
+   sensor:m_battery(volts)=12.9409997105994         4.351 secs ago
+   sensor:m_gps_lat(lat)=3526.1875                 45.814 secs ago
+   sensor:m_gps_lon(lon)=-7514.1876                45.858 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       12.716 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          12.558 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.657 secs ago
+   sensor:m_mission_start_time(timestamp)=1527110192     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527539906.14596      1.418 secs ago
+   sensor:m_tot_num_inflections(nodim)=31941       65.655 secs ago
+   sensor:m_vacuum(inHg)=6.4307413003663            4.758 secs ago
+   sensor:m_water_vx(m/s)=-0.128328706900042       80.139 secs ago
+   sensor:m_water_vy(m/s)=-0.279029868159164       80.179 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3526.16             3172.49 secs ago
+   sensor:x_last_wpt_lon(lon)=-7514.477           3172.54 secs ago
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+429716    No login script found for processing.
+
+
+GliderDos N -1 >:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.0404 C_FIN:0.0000
+zr
+429966 41 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+429966    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B01000800275775�429986    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+429986    restore_sensors()....
+429986    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+Done!
+
+
+GliderDos N -1 >
+429987    GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >429992 44 SCI:PROGLET house_elf begin() called
+429992    SCI:   house_elf: Version 1.2
+429992    SCI:PROGLET ctd41cp begin() called
+429992    SCI:   ctd41cp: Version 0.2
+429992    SCI:     ctd41cp:  Will be sending the following data to glider:
+429992    SCI:           sci_water_cond(s/m)
+429992    SCI:           sci_water_temp(degc)
+429992    SCI:           sci_water_pressure(bar)
+429992    SCI:           sci_ctd41cp_timestamp(timestamp)
+429993    SCI:PROGLET oxy4 begin() called
+429993    SCI:   oxy4: Version 0.0
+429993    SCI:     oxy4:  Will be sending following data to glider:
+429993    SCI:           sci_oxy4_oxygen(um)
+429993    SCI:           sci_oxy4_saturation(%)
+429993    SCI:           sci_oxy4_temp(degc)
+429993    SCI:           sci_oxy4_calphase(deg)
+429993    SCI:           sci_oxy4_tcphase(deg)
+429993    SCI:           sci_oxy4_c1rph(deg)
+429993    SCI:           sci_oxy4_c2rph(deg)
+429994    SCI:           sci_oxy4_c1amp(mv)
+429994    SCI:           sci_oxy4_c2amp(mv)
+429994    SCI:           sci_oxy4_rawtemp(mv)
+429994    SCI:           sci_oxy4_timestamp(timestamp)
+429994    SCI:  Opening Bit(34) for output
+429994    SCI:PROGLET flbbcd begin() called
+429994    SCI:   flbbcd: Version 0.0
+429994    SCI:     flbbcd:  Will be sending following data to glider:
+429994    SCI:           sci_flbbcd_chlor_units(ug/l)
+429995    SCI:           sci_flbbcd_bb_units(nodim)
+429995    SCI:           sci_flbbcd_cdom_units(ppb)
+429995    SCI:           sci_flbbcd_chlor_sig(nodim)
+429995    SCI:           sci_flbbcd_bb_sig(nodim)
+429995 45 SCI:           sci_flbbcd_cdom_sig(nodim)
+429995    SCI:           sci_flbbcd_chlor_ref(nodim)
+429995    SCI:           sci_flbbcd_bb_ref(nodim)
+429996    SCI:           sci_flbbcd_cdom_ref(nodim)
+429996    SCI:           sci_flbbcd_therm(nodim)
+429996    SCI:           sci_flbbcd_timestamp(timestamp)
+429997    SCI:  Opening Bit(29) for output
+429999    SCI:PROGLET house_elf start() called
+429999    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+429999 46 SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+get m_vacuum
+ = 7.225329 inHg
+
+GliderDos N -1 >
+
+GliderDos N -1 >c:\logs
+
+Bad command or file name
+GliderDos N -1 >cd c:\logs
+
+\LOGS
+
+GliderDos N -1 >dir *.mlg
+
+
+ Volume in drive C is MB 032     
+ Volume Serial Number is EC9F-27B7
+ Directory of C:\LOGS\
+
+01120000.MLG         20,524  05-15-18  2:20p
+01130000.MLG         25,923  05-15-18  2:53p
+01140000.MLG         29,606  05-15-18  3:06p
+01150000.MLG         26,176  05-15-18  3:30p
+01170003.MLG          7,383  05-15-18  4:37p
+01160000.MLG         28,741  05-15-18  3:39p
+01170000.MLG         57,163  05-15-18  4:11p
+01170001.MLG          8,691  05-15-18  4:23p
+01170002.MLG         13,832  05-15-18  4:30p
+01180000.MLG         57,395  05-15-18  5:22p
+01180001.MLG         38,189  05-15-18  5:36p
+01180002.MLG          4,383  05-15-18  5:38p
+01180003.MLG         37,684  05-15-18  6:22p
+01180004.MLG          5,117  05-15-18  6:28p
+01180005.MLG         42,592  05-15-18  7:22p
+01180006.MLG          4,576  05-15-18  7:31p
+01180007.MLG         40,213  05-15-18  8:21p
+01180008.MLG         32,802  05-15-18  8:32p
+01180009.MLG          4,385  05-15-18  8:35p
+01180010.MLG        114,344  05-15-18 11:21p
+01180011.MLG          4,944  05-15-18 11:40p
+01180012.MLG        116,398  05-16-18  2:22a
+01180013.MLG          2,852  05-16-18  2:26a
+01180014.MLG          4,386  05-16-18  2:44a
+01180015.MLG         60,223  05-16-18  4:04a
+01180016.MLG          4,386  05-16-18  4:13a
+01180017.MLG         65,958  05-16-18  5:22a
+01180018.MLG          4,754  05-16-18  5:33a
+01180019.MLG        135,723  05-16-18  8:24a
+01180020.MLG          4,386  05-16-18  8:43a
+01180021.MLG         84,629  05-16-18 11:23a
+01180022.MLG          4,385  05-16-18 11:40a
+01180023.MLG         95,886  05-16-18  2:24p
+01180024.MLG          4,750  05-16-18  2:42p
+01180025.MLG        113,355  05-16-18  5:27p
+01180026.MLG          6,238  05-16-18  5:48p
+01180027.MLG        113,245  05-16-18  9:25p
+01180028.MLG          4,384  05-16-18  9:47p
+01180029.MLG        105,877  05-17-18  1:24a
+01180030.MLG          4,386  05-17-18  1:46a
+01180031.MLG         60,785  05-17-18  4:04a
+01180032.MLG          4,578  05-17-18  4:21a
+01180033.MLG         35,741  05-17-18  5:25a
+01180034.MLG          4,385  05-17-18  5:34a
+01180035.MLG         99,240  05-17-18  9:25a
+01180036.MLG          4,284  05-17-18  9:33a
+01180040.MLG          4,385  05-17-18  6:10p
+01180037.MLG        114,559  05-17-18  1:24p
+01180038.MLG          4,284  05-17-18  1:37p
+01180039.MLG         85,341  05-17-18  5:26p
+01180041.MLG         62,696  05-17-18  9:25p
+01180042.MLG          4,386  05-17-18  9:58p
+01180043.MLG         94,752  05-18-18  1:29a
+01180044.MLG          4,751  05-18-18  1:49a
+01180045.MLG         42,369  05-18-18  4:04a
+01180046.MLG          4,385  05-18-18  4:18a
+01180047.MLG         28,631  05-18-18  5:24a
+01180048.MLG          4,578  05-18-18  5:32a
+01180049.MLG         62,094  05-18-18  9:26a
+01180050.MLG          4,386  05-18-18  9:52a
+01180051.MLG         58,125  05-18-18  1:27p
+01180052.MLG          4,946  05-18-18  1:51p
+01180053.MLG         56,191  05-18-18  5:27p
+01180054.MLG          4,386  05-18-18  5:51p
+01180055.MLG         54,887  05-18-18  9:25p
+01180056.MLG          4,385  05-18-18  9:50p
+01180057.MLG         52,304  05-19-18  1:27a
+01180058.MLG         29,761  05-19-18  1:53a
+01180059.MLG          4,385  05-19-18  1:55a
+01180060.MLG         36,538  05-19-18  4:04a
+01180061.MLG          4,385  05-19-18  4:17a
+01180062.MLG         24,760  05-19-18  5:27a
+01180063.MLG          4,384  05-19-18  5:35a
+01180064.MLG         54,605  05-19-18  9:28a
+01180065.MLG          4,386  05-19-18  9:53a
+01180066.MLG         51,995  05-19-18  1:27p
+01180067.MLG          4,386  05-19-18  1:51p
+01180068.MLG         54,548  05-19-18  5:26p
+01180069.MLG          4,448  05-19-18  5:49p
+01180070.MLG         85,762  05-19-18  9:29p
+01180071.MLG          4,386  05-19-18  9:51p
+01180072.MLG         87,600  05-20-18  1:32a
+01180073.MLG          7,276  05-20-18  1:59a
+01180074.MLG         38,200  05-20-18  4:04a
+01180075.MLG          2,584  05-20-18  4:07a
+01180076.MLG          4,386  05-20-18  4:21a
+01180077.MLG         25,893  05-20-18  5:27a
+01180078.MLG          4,385  05-20-18  5:35a
+01180079.MLG         63,500  05-20-18  9:29a
+01180082.MLG          4,388  05-20-18  2:04p
+01180080.MLG          4,286  05-20-18  9:42a
+01180081.MLG         60,369  05-20-18  1:28p
+01180083.MLG         62,843  05-20-18  5:28p
+01180084.MLG          4,388  05-20-18  5:49p
+01180085.MLG         66,813  05-20-18  9:28p
+01180086.MLG          4,388  05-20-18  9:51p
+01180087.MLG         65,373  05-21-18  1:26a
+01180088.MLG          4,388  05-21-18  1:50a
+01180089.MLG         46,307  05-21-18  4:04a
+01180090.MLG          4,387  05-21-18  4:18a
+01180091.MLG         31,904  05-21-18  5:29a
+01180092.MLG          4,754  05-21-18  5:37a
+01180093.MLG         72,667  05-21-18  9:29a
+01180094.MLG          4,388  05-21-18  9:55a
+01180095.MLG         68,701  05-21-18  1:29p
+01180096.MLG          4,387  05-21-18  1:50p
+01180097.MLG         69,932  05-21-18  5:28p
+01180100.MLG          4,388  05-21-18  9:52p
+01180098.MLG          4,287  05-21-18  5:49p
+01180099.MLG         71,831  05-21-18  9:27p
+01180101.MLG         75,547  05-22-18  1:28a
+01180102.MLG          4,389  05-22-18  1:54a
+01180103.MLG         57,752  05-22-18  4:05a
+01180104.MLG          4,389  05-22-18  4:19a
+01180105.MLG         32,456  05-22-18  5:28a
+01180106.MLG          4,388  05-22-18  5:37a
+01180107.MLG         82,038  05-22-18  9:29a
+01180108.MLG          4,755  05-22-18  9:53a
+01180109.MLG         77,288  05-22-18  1:28p
+01180110.MLG          4,287  05-22-18  1:36p
+01180114.MLG          4,388  05-22-18 10:10p
+01180111.MLG         81,443  05-22-18  5:28p
+01180112.MLG          4,288  05-22-18  5:42p
+01180113.MLG        103,352  05-22-18  9:29p
+01180115.MLG        148,892  05-23-18  1:28a
+01180118.MLG          4,389  05-23-18  4:23a
+01180116.MLG          4,287  05-23-18  1:52a
+01180117.MLG         68,068  05-23-18  4:04a
+01180119.MLG         42,898  05-23-18  5:29a
+01180120.MLG          4,389  05-23-18  5:37a
+01180121.MLG         87,596  05-23-18  9:29a
+01180122.MLG          4,389  05-23-18  9:50a
+01180123.MLG        125,447  05-23-18  1:28p
+01180124.MLG          4,389  05-23-18  1:50p
+01180125.MLG         78,714  05-23-18  5:34p
+01180126.MLG         77,411  05-23-18  8:39p
+01190001.MLG          4,385  05-24-18  2:15a
+01190000.MLG        168,082  05-24-18  1:26a
+01190002.MLG         77,810  05-24-18  4:05a
+01190005.MLG          4,753  05-24-18  7:30a
+01190003.MLG          4,285  05-24-18  4:33a
+01190004.MLG        102,927  05-24-18  7:11a
+01190006.MLG        128,049  05-24-18 11:11a
+01190007.MLG          4,386  05-24-18 11:34a
+01190008.MLG        131,393  05-24-18  3:12p
+01190009.MLG          4,386  05-24-18  3:35p
+01190010.MLG         98,347  05-24-18  7:09p
+01190011.MLG          4,387  05-24-18  7:32p
+01190012.MLG        103,239  05-24-18 11:11p
+01190013.MLG          4,579  05-24-18 11:34p
+01190014.MLG        106,962  05-25-18  3:10a
+01190017.MLG          4,387  05-25-18  4:31a
+01190015.MLG          4,286  05-25-18  3:16a
+01190016.MLG         30,685  05-25-18  4:03a
+01190018.MLG         84,864  05-25-18  7:09a
+01190019.MLG          4,387  05-25-18  7:26a
+01190020.MLG        122,553  05-25-18 11:11a
+01190021.MLG          4,387  05-25-18 11:36a
+01190022.MLG        121,829  05-25-18  3:11p
+01190023.MLG          4,387  05-25-18  3:35p
+01190024.MLG        127,037  05-25-18  7:10p
+01190025.MLG            255  05-25-18  7:34p
+01190026.MLG          4,387  05-25-18  7:37p
+01190027.MLG        129,987  05-25-18 11:12p
+01190028.MLG          4,526  05-25-18 11:36p
+01190029.MLG        139,038  05-26-18  3:12a
+01190030.MLG          4,579  05-26-18  3:40a
+01190031.MLG         20,235  05-26-18  4:03a
+01190032.MLG          4,579  05-26-18  4:08a
+01190033.MLG        157,601  05-26-18  7:14a
+01190034.MLG          4,387  05-26-18  7:32a
+01190035.MLG        139,645  05-26-18 11:11a
+01190036.MLG          4,387  05-26-18 11:36a
+01190037.MLG        138,734  05-26-18  3:13p
+01190038.MLG          4,386  05-26-18  3:39p
+01190039.MLG        135,628  05-26-18  7:12p
+01190042.MLG          4,387  05-26-18 11:45p
+01190040.MLG          4,285  05-26-18  7:25p
+01190041.MLG        136,444  05-26-18 11:11p
+01190043.MLG        120,790  05-27-18  3:11a
+01190044.MLG          4,386  05-27-18  3:33a
+01190045.MLG         24,134  05-27-18  4:04a
+01190046.MLG          4,386  05-27-18  4:10a
+01190047.MLG        110,680  05-27-18  7:11a
+01190048.MLG         30,696  05-27-18  7:31a
+01190049.MLG          4,387  05-27-18  7:34a
+01190050.MLG        124,172  05-27-18 11:12a
+01190051.MLG          4,752  05-27-18 11:33a
+01190052.MLG        125,054  05-27-18  3:12p
+01190053.MLG          4,387  05-27-18  3:36p
+01190054.MLG        124,388  05-27-18  7:11p
+01190055.MLG          7,765  05-27-18  7:36p
+01190056.MLG        121,728  05-27-18 11:11p
+01190057.MLG          4,387  05-27-18 11:32p
+01190058.MLG        124,778  05-28-18  3:11a
+01190059.MLG          4,387  05-28-18  3:33a
+01190060.MLG         24,
+
+***<Iridium Output Buffer was full, tossed   683 chars>***
+
+
+dir 0119007*.mlg
+
+
+ Volume in drive C is MB 032     
+ Volume Serial Number is EC9F-27B7
+ Directory of C:\LOGS\
+
+01190071.MLG          4,387  05-28-18  8:34p
+01190070.MLG        169,529  05-28-18  7:50p
+01190072.MLG         11,178  05-28-18  8:37p
+
+         3 file(s)         185,094 bytes
+         0 dir(s)    1,853,194,240 bytes free
+
+GliderDos N -1 >zs 01190072.mlg
+Enumerating files; patience
+Checking for dupes; one dot for every 10 files
+.
+About to send 1 files
+Prechecking is not necessary for this invocation
+430266 12 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+430266    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�s()....
+430346    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+Successfully sent 1 file(s)
+
+
+GliderDos N -1 >
+430346    GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >**^XB0800000000022d
+
+Bad command or file name
+GliderDos N -1 >DEL**^XB0800000000022d
+
+Bad command or file name
+GliderDos N -1 >DELuse
+
+Bad command or file name
+GliderDos N -1 >use
+             name in ALLCAPS means CRITICAL device (* => SUPERCRITICAL)
+                  [I Installed] [- Not_Installed]
+                    [u In_use] [- Not_In_use] [X Out_of_Service]
+             name       limits     stats (#total/#mission/#segment)
+ 0        simdrvr  -
+ 1    test_driver  -
+ 2          ARGOS* I u  -1  20   5  0
+ 3       WATCHDOG  I u  -1  -1  -1  0
+ 4        DEADMAN  I u  -1  20   5  0
+ 5        CONSOLE* I u  -1  20   5  0
+ 6            GPS  I u  -1  20   5  0
+ 7         pinger  -
+ 8       attitude  I u   3  20   5  0
+ 9  attitude_tcm3  -
+10   attitude_rev  -
+11 ocean_pressure  I u   3  20   5  0
+12         vacuum  I u   3  20   5  0
+13        battery  I u   3  20   5  0
+14lithium_battery  -
+15       air_pump  I u   3  20   5  0
+16    pitch_motor  I u   3  20   5  0 [   0   0  0] [   0   0  0] [ 120  28  0]
+17  science_super  I u   3  20   5  0 [   0   0  0] [   5   1  0] [  61   3  0]
+18     roll_motor  -
+19    fpitch_pump  -
+20      fin_motor  -
+21        digifin  I u   3  20   5  0 [   0   0  0] [   0   0  0] [ 265  63  0]
+22      altimeter  I u   3  20   5  0
+23            ctd  -
+24        IRIDIUM* I u  -1  20   5  0 [   0   0  0] [   0   0  0] [  89  33  0]
+25     leakdetect  I u   3  20   5  0
+26       recovery  -
+27        coulomb  -
+28       veh_temp  -
+29          avbot  -
+30  BUOYANCY_PUMP  I u  20 100  10  0 [   0   0  0] [   0   0  0] [2527 573  2]
+31THERMAL_ACC_PRE  -
+32 THERMAL_ENGINE  -
+33   THERMAL_PUMP  -
+34        DE_PUMP  -
+devices:(t/m/s) errs:   0/   0/   0 warn:   5/   1/   0 odd:3062/ 700/   2
+
+
+GliderDos N -1 >cd mafiles
+
+error code -1
+GliderDos N -1 >
+430595 76 NOTE:GPS fix is getting stale: 926 secs old
+
+GliderDos N -1 >goto_l30.ma
+
+Bad command or file name
+GliderDos N -1 >cd ..
+
+
+
+GliderDos N -1 >cd mafiles
+
+\MAFILES
+
+GliderDos N -1 >goto_l30.ma
+
+Bad command or file name
+GliderDos N -1 >
+430651 95 GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >goto_l30.ma
+
+Bad command or file name
+GliderDos N -1 >goto_l30.ma
+
+Bad command or file name
+GliderDos N -1 >type goto_l30.ma
+
+behavior_name=goto_list
+# Flies north_transect_to_D leg from point -7512.863, 3527.532 in 2.7332km segments.
+#  Total 21.8658 distance, divided into 8 segments
+behavior_name=goto_list
+<start:b_arg>
+b_arg: num_legs_to_run(nodim) -2 # run once
+b_arg: start_when(enum) 0 # BAW_IMMEDIATELY
+b_arg: list_stop_when(enum) 7 # BAW_WHEN_WPT_DIST
+b_arg: list_when_wpt_dist(m) 750
+b_arg: initial_wpt(enum) -2 # closest
+b_arg: num_waypoints(nodim) 9
+<end:b_arg>
+
+<start:waypoints>
+-7512.86300 3527.53200
+-7513.69399 3526.22058
+-7514.52498 3524.90880
+-7515.35597 3523.59666
+-7516.18696 3522.28417
+-7517.01795 3520.97132
+-7517.84894 3519.65811
+-7518.67993 3518.34456
+-7519.51092 3517.03064
+<end:waypoints>
+
+
+GliderDos N -1 >zr
+430984 79 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+430984    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B01000800275775�431001    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+431001    restore_sensors()....
+431001    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+Done!
+
+
+GliderDos N -1 >
+431001    NOTE:GPS fix is getting stale: 1332 secs old
+
+431001    GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >431006 82 SCI:PROGLET house_elf begin() called
+431006    SCI:   house_elf: Version 1.2
+431007    SCI:PROGLET ctd41cp begin() called
+431007    SCI:   ctd41cp: Version 0.2
+431007    SCI:     ctd41cp:  Will be sending the following data to glider:
+431007    SCI:           sci_water_cond(s/m)
+431007    SCI:           sci_water_temp(degc)
+431007    SCI:           sci_water_pressure(bar)
+431007    SCI:           sci_ctd41cp_timestamp(timestamp)
+431007    SCI:PROGLET oxy4 begin() called
+431007    SCI:   oxy4: Version 0.0
+431008    SCI:     oxy4:  Will be sending following data to glider:
+431008    SCI:           sci_oxy4_oxygen(um)
+431008    SCI:           sci_oxy4_saturation(%)
+431008    SCI:           sci_oxy4_temp(degc)
+431008    SCI:           sci_oxy4_calphase(deg)
+431008    SCI:           sci_oxy4_tcphase(deg)
+431008    SCI:           sci_oxy4_c1rph(deg)
+431008    SCI:           sci_oxy4_c2rph(deg)
+431008    SCI:           sci_oxy4_c1amp(mv)
+431008    SCI:           sci_oxy4_c2amp(mv)
+431008    SCI:           sci_oxy4_rawtemp(mv)
+431009    SCI:           sci_oxy4_timestamp(timestamp)
+431009    SCI:  Opening Bit(34) for output
+431009    SCI:PROGLET flbbcd begin() called
+431009    SCI:   flbbcd: Version 0.0
+431009    SCI:     flbbcd:  Will be sending following data to glider:
+431009    SCI:           sci_flbbcd_chlor_units(ug/l)
+431009    SCI:           sci_flbbcd_bb_units(nodim)
+431009    SCI:           sci_flbbcd_cdom_units(ppb)
+431010    SCI:           sci_flbbcd_chlor_sig(nodim)
+431010    SCI:           sci_flbbcd_bb_sig(nodim)
+431010 83 SCI:           sci_flbbcd_cdom_sig(nodim)
+431010    SCI:           sci_flbbcd_chlor_ref(nodim)
+431010    SCI:           sci_flbbcd_bb_ref(nodim)
+431011    SCI:           sci_flbbcd_cdom_ref(nodim)
+431011    SCI:           sci_flbbcd_therm(nodim)
+431011    SCI:           sci_flbbcd_timestamp(timestamp)
+431011    SCI:  Opening Bit(29) for output
+431014    SCI:PROGLET house_elf start() called
+431014    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+431014 84 SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+
+
+GliderDos N -1 >zr
+431086  1 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+431086    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B01000800275775�431103    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+431104    restore_sensors()....
+431104    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+Done!
+
+
+GliderDos N -1 >431109  3 SCI:PROGLET house_elf begin() called
+431109    SCI:   house_elf: Version 1.2
+431109    SCI:PROGLET ctd41cp begin() called
+431109    SCI:   ctd41cp: Version 0.2
+431109    SCI:     ctd41cp:  Will be sending the following data to glider:
+431109    SCI:           sci_water_cond(s/m)
+431109    SCI:           sci_water_temp(degc)
+431110    SCI:           sci_water_pressure(bar)
+431110    SCI:           sci_ctd41cp_timestamp(timestamp)
+431110    SCI:PROGLET oxy4 begin() called
+431110    SCI:   oxy4: Version 0.0
+431110    SCI:     oxy4:  Will be sending following data to glider:
+431110    SCI:           sci_oxy4_oxygen(um)
+431110    SCI:           sci_oxy4_saturation(%)
+431110    SCI:           sci_oxy4_temp(degc)
+431110    SCI:           sci_oxy4_calphase(deg)
+431111    SCI:           sci_oxy4_tcphase(deg)
+431111    SCI:           sci_oxy4_c1rph(deg)
+431111    SCI:           sci_oxy4_c2rph(deg)
+431111    SCI:           sci_oxy4_c1amp(mv)
+431111    SCI:           sci_oxy4_c2amp(mv)
+431111    SCI:           sci_oxy4_rawtemp(mv)
+431111    SCI:           sci_oxy4_timestamp(timestamp)
+431111    SCI:  Opening Bit(34) for output
+431111    SCI:PROGLET flbbcd begin() called
+431111    SCI:   flbbcd: Version 0.0
+431111    SCI:     flbbcd:  Will be sending following data to glider:
+431112    SCI:           sci_flbbcd_chlor_units(ug/l)
+431112    SCI:           sci_flbbcd_bb_units(nodim)
+431112    SCI:           sci_flbbcd_cdom_units(ppb)
+431112    SCI:           sci_flbbcd_chlor_sig(nodim)
+431112    SCI:           sci_flbbcd_bb_sig(nodim)
+431112  4 SCI:           sci_flbbcd_cdom_sig(nodim)
+431112    SCI:           sci_flbbcd_chlor_ref(nodim)
+431113    SCI:           sci_flbbcd_bb_ref(nodim)
+431113    SCI:           sci_flbbcd_cdom_ref(nodim)
+431114    SCI:           sci_flbbcd_therm(nodim)
+431114    SCI:           sci_flbbcd_timestamp(timestamp)
+431114    SCI:  Opening Bit(29) for output
+431116    SCI:PROGLET house_elf start() called
+431116    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+431116    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+callback 1
+
+I am going to hangup the Iridium!
+I will call you back in 1 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 >431201 27 disabl

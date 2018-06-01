@@ -1,0 +1,13 @@
+<script src='jquery.js'></script>
+<script src='togeojson.js'></script>
+<script>
+var data;
+//var fn = './linestring.kml';
+var fn = 'http://imsdockserver.dyndns.org/realtime/tracks/ramses_track.kml';
+$.ajax(fn).done(function(xml) {
+    //var xmldom = (new DOMParser()).parseFromString(xmlStr, 'text/xml');
+    console.log(xml);
+    data = toGeoJSON.kml(xml);
+    console.log(data);
+});
+</script>

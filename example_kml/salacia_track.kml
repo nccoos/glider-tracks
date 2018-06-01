@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Name>salacia_track</Name>
+    <LookAt>
+      <longitude>-70.610467</longitude>
+      <latitude>41.640250</latitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>60000</range>
+      <altitudeMode>absolute</altitudeMode>
+    </LookAt>
+    <Style id="lastPosnIcon">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <Icon>
+          <href>icons/grn-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00ff00</color>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lastWayPosnIcon">
+      <IconStyle>
+        <scale>0.5</scale>
+        <color>ff0000ff</color>
+        <Icon>
+          <href>icons/grn-square-lv.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="prevPosnIcon">
+      <IconStyle>
+        <scale>0.5</scale>
+        <color>7d00ffff</color>
+        <Icon>
+          <href>icons/ylw-square-lv.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>7d00ffff</color>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="histPosnIcon">
+      <IconStyle>
+        <scale>0.9</scale>
+        <color>ff00ff00</color>
+        <Icon>
+          <href>icons/donut.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00ff00</color>
+        <scale>0.7</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="gliderBlueLine">
+      <LineStyle>
+        <color>7dff0000</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="gliderGreenLine">
+      <LineStyle>
+        <color>7d00ff00</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="gliderBlackLine">
+      <LineStyle>
+        <color>7d000000</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>salacia</name>
+      <Placemark>
+        <name>salacia</name>
+        <description>salacia</description>
+        <styleUrl>#gliderBlackLine</styleUrl>
+        <LineString>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-70.610467,41.640250,0.000000
+</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name></name>
+        <description> 
+&lt;div id="main"&gt;
+&lt;h3&gt;Surface Report&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;th&gt;Glider: salacia&lt;/th&gt;&lt;th&gt;2017-10-11 18:28:37 UTC&lt;/th&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;GPS Location:&lt;/td&gt;&lt;td&gt; 4138.415 N -7036.628 E&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;GPS Time:&lt;/td&gt;&lt;td&gt;2017-10-11 18:27:14 UTC&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Surface Because:&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Mission Name:&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Mission Number:&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Mission Time:&lt;/td&gt;&lt;td&gt;682&#13;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Battery (volts):&lt;/td&gt;&lt;td&gt;14.002488&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Vacuum (inHg):&lt;/td&gt;&lt;td class="yellow_td"&gt;3.99835&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Leak Detect (volts):&lt;/td&gt;&lt;td&gt;2.485287&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Waypoint:&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Waypoint Range:&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Waypoint Bearing:&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Waypoint Age:&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+ </description>
+        <styleUrl>#lastPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-70.610467,41.640250,0.000000</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

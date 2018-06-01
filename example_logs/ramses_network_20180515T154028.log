@@ -1,0 +1,250 @@
+Connection Event: Carrier Detect found.445.32    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 15:40:40 2018 MT:     444
+DR  Location:  3550.997 N -7523.090 E measured      0.898 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3551.007 N -7523.103 E measured     145.87 secs ago
+GPS Location:  3550.997 N -7523.090 E measured     46.471 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=15.2372928949649         4.561 secs ago
+   sensor:m_gps_lat(lat)=3550.9972                 46.917 secs ago
+   sensor:m_gps_lon(lon)=-7523.09                  46.976 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       13.179 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.4998778998779      4.652 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.697 secs ago
+   sensor:m_mission_start_time(timestamp)=1526398394     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526398839.37518      1.709 secs ago
+   sensor:m_tot_num_inflections(nodim)=28361      159.027 secs ago
+   sensor:m_vacuum(inHg)=7.78482658730159           5.104 secs ago
+   sensor:m_water_vx(m/s)=0.774264630457268        63.452 secs ago
+   sensor:m_water_vy(m/s)=0.0317207460157777       63.503 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+446.60    No login script found for processing.
+zs 01160000.sbd
+Enumerating files; patience
+Checking for dupes; one dot for every 10 files
+.
+About to send 1 files
+Prechecking is not necessary for this invocation
+481.24 86 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+481.32    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�04.81    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+504.87    restore_sensors()....
+504.89    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+Successfully sent 1 file(s)
+
+
+GliderDos N -1 >
+505.21    GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >510.39 88 SCI:PROGLET house_elf begin() called
+510.51    SCI:   house_elf: Version 1.2
+510.77    SCI:PROGLET ctd41cp begin() called
+510.85    SCI:   ctd41cp: Version 0.2
+510.95    SCI:     ctd41cp:  Will be sending the following data to glider:
+send 01160000.tbd
+SCIENCE DATA LOGGING: science IS running
+514.11 90 SCI:           sci_oxy4_oxygen(um)
+514.24    SCI:           sci_oxy4_saturation(%)
+515.27    SCI:           sci_oxy4_temp(degc)
+515.39    SCI:           sci_oxy4_calphase(deg)
+515.59    SCI:           sci_oxy4_tcphase(deg)
+515.68    SCI:           sci_oxy4_c1rph(deg)
+515.77    SCI:           sci_oxy4_c2rph(deg)
+515.87    SCI:           sci_oxy4_c1amp(mv)
+515.95    SCI:           sci_oxy4_c2amp(mv)
+516.03    SCI:           sci_oxy4_rawtemp(mv)
+516.14    SCI:           sci_oxy4_timestamp(timestamp)
+516.23    SCI:  Opening Bit(34) for output
+516.32    SCI:PROGLET flbbcd begin() called
+516.41    SCI:   flbbcd: Version 0.0
+516.50    SCI:     flbbcd:  Will be sending following data to glider:
+516.64    SCI:           sci_flbbcd_chlor_units(ug/l)
+516.74    SCI:           sci_flbbcd_bb_units(nodim)
+516.85    SCI:           sci_flbbcd_cdom_units(ppb)
+516.95    SCI:           sci_flbbcd_chlor_sig(nodim)
+517.05    SCI:           sci_flbbcd_bb_sig(nodim)
+517.15    SCI:           sci_flbbcd_cdom_sig(nodim)
+517.24    SCI:           sci_flbbcd_chlor_ref(nodim)
+517.34    SCI:           sci_flbbcd_bb_ref(nodim)
+517.43    SCI:           sci_flbbcd_cdom_ref(nodim)
+517.52    SCI:           sci_flbbcd_therm(nodim)
+517.62    SCI:           sci_flbbcd_timestamp(timestamp)
+517.72    SCI:  Opening Bit(29) for output
+521.14 91 SCI:PROGLET house_elf start() called
+521.26    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+521.42    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+527.82 93 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 1 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES.
+SCI: Sent 1 file(s):
+c:\logs\01160000.TBD
+SCI: SUCCESS
+551.20 98 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: NO TRANSMISSION: the overall list of files is empty
+
+
+GliderDos N -1 >cd ..
+
+
+
+GliderDos N -1 >cd missions
+
+\MISSIONS
+
+GliderDos N -1 >type shelf_30.mi
+
+# shelf_30.mi but turned on CC
+#
+#	RAMSES
+#
+#  Retrieves waypoints from mafiles/goto_l30.ma (which is GENIoS generated)
+#  Retrieves envelope  from mafiles/yo99.ma (variable file from pilottools library)
+#
+#  Surfaces:
+#     at interval set by surfac99.ma: variable file from pilottools library
+#     optional UTC time set by surfac50.ma (default midnight/blank??)
+#     no comms for 12 hrs (surfac01)
+#     mission done (finished all the waypoints, surfac02)
+#     bad altimeter hit (yo finishes, surfac03)
+#     if requested by science (surfac10) 
+#
+# 01-Sep-16 cedwards/sblockhart: added surfac, utc, simplified structure
+#		merged Long Bay/Gulf of Mexico and USF mission styles
+
+sensor: u_use_current_correction(nodim) 1   #  0 calculate, but do not use m_water_vx/y
+                                            #  1 use m_water_vx/y to navigate AND aim
+
+sensor: c_science_send_all(bool) 0  # T->send all sci_ vars from science but still log them on science.
+                                    # F->just send standard subset but still log them all on science.
+
+sensor: c_science_all_on_enabled(bool)   0  # in, non-zero enables c_science_all_on	
+                                            # disable this sensor to allow for individually 
+                                            # sampled science sensors ie sample11.ma and greater
+
+behavior: abend
+    b_arg: overdepth_sample_time(s)       20.0 # how often to check
+
+                                               # MS_ABORT_OVERTIME
+    b_arg: overtime(s)                    -1.0 # < 0 disables
+
+                                                # MS_ABORT_WPT_TOOFAR
+    b_arg: max_wpt_distance(m)            10000 # Maximum allowable distance to a waypoint
+                                        
+
+    b_arg: samedepth_for_sample_time(s)   30.0 # how often to check
+
+#   to prevent mission aborts due to buoyancy pump temporary stuck events (from USF)
+
+use buoyancy_pump  1  20   100  10     	# for 20 out-of-service events before abort,
+    b_arg: overdepth(m) 207.0 			# <0 disables,
+                                               	# clipped to F_MAX_WORKING_DEPTH 206
+                        		#100 warnings per segment, 10 warnings per minute
+
+##################################
+# Come up if haven't had comms for a while
+behavior: surface
+    b_arg: args_from_file(enum) 	01 	# read from mafiles/surfac01.ma
+
+##################################
+# Come up when mission done
+# This is determined by no one steering in x-y plane (no waypoints)
+behavior: surface
+    b_arg: args_from_file(enum) 	02 	# read from mafiles/surfac02.ma
+
+##################################
+# Come up briefly if "yo" finishes
+# This happens if a bad altimeter hit causes a dive and climb to
+# complete in same cycle.  We surface and hopefully yo restarts
+behavior: surface
+    b_arg: args_from_file(enum) 	03 	# read from mafiles/surfac03.ma
+
+#################################
+# Come up when requested by science
+behavior: surface
+    b_arg: args_from_file(enum) 	10	# read from mafiles/surfac10.ma
+    b_arg: start_when(enum)     	11	# BAW_SCI_SURFACE
+    b_arg: end_action(enum)   	1     # 0-quit, 1 wait for ^C quit/resume, 2 resume
+    b_arg: report_all(bool)   	0     # T->report all sensors once, F->just gps
+    b_arg: gps_wait_time(s) 		300   # how long to wait for gps
+    b_arg: keystroke_wait_time(s) 	300 	# how long to wait for control-C
+
+################################
+# Come up at UTC Surfacing 1 
+behavior: surface
+	b_arg: when_utc_on_surface(bool) 1	# if true, adjust
+						# when_utc_month/day/hour/min
+						# to get glider on surface by 
+						# this time
+	b_arg: args_from_file(enum) 	50 	# read from mafiles/surfac50.ma
+
+###################################
+# Come up at a given interval
+behavior: surface
+    b_arg: args_from_file(enum) 	99 	# read from mafiles/surfac99.ma
+
+
+behavior: goto_list
+    b_arg: args_from_file(enum) 30   # read from mafiles/goto_l30.ma
+    b_arg: start_when(enum)      0   # 0-immediately, 1-stack idle 2-heading idle
+
+
+behavior: yo
+    b_arg: args_from_file(enum) 99   # read from mafiles/yo99.ma library choice
+    b_arg: start_when(enum) 2        #  0-immediately, 1-stack idle 2-depth idle
+    b_arg: end_action(enum) 2        # 0-quit, 2 resume
+
+
+# Sample CTD
+behavior: sample
+b_arg: args_from_file(enum)            10  # >= 0 enables reading from mafiles/sample10.ma
+
+# Sample Optode
+behavior: sample
+b_arg: args_from_file(enum)            20  # >= 0 enables reading from mafiles/sample20.ma
+
+# Sample Wetlabs custom 3-param fluorescence/scattering meter
+behavior: sample
+b_arg: args_from_file(enum)            30  # >= 0 enables reading from mafiles/sample30.ma
+
+# # Sample Wetlabs BBAM beam attenuation meter simulator
+# behavior: sample
+# b_arg: args_from_file(enum)            40  # >= 0 enables reading from mafiles/sample40.ma
+
+behavior: prepare_to_dive
+    b_arg: start_when(enum) 0     # 0-immediately, 1-stack idle 2-depth idle
+    b_arg: wait_time(s)   720     # 12 minutes, how long to wait for gps
+
+
+behavior: sensors_in       # Turn most input sensors off
+
+
+GliderDos N -1 >

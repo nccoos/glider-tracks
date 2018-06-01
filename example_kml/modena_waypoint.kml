@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Name>modena_waypoint</Name>
+    <Style id="gotoPosnIcon">
+      <IconStyle>
+        <scale>0.5</scale>
+        <Icon>
+          <href>icons/wht-blank-lv.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="gliderBlueLine">
+      <LineStyle>
+        <color>7dff0000</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="gliderGreenLine">
+      <LineStyle>
+        <color>7d00ff00</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="gliderBlackLine">
+      <LineStyle>
+        <color>7d000000</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>modena</name>
+      <Placemark>
+        <name>modena</name>
+        <description>modena latest goto waypoints</description>
+        <styleUrl>#gliderGreenLine</styleUrl>
+        <LineString>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-75.527133,35.111017,0.000000
+-75.496000,35.085550,0.000000
+-75.464883,35.060083,0.000000
+-75.433767,35.034600,0.000000
+-75.402650,35.009117,0.000000
+-75.371517,34.983617,0.000000
+-75.340400,34.958117,0.000000
+-75.309283,34.932600,0.000000
+-75.278150,34.907083,0.000000
+-75.247033,34.881567,0.000000
+</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;modena goto position at&lt;/br&gt; 20180315T202109_goto_l10.ma&lt;/br&gt;-7531.628  3506.661&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-75.527133,35.111017,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;modena goto position at&lt;/br&gt; 20180315T202109_goto_l10.ma&lt;/br&gt;-7529.760  3505.133&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-75.496000,35.085550,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;modena goto position at&lt;/br&gt; 20180315T202109_goto_l10.ma&lt;/br&gt;-7527.893  3503.605&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-75.464883,35.060083,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;modena goto position at&lt;/br&gt; 20180315T202109_goto_l10.ma&lt;/br&gt;-7526.026  3502.076&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-75.433767,35.034600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;modena goto position at&lt;/br&gt; 20180315T202109_goto_l10.ma&lt;/br&gt;-7524.159  3500.547&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-75.402650,35.009117,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;modena goto position at&lt;/br&gt; 20180315T202109_goto_l10.ma&lt;/br&gt;-7522.291  3459.017&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-75.371517,34.983617,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;modena goto position at&lt;/br&gt; 20180315T202109_goto_l10.ma&lt;/br&gt;-7520.424  3457.487&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-75.340400,34.958117,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;modena goto position at&lt;/br&gt; 20180315T202109_goto_l10.ma&lt;/br&gt;-7518.557  3455.956&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-75.309283,34.932600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;modena goto position at&lt;/br&gt; 20180315T202109_goto_l10.ma&lt;/br&gt;-7516.689  3454.425&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-75.278150,34.907083,0.000000</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

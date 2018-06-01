@@ -1,0 +1,51 @@
+Connection Event: Carrier Detect found.  3634    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 16:50:32 2018 MT:    3633
+DR  Location:  3551.097 N -7522.718 E measured    1434.28 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3551.033 N -7522.858 E measured    1504.78 secs ago
+GPS Location:  3551.097 N -7522.718 E measured    1435.82 secs ago
+   sensor:c_wpt_lat(lat)=3550.92192               3456.76 secs ago
+   sensor:c_wpt_lon(lon)=-7521.87085              3456.82 secs ago
+   sensor:m_battery(volts)=15.1869261415769         4.453 secs ago
+   sensor:m_gps_lat(lat)=3551.0966                1436.21 secs ago
+   sensor:m_gps_lon(lon)=-7522.7183               1436.26 secs ago
+   sensor:m_iridium_signal_strength(nodim)=4        9.059 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          37.643 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1       4.81 secs ago
+   sensor:m_mission_start_time(timestamp)=1526399398     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526403031.11481      1.763 secs ago
+   sensor:m_tot_num_inflections(nodim)=28368       1460.9 secs ago
+   sensor:m_vacuum(inHg)=7.88149172771672           4.942 secs ago
+   sensor:m_water_vx(m/s)=0.181326137079924       2451.58 secs ago
+   sensor:m_water_vy(m/s)=-0.0474295905653479     2451.63 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+  3635    No login script found for processing.
+  3729 37 DRIVER_ODDITY:science_super:1800:oxy4_parse_line(): Received a bad output line (non numeric).
+  3729    DRIVER_ODDITY:science_super:1800:    !*	ERROR	SYNTAX ERROR
+  3729    DRIVER_ODDITY:science_super:1800:oxy4_run(): Error(1003) parsing:!*	ERROR	SYNTAX ERROR
+  3729    DRIVER_ODDITY:science_super:1800:ERROR from PROGLET oxy4 : 1003
+  3729    DRIVER_ODDITY:science_super:1800:PROGLET oxy4_run() recently generated an error: 1003
+  3730    DRIVER_ODDITY:science_super:1800:       oxy4_run(): 1 error(s) in a row. (5 is fatal)
+  3730    DRIVER_ODDITY:science_super:1800:       oxy4_run(): 1 error(s) since oxy4_begin(). (50 is fatal)
+  3790 53 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:255.6412 C_su:233.0000
+:OOD:   delta:22.6412 LIMIT:20.0000 over:2.6412
+  3847 67 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:254.4238 C_su:233.0000
+:OOD:   delta:21.4238 LIMIT:20.0000 over:1.4238
+
+
+GliderDos N -1 >callback 2
+
+I am going to hangup the Iridium!
+I will call you back in 2 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 >
+  3946 92 NOTE:GPS fix is getting stale: 1748 secs old
+
+  3946    Glid

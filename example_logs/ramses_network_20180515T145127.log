@@ -1,0 +1,36 @@
+Connection Event: Carrier Detect found. 98.67    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 14:52:04 2018 MT:      97
+DR  Location:  3550.730 N -7523.570 E measured     1e+308 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3550.530 N -7523.702 E measured     1e+308 secs ago
+GPS Location:  3550.730 N -7523.570 E measured     1e+308 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=15.293750531844          48.05 secs ago
+   sensor:m_gps_lat(lat)=3550.7297                 1e+308 secs ago
+   sensor:m_gps_lon(lon)=-7523.5699                1e+308 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       22.366 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49990842490842     48.098 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      6.545 secs ago
+   sensor:m_mission_start_time(timestamp)=1526395826     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526395923.69632      2.279 secs ago
+   sensor:m_tot_num_inflections(nodim)=28354       47.253 secs ago
+   sensor:m_vacuum(inHg)=5.36974471916972          48.734 secs ago
+   sensor:m_water_vx(m/s)=0                        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0                        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+100.36    No login script found for processing.
+100.40    DRIVER_ODDITY:iridium:1835:xxx_ctrl() ran too long
+surface_2: Waiting for sensors to report.
+106.13 12 SCI:ERROR! tbdlist.dat line 7: Time variables may NOT be decimated. Using DEFAULTS
+surface_2: Waiting for sensors to report.
+109.74 13 DRIVER_ODDITY:science_super:906:Input ringbuf overflow
+112.35    sensor: m_water_pressure = 0.014 bar
+115.35 14 ERROR behavior surface_2: Timed out waiting for input sensors:
+115.42    ERROR behavior surface_2:    Sensor NOT reporting: m_raw_altitude
+115.49    behavior surface_2: SUBSTATE 2 ->3 : waiting for GPS fix
+115.56    init_gps_input()
+surface_2: Waiting for 

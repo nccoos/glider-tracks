@@ -1,0 +1,1472 @@
+Connection Event: Carrier Detect found.226328    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Thu May 31 11:58:18 2018 MT:  226327
+DR  Location:  3527.330 N -7504.655 E measured     38.854 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured      142.4 secs ago
+GPS Location:  3527.330 N -7504.655 E measured     41.257 secs ago
+   sensor:c_wpt_lat(lat)=3528.081                 110.438 secs ago
+   sensor:c_wpt_lon(lon)=-7503.68                 110.519 secs ago
+   sensor:m_battery(volts)=12.7600615453473        56.335 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                 41.696 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545                41.768 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       10.819 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5           56.51 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.803 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527767897.23123      1.771 secs ago
+   sensor:m_tot_num_inflections(nodim)=33100       198.66 secs ago
+   sensor:m_vacuum(inHg)=7.13717014652015          56.892 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414        45.059 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237        45.113 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518            111.589 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807           111.654 secs ago
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+226329    No login script found for processing.
+226329    DRIVER_ODDITY:iridium:1579:xxx_ctrl() ran too long
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:250.6705 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:7.6705
+226333 25 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+226341 26 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:250.6705 C_su:233.0000
+:OOD:   delta:17.6705 limit:10.0000 over:7.6705
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-147-0-33 (0120.0033)
+Vehicle Name: ramses
+Curr Time: Thu May 31 11:58:39 2018 MT:  226349
+DR  Location:  3527.330 N -7504.655 E measured     59.741 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured    163.288 secs ago
+GPS Location:  3527.330 N -7504.655 E measured     62.145 secs ago
+   sensor:c_wpt_lat(lat)=3528.081                 131.291 secs ago
+   sensor:c_wpt_lon(lon)=-7503.68                 131.337 secs ago
+   sensor:m_battery(volts)=12.7692207143779        15.769 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                 62.468 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545                 62.51 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        31.55 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49996947496947     15.846 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1       4.92 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527767918.90686      0.779 secs ago
+   sensor:m_tot_num_inflections(nodim)=33100      219.332 secs ago
+   sensor:m_vacuum(inHg)=7.13717014652015          77.546 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414        65.695 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237        65.736 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518            132.171 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807           132.213 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   7/   2/   1 odd:3622/ 560/   9
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3528.0810,-7503.6800) Range: 2025m, Bearing: 59deg, Age: 0:2h:m
+Time until diving is: 231 secs
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:244.5332 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:1.5332
+226355 30 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+226360 31 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:244.5332 C_su:233.0000
+:OOD:   delta:11.5332 limit:10.0000 over:1.5332
+^F
+MAFILES will be re-read.
+
+Extending surface time by 5 minutes just in case
+ user might want to verify quality of MAFILE(s).
+226364 31 behavior surface_6: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+226364    behavior surface_6: STATE Waiting for Activation -> UnInited
+226365    behavior surface_5: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+226365    behavior surface_5: STATE Waiting for Activation -> UnInited
+226365    behavior surface_4: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+226365    behavior surface_4: STATE Waiting for Activation -> UnInited
+226365    behavior surface_3: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+226365    behavior surface_3: STATE Waiting for Activation -> UnInited
+226365    behavior surface_2: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+226365    behavior surface_2: STATE Waiting for Activation -> UnInited
+226370 32 behavior sample_12: SUBSTATE 4 ->0 UnInited: Unitialized
+226370    behavior sample_12: STATE Active -> UnInited
+226370    behavior sample_11: SUBSTATE 4 ->0 UnInited: Unitialized
+226370    behavior sample_11: STATE Active -> UnInited
+226370    behavior sample_10: SUBSTATE 4 ->0 UnInited: Unitialized
+226370    behavior sample_10: STATE Active -> UnInited
+226370    behavior yo_9: STATE Active -> UnInited
+226370    behavior goto_list_8: STATE Active -> UnInited
+226370    behavior surface_6: Reading b_args from surfac50.ma
+226370    behavior surface_6: start_when(enum)=13.000000
+226370    behavior surface_6: when_utc_min(min)=0.000000
+226370    behavior surface_6: when_utc_hour(hour)=4.000000
+226370    behavior surface_6: when_utc_day(day)=-1.000000
+226370    behavior surface_6: when_utc_month(month)=-1.000000
+226370    behavior surface_6: report_all(bool)=0.000000
+226371    behavior surface_6: end_action(enum)=1.000000
+226371    behavior surface_6: gps_wait_time(s)=600.000000
+226371    behavior surface_6: keystroke_wait_time(sec)=300.000000
+226371    behavior surface_6: c_use_pitch(enum)=3.000000
+226371    behavior surface_6: c_use_bpump(enum)=2.000000
+226371    behavior surface_6: c_bpump_value(X)=1000.000000
+226371    behavior surface_6: c_pitch_value(X)=0.452800
+226371    behavior surface_6: printout_cycle_time(sec)=30.000000
+226371    behavior surface_6: STATE UnInited -> Waiting for Activation
+226371    behavior surface_6: argument: args_from_file = 50.000000 enum
+226371    behavior surface_6: argument: start_when = 13.000000 enum
+226371    behavior surface_6: argument: when_secs = 1200.000000 sec
+226371    behavior surface_6: argument: when_wpt_dist = 10.000000 m
+226371    behavior surface_6: argument: end_action = 1.000000 enum
+226371    behavior surface_6: argument: report_all = 0.000000 bool
+226371    behavior surface_6: argument: gps_wait_time = 600.000000 sec
+226371    behavior surface_6: argument: keystroke_wait_time = 300.000000 sec
+226372    behavior surface_6: argument: end_wpt_dist = 0.000000 m
+226372    behavior surface_6: argument: c_use_bpump = 2.000000 enum
+226372    behavior surface_6: argument: c_bpump_value = 1000.000000 X
+226372    behavior surface_6: argument: c_use_pitch = 3.000000 enum
+226372    behavior surface_6: argument: c_pitch_value = 0.452800 X
+226372    behavior surface_6: argument: printout_cycle_time = 30.000000 sec
+226372    behavior surface_6: argument: gps_postfix_wait_time = 60.000000 sec
+226372    behavior surface_6: argument: force_iridium_use = 0.000000 nodim
+226372    behavior surface_6: argument: min_time_between_gps_fixes = 300.000000 sec
+226372    behavior surface_6: argument: sensor_input_wait_time = 10.000000 sec
+226372    behavior surface_6: argument: when_utc_min = 0.000000 min
+226372    behavior surface_6: argument: when_utc_hour = 4.000000 hour
+226372    behavior surface_6: argument: when_utc_day = -1.000000 day
+226372    behavior surface_6: argument: when_utc_month = -1.000000 month
+226372    behavior surface_6: argument: when_utc_on_surface = 1.000000 bool
+226372    behavior surface_6: argument: strobe_on = 0.000000 bool
+226373    behavior surface_5: Reading b_args from surfac10.ma
+226373    behavior surface_5: c_use_bpump(enum)=2.000000
+226373    behavior surface_5: c_bpump_value(X)=1000.000000
+226373    behavior surface_5: c_use_pitch(enum)=3.000000
+226373    behavior surface_5: c_pitch_value(X)=0.452800
+226373    behavior surface_5: gps_wait_time(s)=600.000000
+226373    behavior surface_5: STATE UnInited -> Waiting for Activation
+226373    behavior surface_5: argument: args_from_file = 10.000000 enum
+226373    behavior surface_5: argument: start_when = 11.000000 enum
+226373    behavior surface_5: argument: when_secs = 1200.000000 sec
+226373    behavior surface_5: argument: when_wpt_dist = 10.000000 m
+226373    behavior surface_5: argument: end_action = 1.000000 enum
+226373    behavior surface_5: argument: report_all = 0.000000 bool
+226373    behavior surface_5: argument: gps_wait_time = 600.000000 sec
+226373    behavior surface_5: argument: keystroke_wait_time = 300.000000 sec
+226373    behavior surface_5: argument: end_wpt_dist = 0.000000 m
+226374    behavior surface_5: argument: c_use_bpump = 2.000000 enum
+226374    behavior surface_5: argument: c_bpump_value = 1000.000000 X
+226374    behavior surface_5: argument: c_use_pitch = 3.000000 enum
+226374    behavior surface_5: argument: c_pitch_value = 0.452800 X
+226374    behavior surface_5: argument: printout_cycle_time = 60.000000 sec
+226374    behavior surface_5: argument: gps_postfix_wait_time = 60.000000 sec
+226374    behavior surface_5: argument: force_iridium_use = 0.000000 nodim
+226374    behavior surface_5: argument: min_time_between_gps_fixes = 300.000000 sec
+226374    behavior surface_5: argument: sensor_input_wait_time = 10.000000 sec
+226374    behavior surface_5: argument: when_utc_min = -1.000000 min
+226374    behavior surface_5: argument: when_utc_hour = -1.000000 hour
+226374    behavior surface_5: argument: when_utc_day = -1.000000 day
+226374    behavior surface_5: argument: when_utc_month = -1.000000 month
+226374    behavior surface_5: argument: when_utc_on_surface = 0.000000 bool
+226374    behavior surface_5: argument: strobe_on = 0.000000 bool
+226374    behavior surface_4: Reading b_args from surfac03.ma
+226375    behavior surface_4: start_when(enum)=2.000000
+226375    behavior surface_4: end_action(enum)=1.000000
+226375    behavior surface_4: gps_wait_time(s)=600.000000
+226375    behavior surface_4: keystroke_wait_time(sec)=300.000000
+226375    behavior surface_4: when_wpt_dist(m)=10.000000
+226375    behavior surface_4: c_use_pitch(enum)=3.000000
+226375    behavior surface_4: c_pitch_value(X)=0.452800
+226375    behavior surface_4: STATE UnInited -> Waiting for Activation
+226375    behavior surface_4: argument: args_from_file = 3.000000 enum
+226375    behavior surface_4: argument: start_when = 2.000000 enum
+226375    behavior surface_4: argument: when_secs = 1200.000000 sec
+226375    behavior surface_4: argument: when_wpt_dist = 10.000000 m
+226375    behavior surface_4: argument: end_action = 1.000000 enum
+226375    behavior surface_4: argument: report_all = 0.000000 bool
+226375    behavior surface_4: argument: gps_wait_time = 600.000000 sec
+226375    behavior surface_4: argument: keystroke_wait_time = 300.000000 sec
+226375    behavior surface_4: argument: end_wpt_dist = 0.000000 m
+226376    behavior surface_4: argument: c_use_bpump = 2.000000 enum
+226376    behavior surface_4: argument: c_bpump_value = 1000.000000 X
+226376    behavior surface_4: argument: c_use_pitch = 3.000000 enum
+226376    behavior surface_4: argument: c_pitch_value = 0.452800 X
+226376    behavior surface_4: argument: printout_cycle_time = 60.000000 sec
+226376    behavior surface_4: argument: gps_postfix_wait_time = 60.000000 sec
+226376    behavior surface_4: argument: force_iridium_use = 0.000000 nodim
+226376    behavior surface_4: argument: min_time_between_gps_fixes = 300.000000 sec
+226376    behavior surface_4: argument: sensor_input_wait_time = 10.000000 sec
+226376    behavior surface_4: argument: when_utc_min = -1.000000 min
+226376    behavior surface_4: argument: when_utc_hour = -1.000000 hour
+226376    behavior surface_4: argument: when_utc_day = -1.000000 day
+226376    behavior surface_4: argument: when_utc_month = -1.000000 month
+226376    behavior surface_4: argument: when_utc_on_surface = 0.000000 bool
+226376    behavior surface_4: argument: strobe_on = 0.000000 bool
+226376    behavior surface_3: Reading b_args from surfac02.ma
+226377    behavior surface_3: start_when(enum)=3.000000
+226377    behavior surface_3: end_action(enum)=0.000000
+226377    behavior surface_3: gps_wait_time(s)=600.000000
+226377    behavior surface_3: keystroke_wait_time(sec)=180.000000
+226377    behavior surface_3: when_wpt_dist(m)=10.000000
+226377    behavior surface_3: c_use_pitch(enum)=3.000000
+226377    behavior surface_3: c_pitch_value(X)=0.452800
+226377    behavior surface_3: STATE UnInited -> Waiting for Activation
+226377    behavior surface_3: argument: args_from_file = 2.000000 enum
+226377    behavior surface_3: argument: start_when = 3.000000 enum
+226377    behavior surface_3: argument: when_secs = 1200.000000 sec
+226377    behavior surface_3: argument: when_wpt_dist = 10.000000 m
+226377    behavior surface_3: argument: end_action = 0.000000 enum
+226377    behavior surface_3: argument: report_all = 0.000000 bool
+226377    behavior surface_3: argument: gps_wait_time = 600.000000 sec
+226377    behavior surface_3: argument: keystroke_wait_time = 180.000000 sec
+226378    behavior surface_3: argument: end_wpt_dist = 0.000000 m
+226378    behavior surface_3: argument: c_use_bpump = 2.000000 enum
+226378    beha
+
+***<Iridium Output Buffer was full, tossed 18990 chars>***
+
+
+226404    behavior dive_to_901: SUBSTATE 3 ->4 : diving
+226404    behavior goto_wpt_801: SUBSTATE 2 ->3 : Waiting until we get to waypoint
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-147-0-33 (0120.0033)
+Vehicle Name: ramses
+Curr Time: Thu May 31 11:59:39 2018 MT:  226409
+DR  Location:  3527.330 N -7504.655 E measured    120.431 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured    223.977 secs ago
+GPS Location:  3527.330 N -7504.655 E measured    122.835 secs ago
+   sensor:c_wpt_lat(lat)=3527.518                   9.581 secs ago
+   sensor:c_wpt_lon(lon)=-7504.807                  9.629 secs ago
+   sensor:m_battery(volts)=12.7535889970304         8.471 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                 123.16 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545               123.202 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       92.241 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49960317460317      8.567 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.862 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527767979.59183      0.784 secs ago
+   sensor:m_tot_num_inflections(nodim)=33101        3.428 secs ago
+   sensor:m_vacuum(inHg)=7.11745045787545           8.881 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414       126.386 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237       126.426 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518            192.861 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807           192.904 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   7/   2/   1 odd:3624/ 562/  11
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3527.5180,-7504.8070) Range: 418m, Bearing: 339deg, Age: 0:0h:m
+Time until diving is: 470 secs
+226414 37 behavior goto_wpt_801: STATE Active -> Complete
+226415    behavior goto_wpt_802: STATE UnInited -> Active
+226415    behavior goto_wpt_802: argument: start_when = 0.000000 enum
+226415    behavior goto_wpt_802: argument: stop_when = 7.000000 enum
+226415    behavior goto_wpt_802: argument: when_wpt_dist = 750.000000 m
+226415    behavior goto_wpt_802: argument: wpt_units = 2.000000 enum
+226415    behavior goto_wpt_802: argument: wpt_x = -7503.680000 X
+226415    behavior goto_wpt_802: argument: wpt_y = 3528.081000 X
+226415    behavior goto_wpt_802: argument: utm_zd = 19.000000 byte
+226415    behavior goto_wpt_802: argument: utm_zc = 19.000000 byte
+226415    behavior goto_wpt_802: argument: end_action = 0.000000 enum
+226415    behavior goto_wpt_802: SUBSTATE 0 UnInited->1 : Translating waypoint to LMC
+226415    Waypoint: lat lon lmc_x lmc_y
+226415            3528.081  -7503.680                16251                  263
+226415    behavior goto_wpt_802: SUBSTATE 1 ->2 : waiting an initial cycle
+226420 37 behavior goto_wpt_802: SUBSTATE 2 ->3 : Waiting until we get to waypoint
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:251.5327 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:8.5327
+226434 39 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+226439 41 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:251.5327 C_su:233.0000
+:OOD:   delta:18.5327 limit:10.0000 over:8.5327
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:248.2359 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:5.2359
+226439    DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:248.2359 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:5.2359
+226439    DRIVER_ODDITY:buoyancy_pump:0:Motor started because out of deadband
+s *.sbd *.tbd
+
+--------------------------------
+226448 43 01200033.mlg LOG FILE CLOSED
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:248.9459 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:5.9459
+226449 43 DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+SCIENCE DATA LOGGING: science IS running
+226453 44 DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:248.9459 C_su:233.0000
+:OOD:   delta:15.9459 limit:10.0000 over:5.9459
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+226457 45 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 2 files
+Prechecking is not necessary for this invocation
+START
+**B000000000
+SHUFFLING FILES..
+SCI: Sent 2 file(s):
+c:\logs\01200033.TBD  c:\logs\01200032.TBD
+SCI: SUCCESS
+227218 24 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: About to send 2 files
+Prechecking is not necessary for this invocation
+227221    save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+227221    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�27623    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+227623    restore_sensors()....
+227623    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+SHUFFLING FILES..
+GLD: Sent 2 file(s):
+c:\logs\01200033.SBD  c:\logs\01200032.SBD
+GLD: SUCCESS
+227633 25 SCI:PROGLET house_elf begin() called
+227633    SCI:   house_elf: Version 1.2
+227633    SCI:PROGLET ctd41cp begin() called
+227633    SCI:   ctd41cp: Version 0.2
+227633    SCI:     ctd41cp:  Will be sending the following data to glider:
+227633    SCI:           sci_water_cond(s/m)
+227633    SCI:           sci_water_temp(degc)
+227633    SCI:           sci_water_pressure(bar)
+227633    SCI:           sci_ctd41cp_timestamp(timestamp)
+227633    SCI:PROGLET oxy4 begin() called
+227634    SCI:   oxy4: Version 0.0
+227634    SCI:     oxy4:  Will be sending following data to glider:
+227634    SCI:           sci_oxy4_oxygen(um)
+227634    SCI:           sci_oxy4_saturation(%)
+227634    SCI:           sci_oxy4_temp(degc)
+227634    SCI:           sci_oxy4_calphase(deg)
+227634    SCI:           sci_oxy4_tcphase(deg)
+227634    SCI:           sci_oxy4_c1rph(deg)
+227634    SCI:           sci_oxy4_c2rph(deg)
+227634    SCI:           sci_oxy4_c1amp(mv)
+227634    SCI:           sci_oxy4_c2amp(mv)
+227635    SCI:           sci_oxy4_rawtemp(mv)
+227635    SCI:           sci_oxy4_timestamp(timestamp)
+227635    SCI:  Opening Bit(34) for output
+227635 26 SCI:PROGLET flbbcd begin() called
+227635    SCI:   flbbcd: Version 0.0
+227635    SCI:     flbbcd:  Will be sending following data to glider:
+227636    SCI:           sci_flbbcd_chlor_units(ug/l)
+227636    SCI:           sci_flbbcd_bb_units(nodim)
+227636    SCI:           sci_flbbcd_cdom_units(ppb)
+227636    SCI:           sci_flbbcd_chlor_sig(nodim)
+227636    SCI:           sci_flbbcd_bb_sig(nodim)
+227636    SCI:           sci_flbbcd_cdom_sig(nodim)
+227637    SCI:           sci_flbbcd_chlor_ref(nodim)
+227637    SCI:           sci_flbbcd_bb_ref(nodim)
+227637    SCI:           sci_flbbcd_cdom_ref(nodim)
+227637    SCI:           sci_flbbcd_therm(nodim)
+227637    SCI:           sci_flbbcd_timestamp(timestamp)
+227637    SCI:  Opening Bit(29) for output
+227644 27 SCI:PROGLET house_elf start() called
+227644    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+227644    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+227706 30 01200034.mlg LOG FILE OPENED
+
+--------------------------------
+227706    behavior surface_7: SUBSTATE 7 ->7 : After data transmission, waiting for control-C to exit/resume
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-147-0-34 (0120.0034)
+Vehicle Name: ramses
+Curr Time: Thu May 31 12:21:21 2018 MT:  227711
+DR  Location:  3527.330 N -7504.655 E measured    1422.46 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured    1526.01 secs ago
+GPS Location:  3527.330 N -7504.655 E measured    1424.86 secs ago
+   sensor:c_wpt_lat(lat)=3528.081                 1296.33 secs ago
+   sensor:c_wpt_lon(lon)=-7503.68                 1296.37 secs ago
+   sensor:m_battery(volts)=12.7600860191833         3.161 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                1425.19 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545               1425.23 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      1394.27 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5           3.115 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      3.148 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527769281.62799      0.778 secs ago
+   sensor:m_tot_num_inflections(nodim)=33101      1305.46 secs ago
+   sensor:m_vacuum(inHg)=7.04514493284493           3.566 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414       1428.42 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237       1428.46 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518            1297.72 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807           1297.76 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   7/   2/   1 odd:3657/ 595/  44
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3528.0810,-7503.6800) Range: 2025m, Bearing: 59deg, Age: 0:21h:m
+!zr
+
+--------------------------------
+227713 31 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+227713    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B01000800275775�**B01000800275775�227745    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+227745    restore_sensors()....
+227745    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+Done!
+
+--------------------------------
+227745    behavior surface_7: ! succeeded:zr
+
+227745    behavior surface_7: SUBSTATE 7 ->7 : After ! command, waiting for control-C to exit/resume
+Time until diving is: 600 secs
+!zr
+
+--------------------------------
+227749 31 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+227749    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B01000800275775�227758    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+227759    restore_sensors()....
+227759    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+Error from rz(): 1
+
+--------------------------------
+Error from CmdDispatch():main_zr() complained
+227759    ERROR behavior surface_7: ! FAILED: zr
+
+227759    behavior surface_7: SUBSTATE 7 ->7 : After ! command, waiting for control-C to exit/resume
+227769 33 SCI:PROGLET house_elf begin() called
+227769    SCI:   house_elf: Version 1.2
+227770    SCI:PROGLET ctd41cp begin() called
+227770    SCI:   ctd41cp: Version 0.2
+227770    SCI:     ctd41cp:  Will be sending the following data to glider:
+227770    SCI:           sci_water_cond(s/m)
+227770    SCI:           sci_water_temp(degc)
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-147-0-34 (0120.0034)
+Vehicle Name: ramses
+Curr Time: Thu May 31 12:22:23 2018 MT:  227773
+DR  Location:  3527.330 N -7504.655 E measured    1484.53 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured    1588.08 secs ago
+GPS Location:  3527.330 N -7504.655 E measured    1486.93 secs ago
+   sensor:c_wpt_lat(lat)=3528.081                 1358.41 secs ago
+   sensor:c_wpt_lon(lon)=-7503.68                 1358.46 secs ago
+   sensor:m_battery(volts)=12.7600860191833        65.256 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                1487.29 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545               1487.33 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      1456.38 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          65.224 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.374 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527769343.68115      0.844 secs ago
+   sensor:m_tot_num_inflections(nodim)=33101      1367.58 secs ago
+   sensor:m_vacuum(inHg)=7.04514493284493          65.694 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414       1490.55 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237       1490.59 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518            1359.86 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807           1359.91 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   7/   2/   1 odd:3657/ 595/  44
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                           ... communications NOT ready for consci.
+                                           ... because: sci_m_science_on = 0
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3528.0810,-7503.6800) Range: 2025m, Bearing: 59deg, Age: 0:22h:m
+Time until diving is: 584 secs
+227775 35 SCI:           sci_water_pressure(bar)
+227775    SCI:           sci_ctd41cp_timestamp(timestamp)
+227776    SCI:PROGLET oxy4 begin() called
+227777    SCI:   oxy4: Version 0.0
+^F
+MAFILES will be re-read.
+
+Extending surface time by 5 minutes just in case
+ user might want to verify quality of MAFILE(s).
+227779 36 behavior surface_6: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+227780    behavior surface_6: STATE Waiting for Activation -> UnInited
+227780    behavior surface_5: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+227780    behavior surface_5: STATE Waiting for Activation -> UnInited
+227780    behavior surface_4: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+227780    behavior surface_4: STATE Waiting for Activation -> UnInited
+227780    behavior surface_3: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+227780    behavior surface_3: STATE Waiting for Activation -> UnInited
+227780    behavior surface_2: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+227780    behavior surface_2: STATE Waiting for Activation -> UnInited
+227780    SCI:     oxy4:  Will be sending following data to glider:
+227781    SCI:           sci_oxy4_oxygen(um)
+227781    SCI:           sci_oxy4_saturation(%)
+227781    SCI:           sci_oxy4_temp(degc)
+227782    SCI:           sci_oxy4_calphase(deg)
+227782    SCI:           sci_oxy4_tcphase(deg)
+227782    SCI:           sci_oxy4_c1rph(deg)
+227785 37 behavior sample_12: SUBSTATE 4 ->0 UnInited: Unitialized
+227785    behavior sample_12: STATE Active -> UnInited
+227785    behavior sample_11: SUBSTATE 4 ->0 UnInited: Unitialized
+227785    behavior sample_11: STATE Active -> UnInited
+227785    behavior sample_10: SUBSTATE 4 ->0 UnInited: Unitialized
+227785    behavior sample_10: STATE Active -> UnInited
+227785    behavior yo_9: STATE Active -> UnInited
+227785    behavior goto_list_8: STATE Active -> UnInited
+227785    behavior surface_6: Reading b_args from surfac50.ma
+227785    behavior surface_6: start_when(enum)=13.000000
+227785    behavior surface_6: when_utc_min(min)=0.000000
+227785    behavior surface_6: when_utc_hour(hour)=4.000000
+227786    behavior surface_6: when_utc_day(day)=-1.000000
+227786    behavior surface_6: when_utc_month(month)=-1.000000
+227786    behavior surface_6: report_all(bool)=0.000000
+227786    behavior surface_6: end_action(enum)=1.000000
+227786    behavior surface_6: gps_wait_time(s)=600.000000
+227786    behavior surface_6: keystroke_wait_time(sec)=300.000000
+227786    behavior surface_6: c_use_pitch(enum)=3.000000
+227786    behavior surface_6: c_use_bpump(enum)=2.000000
+227786    behavior surface_6: c_bpump_value(X)=1000.000000
+227786    behavior surface_6: c_pitch_value(X)=0.452800
+227786    behavior surface_6: printout_cycle_time(sec)=30.000000
+227786    behavior surface_6: STATE UnInited -> Waiting for Activation
+227786    behavior surface_6: argument: args_from_file = 50.000000 enum
+227786    behavior surface_6: argument: start_when = 13.000000 enum
+227786    behavior surface_6: argument: when_secs = 1200.000000 sec
+227786    behavior surface_6: argument: when_wpt_dist = 10.000000 m
+227787    behavior surface_6: argument: end_action = 1.000000 enum
+227787    behavior surface_6: argument: report_all = 0.000000 bool
+227787    behavior surface_6: argument: gps_wait_time = 600.000000 sec
+227787    behavior surface_6: argument: keystroke_wait_time = 300.000000 sec
+227787    behavior surface_6: argument: end_wpt_dist = 0.000000 m
+227787    behavior surface_6: argument: c_use_bpump = 2.000000 enum
+227787    behavior surface_6: argument: c_bpump_value = 1000.000000 X
+227787    behavior surface_6: argument: c_use_pitch = 3.000000 enum
+227787    behavior surface_6: argument: c_pitch_value = 0.452800 X
+227787    behavior surface_6: argument: printout_cycle_time = 30.000000 sec
+227787    behavior surface_6: argument: gps_postfix_wait_time = 60.000000 sec
+227787    behavior surface_6: argument: force_iridium_use = 0.000000 nodim
+227787    behavior surface_6: argument: min_time_between_gps_fixes = 300.000000 sec
+227787    behavior surface_6: argument: sensor_input_wait_time = 10.000000 sec
+227787    behavior surface_6: argument: when_utc_min = 0.000000 min
+227787    behavior surface_6: argument: when_utc_hour = 4.000000 hour
+227787    behavior surface_6: argument: when_utc_day = -1.000000 day
+227788    behavior surface_6: argument: when_utc_month = -1.000000 month
+227788    behavior surface_6: argument: when_utc_on_surface = 1.000000 bool
+227788    behavior surface_6: argument: strobe_on = 0.000000 bool
+227788    behavior surface_5: Reading b_args from surfac10.ma
+227788    behavior surface_5: c_use_bpump(enum)=2.000000
+227788    behavior surface_5: c_bpump_value(X)=1000.000000
+227788    behavior surface_5: c_use_pitch(enum)=3.000000
+227788    behavior surface_5: c_pitch_value(X)=0.452800
+227788    behavior surface_5: gps_wait_time(s)=600.000000
+227788    behavior surface_5: STATE UnInited -> Waiting for Activation
+227788    behavior surface_5: argument: args_from_file = 10.000000 enum
+227788    behavior surface_5: argument: start_when = 11.000000 enum
+227788    behavior surface_5: argument: when_secs = 1200.000000 sec
+227788    behavior surface_5: argument: when_wpt_dist = 10.000000 m
+227788    behavior surface_5: argument: end_action = 1.000000 enum
+227788    behavior surface_5: argument: report_all = 0.000000 bool
+227789    behavior surface_5: argument: gps_wait_time = 600.000000 sec
+227789    behavior surface_5: argument: keystroke_wait_time = 300.000000 sec
+227789    behavior surface_5: argument: end_wpt_dist = 0.000000 m
+227789    behavior surface_5: argument: c_use_bpump = 2.000000 enum
+227789    behavior surface_5: argument: c_bpump_value = 1000.000000 X
+227789    behavior surface_5: argument: c_use_pitch = 3.000000 enum
+227789    behavior surface_5: argument: c_pitch_value = 0.452800 X
+227789    behavior surface_5: argument: printout_cycle_time = 60.000000 sec
+227789    behavior surface_5: argument: gps_postfix_wait_time = 60.000000 sec
+227789    behavior surface_5: argument: force_iridium_use = 0.000000 nodim
+227789    behavior surface_5: argument: min_time_between_gps_fixes = 300.000000 sec
+227789    behavior surface_5: argument: sensor_input_wait_time = 10.000000 sec
+227789    behavior surface_5: argument: when_utc_min = -1.000000 min
+227789    behavior surface_5: argument: when_utc_hour = -1.000000 hour
+227789    behavior surface_5: argument: when_utc_day = -1.000000 day
+227789    behavior surface_5: argument: when_utc_month = -1.000000 month
+227789    behavior surface_5: argument: when_utc_on_surface = 0.000000 bool
+227790    behavior surface_5: argument: strobe_on = 0.000000 bool
+227790    behavior surface_4: Reading b_args from surfac03.ma
+227790    behavior surface_4: start_when(enum)=2.000000
+227790    behavior surface_4: end_action(enum)=1.000000
+227790    behavior surface_4: gps_wait_time(s)=600.000000
+227790    behavior surface_4: keystroke_wait_time(sec)=300.000000
+227790    behavior surface_4: when_wpt_dist(m)=10.000000
+227790    behavior surface_4: c_use_pitch(enum)=3.000000
+227790    behavior surface_4: c_pitch_value(X)=0.452800
+227790    behavior surface_4: STATE UnInited -> Waiting for Activation
+227790    behavior surface_4: argument: args_from_file = 3.000000 enum
+227790    behavior surface_4: argument: start_when = 2.000000 enum
+227790    behavior surface_4: argument: when_secs = 1200.000000 sec
+227790    behavior surface_4: argument: when_wpt_dist = 10.000000 m
+227790    behavior surface_4: argument: end_action = 1.000000 enum
+227791    behavior surface_4: argument: report_all = 0.000000 bool
+227791    behavior surface_4: argument: gps_wait_time = 600.000000 sec
+227791    behavior surface_4: argument: keystroke_wait_time = 300.000000 sec
+227791    behavior surface_4: argument: end_wpt_dist = 0.000000 m
+227791    behavior surface_4: argument: c_use_bpump = 2.000000 enum
+227791    behavior surface_4: argument: c_bpump_value = 1000.000000 X
+227791    behavior surface_4: argument: c_use_pitch = 3.000000 enum
+
+***<Iridium Output Buffer was full, tossed 20143 chars>***
+
+
+   #12   3525.098  -7503.402                15455                -5209
+   #13   3526.486  -7505.926                12291                -1870
+   #14   3527.874  -7508.450                 9129                 1470
+   #15   3529.261  -7510.974                 5969                 4810
+   #16   3530.648  -7513.498                 2812                 8151
+   #17   3532.034  -7516.022                 -343                11491
+227816    behavior goto_list_8: SUBSTATE 2 ->3 : Steering
+227816    behavior goto_wpt_814: STATE UnInited -> Active
+227816    behavior goto_wpt_814: argument: start_when = 0.000000 enum
+227816    behavior goto_wpt_814: argument: stop_when = 7.000000 enum
+227816    behavior goto_wpt_814: argument: when_wpt_dist = 750.000000 m
+227816    behavior goto_wpt_814: argument: wpt_units = 2.000000 enum
+227816    behavior goto_wpt_814: argument: wpt_x = -7505.926000 X
+227816    behavior goto_wpt_814: argument: wpt_y = 3526.486000 X
+227817    behavior goto_wpt_814: argument: utm_zd = 19.000000 byte
+227817    behavior goto_wpt_814: argument: utm_zc = 19.000000 byte
+227817    behavior goto_wpt_814: argument: end_action = 0.000000 enum
+227817    behavior goto_wpt_814: SUBSTATE 0 UnInited->1 : Translating waypoint to LMC
+227817    Waypoint: lat lon lmc_x lmc_y
+227817            3526.486  -7505.926                12291                -1870
+227817    behavior goto_wpt_814: SUBSTATE 1 ->2 : waiting an initial cycle
+227817    SCI:           sci_oxy4_c2amp(mv)
+227817    SCI:           sci_oxy4_rawtemp(mv)
+227821 38 behavior dive_to_901: SUBSTATE 1 ->3 : Starting the dive
+227821    behavior dive_to_901: SUBSTATE 3 ->4 : diving
+227821    behavior goto_wpt_814: SUBSTATE 2 ->3 : Waiting until we get to waypoint
+227821    SCI:           sci_oxy4_timestamp(timestamp)
+227821    SCI:  Opening Bit(34) for output
+227822    SCI:PROGLET flbbcd begin() called
+227822    SCI:   flbbcd: Version 0.0
+227823    SCI:     flbbcd:  Will be sending following data to glider:
+227823    SCI:           sci_flbbcd_chlor_units(ug/l)
+227823    SCI:           sci_flbbcd_bb_units(nodim)
+227823    SCI:           sci_flbbcd_cdom_units(ppb)
+227823    SCI:           sci_flbbcd_chlor_sig(nodim)
+227826 39 SCI:           sci_flbbcd_bb_sig(nodim)
+227827    SCI:           sci_flbbcd_cdom_sig(nodim)
+227827    SCI:           sci_flbbcd_chlor_ref(nodim)
+227828    SCI:           sci_flbbcd_bb_ref(nodim)
+227828    SCI:           sci_flbbcd_cdom_ref(nodim)
+227828    SCI:           sci_flbbcd_therm(nodim)
+227828    SCI:           sci_flbbcd_timestamp(timestamp)
+227828    SCI:  Opening Bit(29) for output
+227834 41 SCI:PROGLET house_elf start() called
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-147-0-34 (0120.0034)
+Vehicle Name: ramses
+Curr Time: Thu May 31 12:23:27 2018 MT:  227837
+DR  Location:  3527.330 N -7504.655 E measured    1548.62 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured    1652.17 secs ago
+GPS Location:  3527.330 N -7504.655 E measured    1551.03 secs ago
+   sensor:c_wpt_lat(lat)=3526.486                  20.876 secs ago
+   sensor:c_wpt_lon(lon)=-7505.926                 20.929 secs ago
+   sensor:m_battery(volts)=12.7549306529182        61.509 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                1551.38 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545               1551.43 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      1520.47 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49993894993895      61.34 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.173 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527769407.76645      0.858 secs ago
+   sensor:m_tot_num_inflections(nodim)=33102       14.643 secs ago
+   sensor:m_vacuum(inHg)=6.9709061050061            5.294 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414       1554.65 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237       1554.69 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518            1423.96 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807           1424.01 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   7/   2/   1 odd:3657/ 595/  44
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                           ... communications NOT ready for consci.
+                                           ... because: m_science_clothesline_lag not updated this cycle
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3526.4860,-7505.9260) Range: 2476m, Bearing: 244deg, Age: 0:0h:m
+Time until diving is: 820 secs
+227839 42 SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+227840    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-147-0-34 (0120.0034)
+Vehicle Name: ramses
+Curr Time: Thu May 31 12:24:31 2018 MT:  227901
+DR  Location:  3527.330 N -7504.655 E measured    1612.16 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured    1715.71 secs ago
+GPS Location:  3527.330 N -7504.655 E measured    1614.57 secs ago
+   sensor:c_wpt_lat(lat)=3526.486                  84.397 secs ago
+   sensor:c_wpt_lon(lon)=-7505.926                 84.444 secs ago
+   sensor:m_battery(volts)=12.739116220105         61.095 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                1614.89 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545               1614.93 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      1583.97 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          60.846 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.882 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527769471.33258      0.777 secs ago
+   sensor:m_tot_num_inflections(nodim)=33102       78.126 secs ago
+   sensor:m_vacuum(inHg)=6.9709061050061           68.774 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414       1618.12 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237       1618.16 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518            1487.42 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807           1487.47 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   7/   2/   1 odd:3657/ 595/  44
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3526.4860,-7505.9260) Range: 2476m, Bearing: 244deg, Age: 0:1h:m
+Time until diving is: 757 secs
+^EExtending surface time by 5 minutes
+^EExtending surface time by 5 minutes
+^EExtending surface time by 5 minutes
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-147-0-34 (0120.0034)
+Vehicle Name: ramses
+Curr Time: Thu May 31 12:25:32 2018 MT:  227962
+DR  Location:  3527.330 N -7504.655 E measured    1673.64 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured    1777.18 secs ago
+GPS Location:  3527.330 N -7504.655 E measured    1676.04 secs ago
+   sensor:c_wpt_lat(lat)=3526.486                  145.87 secs ago
+   sensor:c_wpt_lon(lon)=-7505.926                145.918 secs ago
+   sensor:m_battery(volts)=12.7254634503534        59.388 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                1676.37 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545               1676.41 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      1645.45 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          59.464 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.909 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527769532.80112      0.781 secs ago
+   sensor:m_tot_num_inflections(nodim)=33102      139.598 secs ago
+   sensor:m_vacuum(inHg)=7.01537206959707           5.022 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414       1679.59 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237       1679.63 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518             1548.9 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807           1548.94 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   7/   2/   1 odd:3657/ 595/  44
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3526.4860,-7505.9260) Range: 2476m, Bearing: 244deg, Age: 0:2h:m
+Time until diving is: 1595 secs
+!zr
+
+--------------------------------
+227990 70 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+227990    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B01000800275775�228008    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+228008    restore_sensors()....
+228008    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+Done!
+
+--------------------------------
+228009    behavior surface_7: ! succeeded:zr
+
+228009    behavior surface_7: SUBSTATE 7 ->7 : After ! command, waiting for control-C to exit/resume
+228020 73 SCI:PROGLET house_elf begin() called
+228020    SCI:   house_elf: Version 1.2
+228020    SCI:PROGLET ctd41cp begin() called
+228020    SCI:   ctd41cp: Version 0.2
+228020    SCI:     ctd41cp:  Will be sending the following data to glider:
+228021    SCI:           sci_water_cond(s/m)
+228021    SCI:           sci_water_temp(degc)
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-147-0-34 (0120.0034)
+Vehicle Name: ramses
+Curr Time: Thu May 31 12:26:34 2018 MT:  228024
+DR  Location:  3527.330 N -7504.655 E measured    1734.88 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured    1838.42 secs ago
+GPS Location:  3527.330 N -7504.655 E measured    1737.28 secs ago
+   sensor:c_wpt_lat(lat)=3526.486                 207.124 secs ago
+   sensor:c_wpt_lon(lon)=-7505.926                207.176 secs ago
+   sensor:m_battery(volts)=12.7238777890787        59.194 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                1737.63 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545               1737.68 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      1706.72 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          59.286 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.367 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527769594.02646      0.842 secs ago
+   sensor:m_tot_num_inflections(nodim)=33102      200.889 secs ago
+   sensor:m_vacuum(inHg)=7.01537206959707          66.315 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414       1740.89 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237       1740.93 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518            1610.21 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807           1610.25 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   7/   2/   1 odd:3657/ 595/  44
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                           ... communications NOT ready for consci.
+                                           ... because: sci_m_science_on = 0
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3526.4860,-7505.9260) Range: 2476m, Bearing: 244deg, Age: 0:3h:m
+Time until diving is: 1784 secs
+228026 74 SCI:           sci_water_pressure(bar)
+228026    SCI:           sci_ctd41cp_timestamp(timestamp)
+:OSL:buoyancy_pump:OUTSIDE SAFETY LIMIT:OSL: M_su:246.2070 C_su:233.0000
+:OSL:   limits:243.0000 -243.0000 over:3.2070
+228027    DRIVER_ODDITY:buoyancy_pump:310:motor_compute_limits() warning
+228027    SCI:PROGLET oxy4 begin() called
+228027    SCI:   oxy4: Version 0.0
+^F
+MAFILES will be re-read.
+
+Extending surface time by 5 minutes just in case
+ user might want to verify quality of MAFILE(s).
+228030 75 behavior surface_6: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+228030    behavior surface_6: STATE Waiting for Activation -> UnInited
+228030    behavior surface_5: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+228030    behavior surface_5: STATE Waiting for Activation -> UnInited
+228030    behavior surface_4: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+228030    behavior surface_4: STATE Waiting for Activation -> UnInited
+228030    behavior surface_3: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+228030    behavior surface_3: STATE Waiting for Activation -> UnInited
+228030    behavior surface_2: SUBSTATE 0 UnInited->0 UnInited: rereading .ma file
+228030    behavior surface_2: STATE Waiting for Activation -> UnInited
+228031    SCI:     oxy4:  Will be sending following data to glider:
+228032    DRIVER_ODDITY:buoyancy_pump:0:motor out of deadband
+:OOD:buoyancy_pump:OUT OF DEADBAND: M_su:246.2070 C_su:233.0000
+:OOD:   delta:13.2070 limit:10.0000 over:3.2070
+228032    SCI:           sci_oxy4_oxygen(um)
+228032    SCI:           sci_oxy4_saturation(%)
+228032    SCI:           sci_oxy4_temp(degc)
+228032    SCI:           sci_oxy4_calphase(deg)
+228032    SCI:           sci_oxy4_tcphase(deg)
+228033    SCI:           sci_oxy4_c1rph(deg)
+228035 75 behavior sample_12: SUBSTATE 4 ->0 UnInited: Unitialized
+228035    behavior sample_12: STATE Active -> UnInited
+228035    behavior sample_11: SUBSTATE 4 ->0 UnInited: Unitialized
+228036    behavior sample_11: STATE Active -> UnInited
+228036    behavior sample_10: SUBSTATE 4 ->0 UnInited: Unitialized
+228036    behavior sample_10: STATE Active -> UnInited
+228036    behavior yo_9: STATE Active -> UnInited
+228036    behavior goto_list_8: STATE Active -> UnInited
+228036    behavior surface_6: Reading b_args from surfac50.ma
+228036    behavior surface_6: start_when(enum)=13.000000
+228036    behavior surface_6: when_utc_min(min)=0.000000
+228036    behavior surface_6: when_utc_hour(hour)=4.000000
+228036    behavior surface_6: when_utc_day(day)=-1.000000
+228036    behavior surface_6: when_utc_month(month)=-1.000000
+228036    behavior surface_6: report_all(bool)=0.000000
+228036    behavior surface_6: end_action(enum)=1.000000
+228036    behavior surface_6: gps_wait_time(s)=600.000000
+228036    behavior surface_6: keystroke_wait_time(sec)=300.000000
+228037    behavior surface_6: c_use_pitch(enum)=3.000000
+228037    behavior surface_6: c_use_bpump(enum)=2.000000
+228037    behavior surface_6: c_bpump_value(X)=1000.000000
+228037    behavior surface_6: c_pitch_value(X)=0.452800
+228037    behavior surface_6: printout_cycle_time(sec)=30.000000
+228037    behavior surface_6: STATE UnInited -> Waiting for Activation
+228037    behavior surface_6: argument: args_from_file = 50.000000 enum
+228037    behavior surface_6: argument: start_when = 13.000000 enum
+228037    behavior surface_6: argument: when_secs = 1200.000000 sec
+228037    behavior surface_6: argument: when_wpt_dist = 10.000000 m
+228037    behavior surface_6: argument: end_action = 1.000000 enum
+228037    behavior surface_6: argument: report_all = 0.000000 bool
+228037    behavior surface_6: argument: gps_wait_time = 600.000000 sec
+228037    behavior surface_6: argument: keystroke_wait_time = 300.000000 sec
+228037    behavior surface_6: argument: end_wpt_dist = 0.000000 m
+228037    behavior surface_6: argument: c_use_bpump = 2.000000 enum
+228037    behavior surface_6: argument: c_bpump_value = 1000.000000 X
+228038    behavior surface_6: argument: c_use_pitch = 3.000000 enum
+228038    behavior surface_6: argument: c_pitch_value = 0.452800 X
+228038    behavior surface_6: argument: printout_cycle_time = 30.000000 sec
+228038    behavior surface_6: argument: gps_postfix_wait_time = 60.000000 sec
+228038    behavior surface_6: argument: force_iridium_use = 0.000000 nodim
+228038    behavior surface_6: argument: min_time_between_gps_fixes = 300.000000 sec
+228038    behavior surface_6: argument: sensor_input_wait_time = 10.000000 sec
+228038    behavior surface_6: argument: when_utc_min = 0.000000 min
+228038    behavior surface_6: argument: when_utc_hour = 4.000000 hour
+228038    behavior surface_6: argument: when_utc_day = -1.000000 day
+228038    behavior surface_6: argument: when_utc_month = -1.000000 month
+228038    behavior surface_6: argument: when_utc_on_surface = 1.000000 bool
+228038    behavior surface_6: argument: strobe_on = 0.000000 bool
+228038    behavior surface_5: Reading b_args from surfac10.ma
+228038    behavior surface_5: c_use_bpump(enum)=2.000000
+228038    behavior surface_5: c_bpump_value(X)=1000.000000
+228039    behavior surface_5: c_use_pitch(enum)=3.000000
+228039    behavior surface_5: c_pitch_value(X)=0.452800
+228039    behavior surface_5: gps_wait_time(s)=600.000000
+228039    behavior surface_5: STATE UnInited -> Waiting for Activation
+228039    behavior surface_5: argument: args_from_file = 10.000000 enum
+228039    behavior surface_5: argument: start_when = 11.000000 enum
+228039    behavior surface_5: argument: when_secs = 1200.000000 sec
+228039    behavior surface_5: argument: when_wpt_dist = 10.000000 m
+228039    behavior surface_5: argument: end_action = 1.000000 enum
+228039    behavior surface_5: argument: report_all = 0.000000 bool
+228039    behavior surface_5: argument: gps_wait_time = 600.000000 sec
+228039    behavior surface_5: argument: keystroke_wait_time = 300.000000 sec
+228039    behavior surface_5: argument: end_wpt_dist = 0.000000 m
+228039    behavior surface_5: argument: c_use_bpump = 2.000000 enum
+228039    behavior surface_5: argument: c_bpump_value = 1000.000000 X
+228039    behavior surface_5: argument: c_use_pitch = 3.000000 enum
+228039    behavior surface_5: argument: c_pitch_value = 0.452800 X
+228040    behavior surface_5: argument: printout_cycle_time = 60.000000 sec
+228040    behavior surface_5: argument: gps_postfix_wait_time = 60.000000 sec
+228040    behavior surface_5: argument: force_iridium_use = 0.000000 nodim
+228040    behavior surface_5: argument: min_time_between_gps_fixes = 300.000000 sec
+228040    behavior surface_5: argument: sensor_input_wait_time = 10.000000 sec
+228040    behavior surface_5: argument: when_utc_min = -1.000000 min
+228040    behavior surface_5: argument: when_utc_hour = -1.000000 hour
+228040    behavior surface_5: argument: when_utc_day = -1.000000 day
+228040    behavior surface_5: argument: when_utc_month = -1.000000 month
+228040    behavior surface_5: argument: when_utc_on_surface = 0.000000 bool
+228040    behavior surface_5: argument: strobe_on = 0.000000 bool
+228040    behavior surface_4: Reading b_args from surfac03.ma
+228040    behavior surface_4: start_when(enum)=2.000000
+228040    behavior surface_4: end_action(enum)=1.000000
+228040    behavior surface_4: gps_wait_time(s)=600.000000
+228040    behavior surface_4: keystroke_wait_time(sec)=300.000000
+228041    behavior surface_4: when_wpt_dist(m)=10.000000
+228041    behavior surface_4: c_use_pitch(enum)=3.000000
+228041    behavior surface_4: c_pitch_value(X)=0.452800
+228041    behavior surface_4: STATE UnInited -> Waiting for Activation
+228041    behavior surface_4: argument: args_from_file = 3.000000 enum
+228041    behavior surface_4: argument: start_when = 2.000000 enum
+228041    behavior surface_4: argument: when_secs = 1200.000000 sec
+228041    behavior surface_4: argument: when_wpt_dist = 10.000000 m
+228041    behavior surface_4: argument: end_action = 1.000000 enum
+228041    behavior surface_4: argument: report_all = 0.000000 bool
+228041    behavior surface_4: argument:
+
+***<Iridium Output Buffer was full, tossed 21430 chars>***
+
+
+228066    behavior goto_wpt_814: argument: wpt_y = 3526.486000 X
+228066    behavior goto_wpt_814: argument: utm_zd = 19.000000 byte
+228066    behavior goto_wpt_814: argument: utm_zc = 19.000000 byte
+228066    behavior goto_wpt_814: argument: end_action = 0.000000 enum
+228066    behavior goto_wpt_814: SUBSTATE 0 UnInited->1 : Translating waypoint to LMC
+228066    Waypoint: lat lon lmc_x lmc_y
+228066            3526.486  -7505.926                12291                -1870
+228066    behavior goto_wpt_814: SUBSTATE 1 ->2 : waiting an initial cycle
+228068    SCI:           sci_oxy4_c2amp(mv)
+228068    SCI:           sci_oxy4_rawtemp(mv)
+228071 77 behavior dive_to_901: SUBSTATE 1 ->3 : Starting the dive
+228071    behavior dive_to_901: SUBSTATE 3 ->4 : diving
+228071    behavior goto_wpt_814: SUBSTATE 2 ->3 : Waiting until we get to waypoint
+228072    SCI:           sci_oxy4_timestamp(timestamp)
+228072    SCI:  Opening Bit(34) for output
+228073    SCI:PROGLET flbbcd begin() called
+228073    SCI:   flbbcd: Version 0.0
+228073    SCI:     flbbcd:  Will be sending following data to glider:
+228073    SCI:           sci_flbbcd_chlor_units(ug/l)
+228073    SCI:           sci_flbbcd_bb_units(nodim)
+228074    SCI:           sci_flbbcd_cdom_units(ppb)
+228074    SCI:           sci_flbbcd_chlor_sig(nodim)
+228077 79 SCI:           sci_flbbcd_bb_sig(nodim)
+228077    SCI:           sci_flbbcd_cdom_sig(nodim)
+228078    SCI:           sci_flbbcd_chlor_ref(nodim)
+228078    SCI:           sci_flbbcd_bb_ref(nodim)
+228078    SCI:           sci_flbbcd_cdom_ref(nodim)
+228078    SCI:           sci_flbbcd_therm(nodim)
+228079    SCI:           sci_flbbcd_timestamp(timestamp)
+228079    SCI:  Opening Bit(29) for output
+228085 80 SCI:PROGLET house_elf start() called
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-147-0-34 (0120.0034)
+Vehicle Name: ramses
+Curr Time: Thu May 31 12:27:38 2018 MT:  228088
+DR  Location:  3527.330 N -7504.655 E measured    1799.01 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured    1902.56 secs ago
+GPS Location:  3527.330 N -7504.655 E measured    1801.42 secs ago
+   sensor:c_wpt_lat(lat)=3526.486                  21.931 secs ago
+   sensor:c_wpt_lon(lon)=-7505.926                  21.98 secs ago
+   sensor:m_battery(volts)=12.723611133492         61.407 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                1801.77 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545               1801.82 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      1770.86 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.4992673992674     61.257 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.176 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527769658.15637      0.855 secs ago
+   sensor:m_tot_num_inflections(nodim)=33103       14.636 secs ago
+   sensor:m_vacuum(inHg)=6.99139911477412           5.295 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414       1805.04 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237       1805.08 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518            1674.35 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807            1674.4 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   7/   2/   1 odd:3659/ 597/  46
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                           ... communications NOT ready for consci.
+                                           ... because: m_science_clothesline_lag not updated this cycle
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3526.4860,-7505.9260) Range: 2476m, Bearing: 244deg, Age: 0:4h:m
+Time until diving is: 2020 secs
+228090 81 SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+228091    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-147-0-34 (0120.0034)
+Vehicle Name: ramses
+Curr Time: Thu May 31 12:28:43 2018 MT:  228153
+DR  Location:  3527.330 N -7504.655 E measured    1864.03 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured    1967.58 secs ago
+GPS Location:  3527.330 N -7504.655 E measured    1866.43 secs ago
+   sensor:c_wpt_lat(lat)=3526.486                  86.928 secs ago
+   sensor:c_wpt_lon(lon)=-7505.926                 86.972 secs ago
+   sensor:m_battery(volts)=12.7102194951123        62.563 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                1866.76 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545                1866.8 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      1835.84 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          62.321 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      6.553 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527769723.19568      0.776 secs ago
+   sensor:m_tot_num_inflections(nodim)=33103       79.593 secs ago
+   sensor:m_vacuum(inHg)=6.99139911477412          70.249 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414       1869.98 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237       1870.02 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518            1739.29 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807           1739.33 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   7/   2/   1 odd:3659/ 597/  46
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3526.4860,-7505.9260) Range: 2476m, Bearing: 244deg, Age: 0:5h:m
+Time until diving is: 1955 secs
+s *.sbd *.tbd
+
+--------------------------------
+228169 95 01200034.mlg LOG FILE CLOSED
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+228178 99 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 1 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES.
+SCI: Sent 1 file(s):
+c:\logs\01200034.TBD
+SCI: SUCCESS
+228195  2 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: About to send 1 files
+Prechecking is not necessary for this invocation
+228199    save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+228199    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�  restore_sensors()....
+228223    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+SHUFFLING FILES.**^XB0800000000022d
+DEL*
+GLD: Sent 1 file(s):
+c:\logs\01200034.SBD
+GLD: SUCCESS
+228230  5 SCI:PROGLET house_elf begin() called
+228230    SCI:   house_elf: Version 1.2
+228230    SCI:PROGLET ctd41cp begin() called
+228230    SCI:   ctd41cp: Version 0.2
+228230    SCI:     ctd41cp:  Will be sending the following data to glider:
+228231    SCI:           sci_water_cond(s/m)
+228231    SCI:           sci_water_temp(degc)
+228231    SCI:           sci_water_pressure(bar)
+228231    SCI:           sci_ctd41cp_timestamp(timestamp)
+228231    SCI:PROGLET oxy4 begin() called
+228231    SCI:   oxy4: Version 0.0
+228231    SCI:     oxy4:  Will be sending following data to glider:
+228231    SCI:           sci_oxy4_oxygen(um)
+228231    SCI:           sci_oxy4_saturation(%)
+228231    SCI:           sci_oxy4_temp(degc)
+228231    SCI:           sci_oxy4_calphase(deg)
+228232    SCI:           sci_oxy4_tcphase(deg)
+228232    SCI:           sci_oxy4_c1rph(deg)
+228232    SCI:           sci_oxy4_c2rph(deg)
+228232    SCI:           sci_oxy4_c1amp(mv)
+228232    SCI:           sci_oxy4_c2amp(mv)
+228232    SCI:           sci_oxy4_rawtemp(mv)
+228232    SCI:           sci_oxy4_timestamp(timestamp)
+228232    SCI:  Opening Bit(34) for output
+228232    SCI:PROGLET flbbcd begin() called
+228232    SCI:   flbbcd: Version 0.0
+228232    SCI:     flbbcd:  Will be sending following data to glider:
+228233    SCI:           sci_flbbcd_chlor_units(ug/l)
+228233    SCI:           sci_flbbcd_bb_units(nodim)
+228233    SCI:           sci_flbbcd_cdom_units(ppb)
+228233    SCI:           sci_flbbcd_chlor_sig(nodim)
+228233    SCI:           sci_flbbcd_bb_sig(nodim)
+228233    SCI:           sci_flbbcd_cdom_sig(nodim)
+228233    SCI:           sci_flbbcd_chlor_ref(nodim)
+228233    SCI:           sci_flbbcd_bb_ref(nodim)
+228234  6 SCI:           sci_flbbcd_cdom_ref(nodim)
+228234    SCI:           sci_flbbcd_therm(nodim)
+228234    SCI:           sci_flbbcd_timestamp(timestamp)
+228235    SCI:  Opening Bit(29) for output
+228244  6 SCI:PROGLET house_elf start() called
+228245    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+228245    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+228306  8 01200035.mlg LOG FILE OPENED
+
+--------------------------------
+228307    behavior surface_7: SUBSTATE 7 ->7 : After data transmission, waiting for control-C to exit/resume
+
+
+
+
+Glider ramses at surface.
+Because:timeout expired [behavior surface_7 start_when = 9.0]
+MissionName:SHELF_30.MI MissionNum:ramses-2018-147-0-35 (0120.0035)
+Vehicle Name: ramses
+Curr Time: Thu May 31 12:31:21 2018 MT:  228311
+DR  Location:  3527.330 N -7504.655 E measured    2021.78 secs ago
+GPS TooFar:    3551.566 N -7517.494 E measured     1e+308 secs ago
+GPS Invalid :  3527.332 N -7504.580 E measured    2125.33 secs ago
+GPS Location:  3527.330 N -7504.655 E measured    2024.19 secs ago
+   sensor:c_wpt_lat(lat)=3526.486                 244.681 secs ago
+   sensor:c_wpt_lon(lon)=-7505.926                244.727 secs ago
+   sensor:m_battery(volts)=12.7093423575855         3.168 secs ago
+   sensor:m_gps_lat(lat)=3527.3295                2024.51 secs ago
+   sensor:m_gps_lon(lon)=-7504.6545               2024.55 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      1993.59 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5           3.112 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      3.145 secs ago
+   sensor:m_mission_start_time(timestamp)=1527541570     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1527769880.94788      0.779 secs ago
+   sensor:m_tot_num_inflections(nodim)=33103      237.345 secs ago
+   sensor:m_vacuum(inHg)=6.88236083638584           3.574 secs ago
+   sensor:m_water_vx(m/s)=0.162141317327414       2027.74 secs ago
+   sensor:m_water_vy(m/s)=0.193428236813237       2027.78 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3527.518            1897.04 secs ago
+   sensor:x_last_wpt_lon(lon)=-7504.807           1897.08 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   7/   2/   1 odd:3659/ 597/  46
+ABORT HISTORY: total since reset: 1
+ABORT HISTORY: last abort cause: MS_ABORT_WPT_TOOFAR
+ABORT HISTORY: last abort details: 
+ABORT HISTORY: last abort time: 2018-05-23T20:37:55
+ABORT HISTORY: last abort segment: ramses-2018-134-6-126 (0118.0126)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (3526.4860,-7505.9260) Range: 2476m, Bearing: 244deg, Age: 0:8h:m
+*
+I heard a character ('*'), but not the right one
+Drained the following 18 pending chars from input buffer:
+18 42 30 38 30 30 30 30       ^X  B   0   8   0   0   0   0       .B080000
+30 30 30 30 30 32 32 64       0   0   0   0   0   2   2   d       0000022d
+0d 8a                         CR  .                               ..      
+Time until diving is: 2094 secs
+^R228327 12 behavior surface_7: User typed Control-R, resuming
+
+
+   I heard a Control-R
+   RESUMING MISSION
+
+Megabytes used      on CF file system = 275.906250
+Megabytes available on CF file system = 1725.031250
+228331    01200035.mlg LOG FILE CLOSED
+Doing system wide housekeeping.......
+report_heap_size(): M_FREE_HEAP=254.0K,  M_SPARE_HEAP=235.0K
+Running algorithm to free disk space if required
+Not necessary to delete any files at this time
+Writing longterm state disk file: c:/state/longterm.sta
+   c_iridium_phone_num(digits) 881600005168.000000
+   f_ocean_pressure_min(volts) 0.214902
+   m_avg_climb_rate(m/s) -0.163067
+   m_avg_speed(m/s) 0.305806
+   m_avg_upward_inflection_time(sec) 17.145080
+   m_battery(volts) 12.709342
+   m_coulomb_amphr_total(amp-hrs) 0.000000
+   m_iridium_call_num(nodim) 1139.000000
+   m_iridium_dialed_num(nodim) 2289.000000
+   m_lat(lat) 3527.329500
+   m_lon(lon) -7504.654500
+   m_tot_ballast_pumped_energy(kjoules) 1809.644096
+   m_tot_horz_dist(km) 1351.425250
+   m_tot_num_inflections(nodim) 33103.000000
+   s_water_depth_avg(m) 200.000000
+   s_water_depth_delta(m) 0.000000
+   s_water_depth_wavelength(m) 100.000000
+   x_hover_ballast_deep(cc) 0.000000
+   x_hover_ballast_shallow(cc) 0.000000
+   x_hover_depth_deep(m) 0.000000
+   x_hover_depth_shallow(m) 0.000000
+   x_last_wpt_lat(lat) 3527.518000
+   x_last_wpt_lon(lon) -7504.807000
+The instantaneous lag time between the system and gps clock is -5.0 seconds.
+The average lag time between the system and gps clock is -4.9 seconds.
+Housekeeping is done
+228404 17 01200036.mlg LOG FILE OPENED
+Megabytes used      on CF file system = 276.031250
+Megabytes available on CF file system = 1724.906250
+228407    init_gps_input()
+228407    behavior surface_7: SUBSTATE 7 ->9 : Waiting for final gps fix
+surface_7: Waitin

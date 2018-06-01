@@ -1,0 +1,73 @@
+Connection Event: Carrier Detect found. 81285    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Wed Jan 10 16:04:37 2018 MT:   81284
+DR  Location:  3505.153 N -7522.742 E measured    101.923 secs ago
+GPS TooFar:    3501.499 N -7531.577 E measured    36780.4 secs ago
+GPS Invalid :  3504.856 N -7522.804 E measured    1270.18 secs ago
+GPS Location:  3505.153 N -7522.742 E measured    104.913 secs ago
+   sensor:c_wpt_lat(lat)=3501.15050004916         80967.6 secs ago
+   sensor:c_wpt_lon(lon)=-7536.52020000037        80967.6 secs ago
+   sensor:m_battery(volts)=12.0416085206712         4.323 secs ago
+   sensor:m_gps_lat(lat)=3505.1526                105.222 secs ago
+   sensor:m_gps_lon(lon)=-7522.7417               105.264 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       16.704 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5           4.408 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.444 secs ago
+   sensor:m_mission_start_time(timestamp)=1515518992     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515600276.8219      1.385 secs ago
+   sensor:m_tot_num_inflections(nodim)=28352      81173.2 secs ago
+   sensor:m_vacuum(inHg)=7.75002713675213           4.731 secs ago
+   sensor:m_water_vx(m/s)=0                        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0                        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.15050004916    80977.4 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.52020000037    80977.4 secs ago
+ABORT HISTORY: total since reset: 2
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The buoyancy_pump device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-09T17:07:13
+ABORT HISTORY: last abort segment: ramses-2018-008-3-0 (0108.0000)
+ABORT HISTORY: last abort mission: INI0.MI
+ 81286    No login script found for processing.
+exit
+
+
+This command is NOT safe to execute right now!
+   You are requesting to return to the native operating system
+   and it does NOT have iridium support.  You might never talk
+   to me again :(
+
+Do you still wish to continue with this potentially dangerous exit? (Y or N) y
+
+Preparing to exit GliderDos
+WAITING for all motors to be idle --and--
+            science power to be stable
+
+Motors are idle
+Writing longterm state disk file: c:/state/longterm.sta
+   c_iridium_phone_num(digits) 881600005168.000000
+   f_ocean_pressure_min(volts) 0.212839
+   m_avg_climb_rate(m/s) -0.272289
+   m_avg_speed(m/s) 0.045412
+   m_avg_upward_inflection_time(sec) 82.000000
+   m_battery(volts) 12.004075
+   m_coulomb_amphr_total(amp-hrs) 0.000000
+   m_iridium_call_num(nodim) 991.000000
+   m_iridium_dialed_num(nodim) 2026.000000
+   m_lat(lat) 3505.152600
+   m_lon(lon) -7522.741700
+   m_tot_ballast_pumped_energy(kjoules) 1488.692090
+   m_tot_horz_dist(km) 1121.027667
+   m_tot_num_inflections(nodim) 28352.000000
+   s_water_depth_avg(m) 200.000000
+   s_water_depth_delta(m) 0.000000
+   s_water_depth_wavelength(m) 100.000000
+   x_hover_ballast_deep(cc) 0.000000
+   x_hover_ballast_shallow(cc) 0.000000
+   x_hover_depth_deep(m) 0.000000
+   x_hover_depth_shallow(m) 0.000000
+   x_last_wpt_lat(lat) 3501.150500
+   x_last_wpt_lon(lon) -7536.520200
+Returning from GliderDos
+Exiting all devices ...
+ 81332 93 disabl

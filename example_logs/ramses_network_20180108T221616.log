@@ -1,0 +1,39 @@
+Connection Event: Carrier Detect found.  7052    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 22:16:17 2018 MT:    7051
+DR  Location:  3502.510 N -7542.766 E measured     44.556 secs ago
+GPS TooFar:    3503.732 N -7543.414 E measured     1e+308 secs ago
+GPS Invalid :  3502.513 N -7542.764 E measured    1216.18 secs ago
+GPS Location:  3502.510 N -7542.766 E measured     46.402 secs ago
+   sensor:c_wpt_lat(lat)=3502.79070004924         6646.82 secs ago
+   sensor:c_wpt_lon(lon)=-7542.59260000044        6646.86 secs ago
+   sensor:m_battery(volts)=12.0061381767494         4.297 secs ago
+   sensor:m_gps_lat(lat)=3502.5102                 46.714 secs ago
+   sensor:m_gps_lon(lon)=-7542.7659                46.755 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       12.594 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          60.314 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.592 secs ago
+   sensor:m_mission_start_time(timestamp)=1515442725     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515449777.03271      1.369 secs ago
+   sensor:m_tot_num_inflections(nodim)=28346      6831.89 secs ago
+   sensor:m_vacuum(inHg)=8.55582774725274           4.705 secs ago
+   sensor:m_water_vx(m/s)=0.0853980204287164       6848.7 secs ago
+   sensor:m_water_vy(m/s)=0.035082753444286       6848.74 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3502.79070004924    6655.21 secs ago
+   sensor:x_last_wpt_lon(lon)=-7542.59260000044    6655.25 secs ago
+ABORT HISTORY: total since reset: 10
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T19:55:25
+ABORT HISTORY: last abort segment: ramses-2018-007-7-0 (0103.0000)
+ABORT HISTORY: last abort mission: SHELF_30.MI
+  7053    No login script found for processing.
+callback 20
+
+I am going to hangup the Iridium!
+I will call you back in 20 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 >  7071  8 disabling Iridium cons

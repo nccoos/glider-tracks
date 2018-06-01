@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles_rwd.css" />
+
+    <title>Glider Map</title>
+  </head>
+ 
+  <body>
+  
+  <div class="header">
+      Glider Map
+      <div id="checkboxes">
+        <input type="checkbox" id="layer0" onClick="toggleLayer(0)"/>Ramses | 
+	<input type="checkbox" id="layer1" onClick="toggleLayer(1)"/>Waypoints  <br />
+	<input type="checkbox" id="layer2" onClick="toggleLayer(2)"/>Modena | 
+        <input type="checkbox" id="layer3" onClick="toggleLayer(3)"/>Waypoints <br />
+	<input type="checkbox" id="layer4" onClick="toggleLayer(4)"/>Salacia  | 
+	<input type="checkbox" id="layer5" onClick="toggleLayer(5)"/>Waypoints <br />
+	<input type="checkbox" id="layer6" onClick="toggleLayer(6)"/>Pelagia  | 
+	<input type="checkbox" id="layer7" onClick="toggleLayer(7)"/>Waypoints <br />
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="col-9">
+      <div id="map_canvas"></div>
+      <div id="legend"></div>
+    </div>
+    <div class="col-3">
+      <div id="content-window"></div>
+    </div>
+  </div>
+
+      <!-- Using togeojson to convert kml with styling see https://github.com/mapbox/togeojson#browser-->
+      <script src='jquery.js'></script>
+      <script src='togeojson.js'></script>
+
+      <script type="text/javascript">
+      var map;
+      var data;
+      var icons;
+      var layers = [];
+
+      var kmlsrc = ['http://imsdockserver.dyndns.org/realtime/tracks/ramses_track.kml', 
+                     'http://imsdockserver.dyndns.org/realtime/tracks/ramses_waypoint.kml',
+                     'http://imsdockserver.dyndns.org/realtime/tracks/modena_track.kml',
+                     'http://imsdockserver.dyndns.org/realtime/tracks/modena_waypoint.kml',
+		     'http://imsdockserver.dyndns.org/realtime/tracks/salacia_track.kml',
+                     'http://imsdockserver.dyndns.org/realtime/tracks/salacia_waypoint.kml',
+		     'http://imsdockserver.dyndns.org/realtime/tracks/pelagia_track.kml',
+                     'http://imsdockserver.dyndns.org/realtime/tracks/pelagia_waypoint.kml'
+		     ];
+
+      function initMap() {
+
+      // Define styles
+      // Define icons
+      icons = {
+        lastPosnIcon : {
+	  name : 'Current Position',
+	  icon : {
+	     url: 'http://imsdockserver.dyndns.org/realtime/tracks/icons/grn-circle.png',
+	     // This marker is the default paddle and is 64 x 64 pixels.  
+	     // Scale it down.
+	     scaledSize: new google.maps.Size(32, 32),
+	     },
+	  },
+        prevPosnIcon : {
+	  name : 'Previous Position',
+	  icon : {
+	     url: 'http://imsdockserver.dyndns.org/realtime/tracks/icons/ylw-circle-lv.png',
+	     // This marker is 16 pixels wide by 16 pixels high.
+	     // The anchor for this image is at the center (7, 7) of scaled size.
+	     anchor: new google.maps.Point(7, 7)
+	     },
+	   },
+        lastWayPosnIcon : { 
+	  name : 'Next Waypoint',
+	  icon :{
+	     url: 'http://imsdockserver.dyndns.org/realtime/tracks/icons/grn-square-lv.png',
+	     // This marker is 16 pixels wide by 16 pixels high.
+	     // The anchor for this image is at the center (7, 7) of scaled size.
+	     anchor: new google.maps.Point(7, 7)
+	     },
+	   },
+        gotoPosnIcon : {
+	  name : 'Goto Waypoint',
+	  icon : {
+             url: 'http://imsdockserver.dyndns.org/realtime/tracks/icons/wht-blank-lv.png',
+	     // This marker is 16 pixels wide by 16 pixels high.
+	     // The anchor for this image is at the center (7, 7) of scaled size.
+	     anchor: new google.maps.Point(7, 7)
+	     }
+	   }
+	};
+
+      // Define line colors
+      colors = {
+        gliderBlueLine : {
+	  color : 'blue',
+	  },
+        gliderGreenLine : {
+	  color : 'green',
+	  },
+        gliderBlackLine : {
+	  color : 'black',
+	  }
+	};
+
+
+      // Draw Map
+      var options = {
+        center: new google.maps.LatLng(35, -75),
+	zoom: 9,
+	mapTypeId: google.maps.MapTypeId.SATELLITE,
+	scaleControl: true,
+	streetViewControl: false
+      }
+
+      map = new google.maps.Map(document.getElementById("map_canvas"), options);
+
+      // load and initialize layers
+      loadLayer(0);
+      loadLayer(1);
+      loadLayer(2);
+      loadLayer(3);
+      loadLayer(4);
+      loadLayer(5);
+      loadLayer(6);
+      loadLayer(7);
+
+      // Add legend for icons
+      var legend = document.getElementById('legend');
+      for (var key in icons) {
+          var type = icons[key];
+          var name = type.name;
+          var icon = type.icon.url;
+          var div = document.createElement('div');
+	  if (key == "lastPosnIcon") {
+            div.innerHTML = '<img src="' + icon + '" height="32" width="32"> ' + name;
+	  } else {
+            div.innerHTML = '<img src="' + icon + '"> ' + name;
+	  }
+          legend.appendChild(div);
+        }
+
+      map.controls[google.maps.ControlPosition.TOP_RIGHT].push(legend);
+      
+      }
+
+      function loadLayer(i) {
+        // loading kml is asynchronous -- wait until done before initializing layer
+	var fn = kmlsrc[i];
+	$.ajax({url: fn, cache: false}).done(function(xml) {
+	    // convert kml to geoJson format
+	    data=toGeoJSON.kml(xml);
+	    console.log(data);
+            initLayer(i);
+	    });
+      }
+
+      function initLayer(i) {
+        console.log('start initLayer'+i);
+        layers[i] = new google.maps.Data();
+	
+
+	// Not using input file of json, since we are converting the kml to geojson
+	//layers[i].loadGeoJson(jsonsrc[i]);
+
+	// add json object to Data Layer
+	layers[i].addGeoJson(data);
+	
+	// null setting for toggle
+	layers[i].setMap(null);
+
+	// Set click event for each feature.
+	layers[i].addListener('mouseover', function(event) {
+	  var text = event.feature.getProperty('description');
+          showInContentWindow(text);
+	  });
+
+	// Set click event for each feature.
+	layers[i].addListener('click', function(event) {
+	  var text = event.feature.getProperty('description');
+	  // var text = event.feature.getProperty('styleUrl');
+          showInContentWindow(text);
+	  });
+
+	// Set icon styles
+	layers[i].setStyle( function(feature) {
+	  var icon = null;
+	  var color = 'black';
+	  var styleUrl = feature.getProperty('styleUrl');
+	  var style = styleUrl.substring(1,styleUrl.length);
+	  if ( style.includes('Icon') ) {icon = icons[style].icon;}
+	  else if (style.includes('Line') ) {color = colors[style].color;}
+	  return {
+	     icon: icon,
+	     strokeColor: color
+	     };
+	  });
+
+      }
+
+      function toggleLayer(i) {
+        if (layers[i] === undefined) {
+	  var text = "Undefined Layer -- No KML data";
+	  showInContentWindow(text);
+	  }
+	else {
+	  showInContentWindow('');
+          if (layers[i].getMap() === null) {
+	     layers[i].setMap(map);
+	     }
+	  else {
+	     layers[i].setMap(null);
+	     }
+	  }
+       }
+      
+
+
+      function showInContentWindow(text) {
+          var sidediv = document.getElementById('content-window');
+          sidediv.innerHTML = text;
+      }
+
+      </script>
+
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOzKPIS4OEnTPu-5hoobvcF3zM7-knKHA&callback=initMap">
+      </script>
+
+  </body>
+</html>

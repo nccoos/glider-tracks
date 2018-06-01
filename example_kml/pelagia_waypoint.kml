@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Name>pelagia_waypoint</Name>
+    <Style id="gotoPosnIcon">
+      <IconStyle>
+        <scale>0.5</scale>
+        <Icon>
+          <href>icons/wht-blank-lv.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="gliderBlueLine">
+      <LineStyle>
+        <color>7dff0000</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="gliderGreenLine">
+      <LineStyle>
+        <color>7d00ff00</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="gliderBlackLine">
+      <LineStyle>
+        <color>7d000000</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>pelagia</name>
+      <Placemark>
+        <name>pelagia</name>
+        <description>pelagia latest goto waypoints</description>
+        <styleUrl>#gliderGreenLine</styleUrl>
+        <LineString>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-80.846000,31.417833,0.000000
+-80.830167,31.417833,0.000000
+-80.830167,31.404333,0.000000
+-80.846000,31.404333,0.000000
+</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;pelagia goto position at&lt;/br&gt; 20180402T160000_goto_l20.ma&lt;/br&gt;-8050.76  3125.07&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-80.846000,31.417833,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;pelagia goto position at&lt;/br&gt; 20180402T160000_goto_l20.ma&lt;/br&gt;-8049.81  3125.07&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-80.830167,31.417833,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description>&lt;div&gt;pelagia goto position at&lt;/br&gt; 20180402T160000_goto_l20.ma&lt;/br&gt;-8049.81  3124.26&lt;/div&gt;</description>
+        <styleUrl>#gotoPosnIcon</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-80.830167,31.404333,0.000000</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,80 @@
+/* Optional: Makes the sample page fill the window. */
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: 'arial', 'sans-serif';
+  }
+
+.header {
+    background-color: #333333;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map_canvas {
+  height: 600px;
+  width: 100%;
+  }        
+#checkboxes {
+  float: right;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  }
+#content-window {
+  overflow: scroll;
+  font-size: 11px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid gray;
+  padding-left: 10px;
+  }
+#legend {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid #000;
+  }
+#legend h3 {
+  margin-top: 0;
+  }
+#legend img {
+  vertical-align: middle;
+  }
+

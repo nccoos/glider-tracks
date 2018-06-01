@@ -1,0 +1,294 @@
+Connection Event: Carrier Detect found.  2201    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue Jan  9 18:06:33 2018 MT:    2200
+DR  Location:  3501.216 N -7536.312 E measured      48.52 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3501.154 N -7536.513 E measured    612.675 secs ago
+GPS Location:  3501.216 N -7536.312 E measured     49.302 secs ago
+   sensor:c_wpt_lat(lat)=3501.15050004916         1883.13 secs ago
+   sensor:c_wpt_lon(lon)=-7536.52020000037        1883.19 secs ago
+   sensor:m_battery(volts)=12.0031417914544         6.486 secs ago
+   sensor:m_gps_lat(lat)=3501.216                  49.698 secs ago
+   sensor:m_gps_lon(lon)=-7536.3121                49.769 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       15.332 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          46.032 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      6.882 secs ago
+   sensor:m_mission_start_time(timestamp)=1515518992     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515521192.24359      1.641 secs ago
+   sensor:m_tot_num_inflections(nodim)=28352      2088.85 secs ago
+   sensor:m_vacuum(inHg)=8.13398107448107           7.053 secs ago
+   sensor:m_water_vx(m/s)=0                        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0                        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.15050004916    1893.22 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.52020000037    1893.27 secs ago
+ABORT HISTORY: total since reset: 2
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The buoyancy_pump device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-09T17:07:13
+ABORT HISTORY: last abort segment: ramses-2018-008-3-0 (0108.0000)
+ABORT HISTORY: last abort mission: INI0.MI
+  2202    No login script found for processing.
+  2202    DRIVER_ODDITY:iridium:1596:xxx_ctrl() ran too long
+
+
+GliderDos N -1 >cd logs
+
+error code -1
+GliderDos N -1 >help dir
+
+
+DIR                  [d:][p][fn] [/PWBLV4A:a]
+
+
+      help                list all commands in alphabetical order
+      help -full          list all commands with their help msgs
+      help <cmd> .. <cmd> prints the help msgs for listed commands
+      command names in lower case are NOT executable in mission via !
+
+
+GliderDos N -1 >dir *.sbd
+
+
+ Volume in drive C is MB 032     
+ Volume Serial Number is EC9F-27B7
+ Directory of C:\LOGS\
+
+01020003.SBD            615  01-08-18  6:36p
+01020004.SBD          8,209  01-08-18  7:05p
+01020005.SBD            523  01-08-18  7:17p
+01020006.SBD            575  01-08-18  7:19p
+01030000.SBD          2,643  01-08-18  8:00p
+01040000.SBD          1,583  01-08-18  8:26p
+01050000.SBD          2,941  01-09-18  2:08a
+01060000.SBD          2,663  01-09-18  5:29a
+01070000.SBD            626  01-09-18  4:59p
+01080000.SBD          2,139  01-09-18  5:14p
+01090000.SBD          1,583  01-09-18  5:35p
+01090001.SBD              0  01-09-18  5:51p
+
+        12 file(s)          24,100 bytes
+         0 dir(s)    1,315,831,808 bytes free
+
+GliderDos N -1 >date
+
+Clock reads: Tuesday, January 09, 2018  06:09:04 PM
+
+GliderDos N -1 >logging off
+
+  2374 75 01090001.mlg LOG FILE CLOSED
+Logging during GliderDos terminated:ramses-2018-008-4-1 (0109.0001)
+
+
+GliderDos N -1 >dir *.sbd
+
+
+ Volume in drive C is MB 032     
+ Volume Serial Number is EC9F-27B7
+ Directory of C:\LOGS\
+
+01020003.SBD            615  01-08-18  6:36p
+01020004.SBD          8,209  01-08-18  7:05p
+01020005.SBD            523  01-08-18  7:17p
+01020006.SBD            575  01-08-18  7:19p
+01030000.SBD          2,643  01-08-18  8:00p
+01040000.SBD          1,583  01-08-18  8:26p
+01050000.SBD          2,941  01-09-18  2:08a
+01060000.SBD          2,663  01-09-18  5:29a
+01070000.SBD            626  01-09-18  4:59p
+01080000.SBD          2,139  01-09-18  5:14p
+01090000.SBD          1,583  01-09-18  5:35p
+01090001.SBD          3,929  01-09-18  6:09p
+
+        12 file(s)          28,029 bytes
+         0 dir(s)    1,315,766,272 bytes free
+
+GliderDos N -1 >send 01090000.sbd 01090001.sbd 01090000.tbd 01090001.tbd
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  2629 41 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 2 files
+Prechecking is not necessary for this invocation
+START
+**B000000000000
+SHUFFLING FILES..
+SCI: Sent 2 file(s):
+c:\logs\01090001.TBD  c:\logs\01090000.TBD
+SCI: SUCCESS
+  2661 48 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: About to send 2 files
+Prechecking is not necessary for this invocation
+  2666    save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+  2666    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000�()....
+  2719    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+SHUFFLING FILES.**^XB0800000000022d
+DEL**^XB0800000000022d
+DEL.
+GLD: Sent 2 file(s):
+c:\logs\01090001.SBD  c:\logs\01090000.SBD
+GLD: SUCCESS
+  2733 50 SCI:PROGLET house_elf begin() called
+  2734    SCI:   house_elf: Version 1.2
+  2734    SCI:PROGLET ctd41cp begin() called
+  2734 50 SCI:   ctd41cp: Version 0.2
+  2734    SCI:     ctd41cp:  Will be sending the following data to glider:
+  2735    SCI:           sci_water_cond(s/m)
+  2735    SCI:           sci_water_temp(degc)
+  2735    SCI:           sci_water_pressure(bar)
+  2735    SCI:           sci_ctd41cp_timestamp(timestamp)
+  2735    SCI:PROGLET oxy4 begin() called
+  2735    SCI:   oxy4: Version 0.0
+  2735    SCI:     oxy4:  Will be sending following data to glider:
+  2736    SCI:           sci_oxy4_oxygen(um)
+  2736    SCI:           sci_oxy4_saturation(%)
+  2736    SCI:           sci_oxy4_temp(degc)
+  2736    SCI:           sci_oxy4_calphase(deg)
+  2736    SCI:           sci_oxy4_tcphase(deg)
+  2736    SCI:           sci_oxy4_c1rph(deg)
+  2736    SCI:           sci_oxy4_c2rph(deg)
+  2736    SCI:           sci_oxy4_c1amp(mv)
+  2736    SCI:           sci_oxy4_c2amp(mv)
+  2736    SCI:           sci_oxy4_rawtemp(mv)
+  2736    SCI:           sci_oxy4_timestamp(timestamp)
+  2737    SCI:  Opening Bit(34) for output
+  2737    SCI:PROGLET flbbcd begin() called
+  2737    SCI:   flbbcd: Version 0.0
+  2737    SCI:     flbbcd:  Will be sending following data to glider:
+  2737    SCI:           sci_flbbcd_chlor_units(ug/l)
+  2737    SCI:           sci_flbbcd_bb_units(nodim)
+  2737    SCI:           sci_flbbcd_cdom_units(ppb)
+  2737    SCI:           sci_flbbcd_chlor_sig(nodim)
+  2737    SCI:           sci_flbbcd_bb_sig(nodim)
+  2737    SCI:           sci_flbbcd_cdom_sig(nodim)
+  2738    SCI:           sci_flbbcd_chlor_ref(nodim)
+  2738    SCI:           sci_flbbcd_bb_ref(nodim)
+  2738 52 SCI:           sci_flbbcd_cdom_ref(nodim)
+  2738    SCI:           sci_flbbcd_therm(nodim)
+  2738    SCI:           sci_flbbcd_timestamp(timestamp)
+  2739    SCI:  Opening Bit(29) for output
+  2741    SCI:PROGLET house_elf start() called
+  2741    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+  2742    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+
+
+GliderDos N -1 >send -num=2 *.tbd
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  2774 62 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 2 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES..
+SCI: Sent 2 file(s):
+c:\logs\01080000.TBD  c:\logs\01070000.TBD
+SCI: SUCCESS
+  2818 73 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: NO TRANSMISSION: the overall list of files is empty
+
+
+GliderDos N -1 >send -num=10 *.tbd
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  2850 81 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: NOTICE: file list truncated from 10 to 6 files due to implicit time limit
+SCI: About to send 6 files
+Prechecking is not necessary for this invocation
+START
+**B00
+SHUFFLING FILES......
+SCI: Sent 6 file(s):
+c:\logs\01060000.TBD  c:\logs\01040000.TBD  c:\logs\01020006.TBD
+c:\logs\01020005.TBD  c:\logs\00950125.TBD  c:\logs\00950124.TBD
+SCI: SUCCESS
+  3291 86 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: NO TRANSMISSION: the overall list of files is empty
+
+
+GliderDos N -1 >
+  3301 87 NOTE:GPS fix is getting stale: 1149 secs old
+
+GliderDos N -1 >send -num=10 *.tbd
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  3361  3 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: NOTICE: file list truncated from 10 to 2 files due to implicit time limit
+SCI: About to send 2 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000�
+SHUFFLING FILES..
+SCI: Sent 2 file(s):
+c:\logs\00950117.TBD  c:\logs\00950116.TBD
+SCI: SUCCESS
+  4532 79 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: NO TRANSMISSION: the overall list of files is empty
+
+
+GliderDos N -1 >
+  4542 79 NOTE:GPS fix is getting stale: 2390 secs old
+
+GliderDos N -1 >callback 30
+
+I am going to hangup the Iridium!
+I will call you back in 30 minutes
+at the primary number ( 881600005168 )
+
+
+GliderDos N -1 >  4564 87 disabling Iridium console

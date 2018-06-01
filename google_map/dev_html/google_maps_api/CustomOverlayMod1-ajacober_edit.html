@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Adding a Custom Overlay</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+ 		<script type="text/javascript">
+
+    		var map;
+    		var overlays = [];
+    		var kml = {
+        		a: {
+            		name: "Ramses - track",
+           			url: "http://imsdockserver.dyndns.org/realtime/tracks/ramses_track.kml",
+        		},
+        		b: {
+            		name: "Ramses - waypoints",
+            		url: "http://imsdockserver.dyndns.org/realtime/tracks/ramses_waypoint.kml"
+        		}, 
+    		// keep adding more, the url can be any kml file
+    		};
+
+    		
+    		function initializeMap() {
+        		var options = {
+            		center: new google.maps.LatLng(35, -75),
+            		zoom: 9,
+            		mapTypeId: google.maps.MapTypeId.SATELLITE
+            		}
+            		
+        		map = new google.maps.Map(document.getElementById("map_canvas"), options);
+
+        		createTogglers(); 
+    		};
+
+    		google.maps.event.addDomListener(window, 'load', initializeMap);
+
+
+    		function toggleKML(checked, id) {
+
+        		if (checked) {
+
+            		var layer = new google.maps.KmlLayer(kml[id].url,{
+                		preserveViewport: true,
+                		suppressInfoWindows: false 
+            		});
+
+            		kml[id].obj = layer; // turns the layer into an object for reference later
+            		kml[id].obj.setMap(map); // alternative to simply layer.setMap(map)
+        		}
+        		else {
+            		kml[id].obj.setMap(null);
+            		delete kml[id].obj;
+        		}
+
+    		};
+
+    		// in this example create the controls dynamically, prop is the id name 
+    		function createTogglers() {
+
+        		var html = "<form><ul>";
+        		for (var prop in kml) {
+            		html += "<li id=\"selector-" + prop + "\"><input type='checkbox' id='" + prop + "'" +
+            		" onclick='highlight(this, \"selector-" + prop + "\"); toggleKML(this.checked, this.id)' \/>" +
+            		kml[prop].name + "<\/li>";
+        		}
+        		html += "<li class='control'><a href='#' onclick='removeAll();return false;'>" +
+        		"Remove all layers<\/a><\/li>" + 
+        		"<\/ul><\/form>";
+
+        		document.getElementById("toggle_box").innerHTML = html;
+    		};
+
+    // easy way to remove all objects, cycle through the kml array and delete items that exist
+    function removeAll() {
+        for (var prop in kml) {
+            if (kml[prop].obj) {
+                document.getElementById("selector-" + prop).className = 'normal'; // in normal js, this replaces any existing classname
+                   document.getElementById(prop).checked = false;
+                kml[prop].obj.setMap(null);
+                delete kml[prop].obj;
+            }
+        }
+    };
+
+    // append class on select, again old school way 
+    function highlight(box, listitem) {
+        var selected = 'normal';
+        var unselected = 'normal';
+        document.getElementById(listitem).className = (box.checked ? selected : unselected);
+    };
+
+ 	</script>
+
+		<style type="text/css">
+		#toggle_box { 
+			position: absolute; 
+			top: 100px; 
+			right: 30px; 
+			padding: 10px; 
+			background: #fff; 
+			z-index: 5; 
+			box-shadow: 0 5px 10px #777 }
+			ul { margin: 0; padding: 0; font: 100 1em/1em Helvetica; }
+			ul li { display: block; padding: 10px; margin: 2px 0 0 0; transition: all 100ms ease-in-out 600ms; }
+			ul li a:link { border: 1px solid #ccc; border-radius: 4px; box-shadow: inset 0 5px 20px #ddd; 
+							padding: 10px; font-size: 0.8em; display: block; text-align: center; }
+			.selected { font-weight: normal; }
+		</style>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwiTILjuvwVPmL8p5oYeDoB3x3xhdIN2c"></script> -->
+    <!-- 
+    <script>
+      // This example creates a custom overlay called USGSOverlay, containing
+      // a U.S. Geological Survey (USGS) image of the relevant area on the map.
+
+      // Set the custom overlay object's prototype to a new instance
+      // of OverlayView. In effect, this will subclass the overlay class therefore
+      // it's simpler to load the API synchronously, using
+      // google.maps.event.addDomListener().
+      // Note that we set the prototype to an instance, rather than the
+      // parent class itself, because we do not wish to modify the parent class.
+	  
+	  //I modified this sample code by adding my own key, changing the lat/lon to be off Cape Hatteras,
+	  //changing the overlay image to be one from Rutgers SST (with new bounds),
+	  //and setting the opacity of the layer. [SBL, 03/29/2017]
+	  
+	  //Issues: Why does it not work when I specify URL to overlay image?
+
+      var overlay;
+      USGSOverlay.prototype = new google.maps.OverlayView();
+
+      // Initialize the map and the custom overlay.
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: {lat: 35.0, lng: -76.0},
+          mapTypeId: 'satellite'
+        });
+
+        var bounds = new google.maps.LatLngBounds(
+            new google.maps.LatLng(32.6, -79.7),
+            new google.maps.LatLng(37.4, -71.8));
+
+        // The photograph is courtesy of the U.S. Geological Survey.
+        var srcImage = 'https://marine.rutgers.edu/cool/regions/capehat/sst/noaa/2017/img/170327.086.2240.n18.jpg';
+		//var srcImage = '170327.086.2240.n18.jpg';
+		//var srcImage = 'https://marine.rutgers.edu/cool/regions/capehat/sst/noaa/2017/img/170328.087.0914.n19.jpg';
+		//var srcImage = 'https://marine.rutgers.edu/cool/regions/capehat/sst/noaa/2017/img/170329.088.0903.n19.jpg';
+		//var srcImage = 'https://marine.rutgers.edu/cool/regions/capehat/sst/noaa/2017/img/170329.088.2357.n18.jpg';
+
+        // The custom USGSOverlay object contains the USGS image,
+        // the bounds of the image, and a reference to the map.
+        overlay = new USGSOverlay(bounds, srcImage, map);
+      }
+
+      /** @constructor */
+      function USGSOverlay(bounds, image, map) {
+
+        // Initialize all properties.
+        this.bounds_ = bounds;
+        this.image_ = image;
+        this.map_ = map;
+
+        // Define a property to hold the image's div. We'll
+        // actually create this div upon receipt of the onAdd()
+        // method so we'll leave it null for now.
+        this.div_ = null;
+
+        // Explicitly call setMap on this overlay.
+        this.setMap(map);
+      }
+
+      /**
+       * onAdd is called when the map's panes are ready and the overlay has been
+       * added to the map.
+       */
+      USGSOverlay.prototype.onAdd = function() {
+
+        var div = document.createElement('div');
+        div.style.borderStyle = 'none';
+        div.style.borderWidth = '0px';
+        div.style.position = 'absolute';
+
+        // Create the img element and attach it to the div.
+        var img = document.createElement('img');
+        img.src = this.image_;
+        img.style.width = '100%';
+        img.style.height = '100%';
+        img.style.position = 'absolute';
+		img.style.opacity = 0.45;
+        div.appendChild(img);
+
+        this.div_ = div;
+
+        // Add the element to the "overlayLayer" pane.
+        var panes = this.getPanes();
+        panes.overlayLayer.appendChild(div);
+      };
+
+      USGSOverlay.prototype.draw = function() {
+
+        // We use the south-west and north-east
+        // coordinates of the overlay to peg it to the correct position and size.
+        // To do this, we need to retrieve the projection from the overlay.
+        var overlayProjection = this.getProjection();
+
+        // Retrieve the south-west and north-east coordinates of this overlay
+        // in LatLngs and convert them to pixel coordinates.
+        // We'll use these coordinates to resize the div.
+        var sw = overlayProjection.fromLatLngToDivPixel(this.bounds_.getSouthWest());
+        var ne = overlayProjection.fromLatLngToDivPixel(this.bounds_.getNorthEast());
+
+        // Resize the image's div to fit the indicated dimensions.
+        var div = this.div_;
+        div.style.left = sw.x + 'px';
+        div.style.top = ne.y + 'px';
+        div.style.width = (ne.x - sw.x) + 'px';
+        div.style.height = (sw.y - ne.y) + 'px';
+      };
+
+      // The onRemove() method will be called automatically from the API if
+      // we ever set the overlay's map property to 'null'.
+      USGSOverlay.prototype.onRemove = function() {
+        this.div_.parentNode.removeChild(this.div_);
+        this.div_ = null;
+      };
+
+      google.maps.event.addDomListener(window, 'load', initMap);
+    </script>
+ -->
+  </head>
+  <body>
+    
+     <!-- 
+<script> 
+       
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 9,
+          center: {lat: 33.00, lng: -78.00}
+        });
+
+        // var ctaLayer = new google.maps.KmlLayer({
+//           url: 'https://raw.githubusercontent.com/ajacober/PEACH/master/ramses_track1_noHist.kml',
+//           map: map,
+//           preserveViewport: true
+//         });
+
+
+		    </script>
+		    
+ -->
+			<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+			<div id="toggle_box"></div>
+			
+		    <script async defer 
+		    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwiTILjuvwVPmL8p5oYeDoB3x3xhdIN2c&callback=initMap">
+		    </script>
+		  </body>
+		</html>

@@ -1,0 +1,80 @@
+Connection Event: Carrier Detect found. 32.90    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Mon Jan  8 10:17:46 2018 MT:      32
+DR  Location:  3504.415 N -7543.840 E measured     1e+308 secs ago
+GPS TooFar:    3505.625 N -7540.490 E measured     1e+308 secs ago
+GPS Invalid :  3504.308 N -7543.937 E measured     1e+308 secs ago
+GPS Location:  3504.310 N -7543.942 E measured     1e+308 secs ago
+   sensor:c_wpt_lat(lat)=3504.33130004933          1e+308 secs ago
+   sensor:c_wpt_lon(lon)=-7544.04640000045         1e+308 secs ago
+   sensor:m_battery(volts)=11.8302581575347         4.631 secs ago
+   sensor:m_gps_lat(lat)=3504.3098                 1e+308 secs ago
+   sensor:m_gps_lon(lon)=-7543.9424                1e+308 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        9.199 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          29.253 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      5.062 secs ago
+   sensor:m_mission_start_time(timestamp)=1515406633     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1515406665.49582      2.124 secs ago
+   sensor:m_tot_num_inflections(nodim)=28322       1e+308 secs ago
+   sensor:m_vacuum(inHg)=8.81875692918193           5.232 secs ago
+   sensor:m_water_vx(m/s)=0.156231105397101        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0.0847489451242281       1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3504.33130004933     1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7544.04640000045     1e+308 secs ago
+ABORT HISTORY: total since reset: 5
+ABORT HISTORY: last abort cause: MS_ABORT_DEVICE_ERROR
+ABORT HISTORY: last abort details: The deadman device driver returned an error.
+ABORT HISTORY: last abort time: 2018-01-08T09:53:27
+ABORT HISTORY: last abort segment: ramses-2018-007-0-4 (0096.0004)
+ABORT HISTORY: last abort mission: lastgasp.mi
+ 34.58    No login script found for processing.
+ 34.63    DRIVER_ODDITY:iridium:1774:xxx_ctrl() ran too long
+ 37.81  9 SCI:PROGLET house_elf start() called
+ 37.96    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+ 38.20    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+104.18 11 00970000.mlg LOG FILE OPENED
+MissionSTARTDate: 08 Jan 2018 10:17:13 Z
+Mission Name:   lastgasp.mi
+Mission Number: ramses-2018-007-1-0 (0097.0000)
+log_c_stack():
+  1-abend           2-surface         3-surface         4-surface         5-goto_wpt        
+  6-yo              7-prepare_to_dive 8-sensors_in      
+report_heap_size(): M_FREE_HEAP=246.0K,  M_SPARE_HEAP=227.0K
+pre_mission_init():End of Initialization
+113.64 12 behavior sensors_in_8: STATE UnInited -> Active
+113.70    behavior sensors_in_8: argument: c_att_time = -1.000000 sec
+113.76    behavior sensors_in_8: argument: c_pressure_time = -1.000000 sec
+113.83    behavior sensors_in_8: argument: c_alt_time = -1.000000 sec
+113.89    behavior sensors_in_8: argument: u_battery_time = -1.000000 sec
+113.96    behavior sensors_in_8: argument: u_vacuum_time = -1.000000 sec
+114.02    behavior sensors_in_8: argument: c_leakdetect_time = -1.000000 sec
+114.09    behavior sensors_in_8: argument: c_gps_on = 0.000000 bool
+114.15    behavior sensors_in_8: argument: c_science_all_on = -1.000000 sec
+114.21    behavior sensors_in_8: argument: c_profile_on = -1.000000 sec
+114.28    behavior sensors_in_8: argument: c_hs2_on = -1.000000 sec
+114.34    behavior sensors_in_8: argument: c_bb2f_on = -1.000000 sec
+114.41    behavior sensors_in_8: argument: c_bb2c_on = -1.000000 sec
+114.47    behavior sensors_in_8: argument: c_bb2lss_on = -1.000000 sec
+114.53    behavior sensors_in_8: argument: c_sam_on = -1.000000 sec
+114.60    behavior sensors_in_8: argument: c_whpar_on = -1.000000 sec
+114.66    behavior sensors_in_8: argument: c_whgpbm_on = -1.000000 sec
+114.73    behavior sensors_in_8: argument: c_motebb_on = -1.000000 sec
+114.79    behavior sensors_in_8: argument: c_bbfl2s_on = -1.000000 sec
+114.86    behavior sensors_in_8: argument: c_fl3slo_on = -1.000000 sec
+114.92    behavior sensors_in_8: argument: c_bb3slo_on = -1.000000 sec
+114.98    behavior sensors_in_8: argument: c_oxy3835_on = -1.000000 sec
+115.05    behavior sensors_in_8: argument: c_whfctd_on = -1.000000 sec
+115.11    behavior sensors_in_8: argument: c_bam_on = -1.000000 sec
+115.18    behavior sensors_in_8: argument: c_ocr504R_on = -1.000000 sec
+115.24    behavior sensors_in_8: argument: c_ocr504I_on = -1.000000 sec
+115.33    behavior sensors_in_8: argument: c_flntu_on = -1.000000 sec
+115.39    behavior sensors_in_8: argument: c_fl3slov2_on = -1.000000 sec
+115.46    behavior sensors_in_8: argument: c_bb3slov2_on = -1.000000 sec
+115.52    behavior sensors_in_8: argument: c_ocr507R_on = -1.000000 sec
+115.59    behavior sensors_in_8: argument: c_ocr507I_on = -1.000000 sec
+115.65    behavior sensors_in_8: argument: c_bb3slov3_on = -1.000000 sec
+115.72    behavior sensors_in_8: argument: c_bb2fls_on = -1.000000 sec
+115.78    behavior sensors_in_8: argument: c_bb2flsV2_on = -1.000000 sec
+115.85    behavior sensors_in_8: argument: c_oxy3835_wphase_on = -1.000000 sec
+115.91    behavior sensors_in_8: argument

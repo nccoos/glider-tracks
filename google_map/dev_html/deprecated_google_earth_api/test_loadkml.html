@@ -1,0 +1,36 @@
+<html>
+<body>
+<script type="text/javascript">
+if (window.XMLHttpRequest)
+  {
+  xhttp=new XMLHttpRequest();
+  }
+else // for IE 5/6
+  {
+  xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
+// try -- asynchronous is false 
+xhttp.open("GET","ramses_track.kml",false);
+
+// if asynchronous is true need the function
+
+// set request header before you send the request
+// xhttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+// also might try
+// xmlhttp.setRequestHeader("Cache-Control", "no-cache")
+
+xhttp.send(null);
+
+var string = xhttp.responseText;
+
+//xmlDoc=xhttp.responseXML;
+//var string = (new XMLSerializer()).serializeToString(xmlDoc);
+
+alert(string);
+document.write(string);
+
+</script>
+</body>
+</html>
+

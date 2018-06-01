@@ -1,0 +1,122 @@
+Connection Event: Carrier Detect found.240.63    Iridium console active and ready...
+Vehicle Name: ramses
+Curr Time: Tue May 15 15:31:27 2018 MT:     240
+DR  Location:  3550.971 N -7523.196 E measured     41.499 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3550.948 N -7523.246 E measured     93.545 secs ago
+GPS Location:  3550.971 N -7523.196 E measured     45.523 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=15.2916579730404         4.382 secs ago
+   sensor:m_gps_lat(lat)=3550.9708                 45.855 secs ago
+   sensor:m_gps_lon(lon)=-7523.1962                45.898 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       12.709 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5            64.6 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      4.676 secs ago
+   sensor:m_mission_start_time(timestamp)=1526398047     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526398287.13669      1.395 secs ago
+   sensor:m_tot_num_inflections(nodim)=28358      191.244 secs ago
+   sensor:m_vacuum(inHg)=7.74306724664225           4.789 secs ago
+   sensor:m_water_vx(m/s)=0.457107787444098        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0.211566434872196        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+241.60    No login script found for processing.
+
+
+GliderDos N -1 >run ini0.mi
+
+Starting Mission: INI0.MI
+The instantaneous lag time between the system and gps clock is -5.0 seconds.
+The average lag time between the system and gps clock is -0.6 seconds.
+timestamp: Tue May 15 15:33:13 2018
+load_mission(): Opening Mission file: INI0.MI
+Setting SENSOR u_use_current_correction(nodim) = 0.000000
+Vehicle Name: ramses
+Curr Time: Tue May 15 15:33:13 2018 MT:     345
+DR  Location:  3550.971 N -7523.196 E measured    147.555 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  3550.948 N -7523.246 E measured    199.601 secs ago
+GPS Location:  3550.971 N -7523.196 E measured     151.58 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=15.2738515678668         1.207 secs ago
+   sensor:m_gps_lat(lat)=3550.9708                151.912 secs ago
+   sensor:m_gps_lon(lon)=-7523.1962               151.954 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      118.765 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.5          41.394 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=-1      1.502 secs ago
+   sensor:m_mission_start_time(timestamp)=1526398047     1e+308 secs ago
+   sensor:m_present_time(timestamp)=1526398392.26382      2.321 secs ago
+   sensor:m_tot_num_inflections(nodim)=28358      297.299 secs ago
+   sensor:m_vacuum(inHg)=7.73417405372405           1.613 secs ago
+   sensor:m_water_vx(m/s)=0.457107787444098        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0.211566434872196        1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0         1.349 secs ago
+   sensor:x_last_wpt_lat(lat)=3501.1505            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=-7536.5202           1e+308 secs ago
+start_alldevices()
+
+PARSED iridium_phone_data for datum# 0: ===========
+   predial initialization cmds (from c:\config\iridinit.0):
+      ATE
+      AT+cbst=6,0,1
+      AT+CSQ
+   dial string: ATD00881600005168
+      from sensors:
+         C_IRIDIUM_LEAD_ZEROS
+         C_IRIDIUM_PHONE_NUM
+   Iridium login script (from c:\config\loginexp.0):   empty or non-existent
+
+PARSED iridium_phone_data for datum# 1: ===========
+   predial initialization cmds (from c:\config\iridinit.1):
+      ATE
+      AT+cbst=6,0,1
+      AT+CSQ
+   dial string: ATD0015085482446
+      from sensors:
+         C_IRIDIUM_LEAD_ZEROS_ALT
+         C_IRIDIUM_PHONE_NUM_ALT
+   Iridium login script (from c:\config\loginexp.1):   empty or non-existent
+ 60.34  2 01160000.mlg LOG FILE OPENED
+MissionSTARTDate: 15 May 2018 15:33:14 Z
+Mission Name:   INI0.MI
+Mission Number: ramses-2018-134-4-0 (0116.0000)
+log_c_stack():
+  1-abend           2-surface         3-set_heading     4-yo              5-sample          
+  6-prepare_to_dive 7-sensors_in      8-pinger_on       
+report_heap_size(): M_FREE_HEAP=259.0K,  M_SPARE_HEAP=240.0K
+pre_mission_init():End of Initialization
+ 63.70  3 behavior pinger_on_8: STATE UnInited -> Active
+ 63.76    behavior pinger_on_8: argument: c_pinger_on = 1.000000 bool
+ 63.82    behavior pinger_on_8: argument: u_ping_n_enabled = 1.000000 bool
+ 63.89    behavior pinger_on_8: argument: u_pinger_rep_rate = 8.000000 sec
+ 63.96    behavior pinger_on_8: argument: u_pinger_max_depth = 1000.000000 m
+ 64.28    behavior sensors_in_7: STATE UnInited -> Active
+ 64.33    behavior sensors_in_7: argument: c_att_time = 0.000000 sec
+ 64.39    behavior sensors_in_7: argument: c_pressure_time = 0.000000 sec
+ 64.45    behavior sensors_in_7: argument: c_alt_time = 0.000000 sec
+ 64.51    behavior sensors_in_7: argument: u_battery_time = 0.000000 sec
+ 64.58    behavior sensors_in_7: argument: u_vacuum_time = 0.000000 sec
+ 64.64    behavior sensors_in_7: argument: c_leakdetect_time = 0.000000 sec
+ 64.70    behavior sensors_in_7: argument: c_gps_on = 0.000000 bool
+ 64.76    behavior sensors_in_7: argument: c_science_all_on = -1.000000 sec
+ 64.83    behavior sensors_in_7: argument: c_profile_on = -1.000000 sec
+ 64.89    behavior sensors_in_7: argument: c_hs2_on = -1.000000 sec
+ 64.96    behavior sensors_in_7: argument: c_bb2f_on = -1.000000 sec
+ 65.02    behavior sensors_in_7: argument: c_bb2c_on = -1.000000 sec
+ 65.08    behavior sensors_in_7: argument: c_bb2lss_on = -1.000000 sec
+ 65.15    behavior sensors_in_7: argument: c_sam_on = -1.000000 sec
+ 65.22    behavior sensors_in_7: argument: c_whpar_on = -1.000000 sec
+ 65.28    behavior sensors_in_7: argument: c_whgpbm_on = -1.000000 sec
+ 65.34    behavior sensors_in_7: argument: c_motebb_on = -1.000000 sec
+ 65.41    behavior sensors_in_7: argument: c_bbfl2s_on = -1.000000 sec
+ 65.47    behavior sensors_in_7: argument: c_fl3slo_on = -1.000000 sec
+ 65.54    behavior sensors_in_7: argument: c_bb3slo_on = -1.000000 sec
+ 65.60    behavior sensors_in_7: argument: c_oxy3835_on = -1.000000 sec
+ 65.67    behavior sensors_in_7: argument: c_whfctd_on = -1.000000 sec
+ 65.73    behavior sensors_in_7: argument: c_bam_on = -1.000000 sec
+ 65.80    behavior sensors_in_7: argument: c_ocr504R_on = -1.000000 sec
+ 65.86    behavior sensors_in_7: argument: c_ocr504I_on = -1.000000 sec
+ 65.93    behavior sensors_in_7: argument: c_flntu_o
