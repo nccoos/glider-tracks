@@ -1,7 +1,7 @@
 # glider-tracks
-This documents how the whole Glider Map API works on the IMS Dockserver.  There are two parts.  One is the generation of kml from glider logs and waypoint files.  Second is the custom Google Map API code under an Apache webserver and access to files it needs.   
+This README documents how the whole Glider Map API works on the IMS Dockserver so you can understand where to install the code to get it running on your own web server.  There are two parts.  One is the generation of kml from glider logs and waypoint files.  Second is the custom Google Map API code under an Apache webserver and access to files it needs.  
 
-The crontab on the IMS Dockserver times and sequences getting necessary data files (logs and waypoint files) and running code to generate the kml output. 
+The crontab on the IMS Dockserver sequences getting necessary data files (logs and waypoint files) and then running code to generate the kml output. 
 
 ```
 [localuser@ims-dockserver ~]$ crontab -l
